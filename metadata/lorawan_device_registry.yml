@@ -1,0 +1,11 @@
+lorawan_devices:
+  - dev_eui: EXAMPLE0000000001
+    asset_id: PUMP-001
+    device_class: A
+    payload_profile: vibration_summary
+    expected_interval_minutes: 5
+  - dev_eui: EXAMPLE0000000002
+    asset_id: FLOOD-GAUGE-001
+    device_class: A
+    payload_profile: water_level_status
+    expected_interval_minutes: 5

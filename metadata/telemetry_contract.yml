@@ -1,0 +1,16 @@
+telemetry_contract:
+  required_fields:
+    - asset_id
+    - sector
+    - sensor_type
+    - observed_value
+    - battery_voltage
+    - signal_quality
+    - communication_mode
+    - observed_at
+  quality_thresholds:
+    minimum_battery_voltage: 3.3
+    minimum_signal_quality: 0.8
+  freshness:
+    expected_interval_minutes: 5
+    maximum_delay_minutes: 30

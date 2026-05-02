@@ -1,0 +1,13 @@
+assets:
+  - asset_id: PUMP-001
+    sector: water
+    asset_type: pump_station
+    criticality_score: 0.88
+  - asset_id: BRIDGE-001
+    sector: transportation
+    asset_type: bridge
+    criticality_score: 0.92
+  - asset_id: SUBSTATION-001
+    sector: energy
+    asset_type: substation
+    criticality_score: 0.95

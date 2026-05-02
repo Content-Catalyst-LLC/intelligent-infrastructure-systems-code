@@ -1,0 +1,14 @@
+{
+  "model_name": "infrastructure_predictive_maintenance_stub",
+  "task": "vibration anomaly scoring",
+  "input_features": [
+    "mean_value",
+    "standard_deviation",
+    "peak_to_peak",
+    "signal_energy",
+    "crest_factor",
+    "recent_change_rate"
+  ],
+  "deployment_target": "microcontroller or constrained edge device",
+  "intended_use": "educational TinyML scaffold for intelligent infrastructure systems"
+}

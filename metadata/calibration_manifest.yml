@@ -1,0 +1,9 @@
+calibration_manifest:
+  purpose: Track sensor calibration for infrastructure monitoring.
+  required_metadata:
+    - sensor_id
+    - calibrated_at
+    - calibration_method
+    - scale_factor
+    - offset_value
+    - reference_standard

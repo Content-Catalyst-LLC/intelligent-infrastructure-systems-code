@@ -1,25 +1,20 @@
 # Intelligent Infrastructure Systems Code
 
-Open computational repository for the Intelligent Infrastructure Systems knowledge series.
+This repository supports the Intelligent Infrastructure Systems knowledge series.
 
-This repository supports article-level examples, reproducible synthetic datasets, infrastructure analytics workflows, asset-management diagnostics, digital-twin concepts, risk scoring, lifecycle-cost analysis, SQL metadata, governance documentation, and audit scaffolding.
+It includes practical examples for:
 
-## Repository Structure
-
-```text
-articles/
-  article-slug/
-    python/
-    r/
-    sql/
-    docs/
-    notebooks/
-    data/
-    outputs/
-shared/
-  schemas/
-  governance/
-  tests/
-```
-
-The examples are educational and synthetic unless otherwise documented.
+- SQL infrastructure asset and telemetry schemas
+- Embedded C low-power infrastructure firmware examples
+- TinyML predictive-maintenance inference scaffolds
+- PYNQ edge-acceleration workflows
+- HDL/Verilog streaming signal modules
+- LPWAN and LoRaWAN payload decoding examples
+- MQTT-style telemetry event simulations
+- Python infrastructure telemetry analytics
+- R reliability and resilience reports
+- Julia network resilience simulations
+- Rust telemetry schema validation
+- Go edge gateway event streaming
+- TypeScript dashboard scaffolding
+- Metadata, calibration, governance, and cybersecurity documentation

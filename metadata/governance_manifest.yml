@@ -1,0 +1,9 @@
+governance:
+  owner: Content Catalyst LLC
+  purpose: Educational intelligent infrastructure examples
+  data_classification: synthetic
+  review_requirements:
+    - telemetry quality checks
+    - calibration metadata
+    - security notes
+    - reproducibility documentation
