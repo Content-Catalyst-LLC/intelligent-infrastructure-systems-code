@@ -1,0 +1,7 @@
+project_id,project_name,sector,sponsor,status,capital_cost_musd,complexity_score,criticality_score,strategic_fit_status
+GOV-TRN-001,Regional Bus Rapid Transit Corridor,transport,regional_transport_authority,appraisal,420,0.72,0.82,current
+GOV-WAT-001,Water Treatment Renewal Program,water,metropolitan_water_utility,delivery,265,0.66,0.88,current
+GOV-ENE-001,Distribution Grid Modernization,energy,public_power_utility,procurement,510,0.78,0.91,current
+GOV-COM-001,Emergency Communications Resilience Upgrade,communications,emergency_management_agency,delivery,95,0.58,0.90,current
+GOV-DPI-001,Digital Public Service Platform Renewal,digital_public_infrastructure,digital_services_department,appraisal,130,0.64,0.80,current
+GOV-BLD-001,Civic Cooling and Public Buildings Retrofit,public_buildings,public_buildings_authority,planning,180,0.61,0.76,review_required

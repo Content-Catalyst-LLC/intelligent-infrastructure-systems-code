@@ -1,0 +1,7 @@
+project_id,asset_condition_visibility,maintenance_plan_status,stewardship_readiness_score,renewal_plan_status,service_indicator_status,resilience_vulnerability
+GOV-TRN-001,partial,partial,0.62,partial,partial,heat_and_flood_exposure
+GOV-WAT-001,current,current,0.78,current,current,treatment_capacity_and_flood_exposure
+GOV-ENE-001,current,partial,0.68,partial,current,storm_and_heat_risk
+GOV-COM-001,current,current,0.76,current,current,power_dependency
+GOV-DPI-001,partial,partial,0.64,review_required,partial,cloud_and_identity_dependency
+GOV-BLD-001,review_required,review_required,0.55,review_required,review_required,extreme_heat

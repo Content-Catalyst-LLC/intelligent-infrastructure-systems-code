@@ -1,0 +1,3 @@
+public_evidence_policy:
+  version: "1.0.0"
+  rule: "Public infrastructure governance claims must include decision rationale, alternatives, life-cycle cost caveats, maintenance implications, procurement status, accountability owner, and disclosure limitations."

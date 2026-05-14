@@ -1,0 +1,7 @@
+project_id,funding_source,annual_operations_musd,required_annual_maintenance_musd,funded_annual_maintenance_musd,contingent_liability_musd,life_cycle_cost_visibility,fiscal_risk_status
+GOV-TRN-001,mixed_grants_and_local_revenue,24,18,13,60,partial,review_required
+GOV-WAT-001,utility_revenue_bonds,16,14,14,35,current,current
+GOV-ENE-001,utility_capex_and_federal_grants,22,20,16,80,partial,review_required
+GOV-COM-001,public_safety_capital_program,8,6,6,10,current,current
+GOV-DPI-001,general_fund_and_cloud_service_contract,14,9,7,25,partial,review_required
+GOV-BLD-001,municipal_bonds_and_resilience_grants,11,8,4,18,review_required,review_required

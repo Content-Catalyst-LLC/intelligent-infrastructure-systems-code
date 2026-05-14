@@ -1,0 +1,7 @@
+project_id,transparency_score,consultation_score,auditability_score,disclosure_usability_score,public_evidence_status,audit_findings_open,accountability_note
+GOV-TRN-001,0.66,0.72,0.68,0.62,partial,2,Public dashboard exists but life-cycle cost explanation needs improvement
+GOV-WAT-001,0.74,0.70,0.76,0.72,current,0,Strong utility reporting and public-health rationale
+GOV-ENE-001,0.62,0.60,0.66,0.58,partial,3,Procurement and vendor concentration need clearer public evidence
+GOV-COM-001,0.72,0.68,0.74,0.70,current,0,Critical-service rationale and delivery status are documented
+GOV-DPI-001,0.64,0.66,0.62,0.60,review_required,1,Public evidence plan should explain offline access and data dependency
+GOV-BLD-001,0.55,0.58,0.60,0.52,review_required,2,Planning-stage disclosure and options analysis are weak

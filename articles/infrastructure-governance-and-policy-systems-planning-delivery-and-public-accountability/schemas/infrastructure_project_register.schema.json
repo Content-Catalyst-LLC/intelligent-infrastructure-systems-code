@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureProjectRegisterRecord",
+  "type": "object",
+  "required": [
+    "project_id",
+    "project_name",
+    "sector",
+    "sponsor",
+    "status",
+    "capital_cost_musd",
+    "complexity_score",
+    "criticality_score",
+    "strategic_fit_status"
+  ],
+  "properties": {
+    "project_id": {"type": "string"},
+    "project_name": {"type": "string"},
+    "sector": {"type": "string"},
+    "sponsor": {"type": "string"},
+    "status": {"type": "string"},
+    "capital_cost_musd": {"type": "number"},
+    "complexity_score": {"type": "number"},
+    "criticality_score": {"type": "number"},
+    "strategic_fit_status": {"type": "string"}
+  }
+}

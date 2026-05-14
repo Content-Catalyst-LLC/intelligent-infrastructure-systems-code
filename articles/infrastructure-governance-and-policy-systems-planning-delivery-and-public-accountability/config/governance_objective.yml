@@ -1,0 +1,19 @@
+governance_objective:
+  version: "1.0.0"
+  title: "Infrastructure Governance and Policy Systems"
+  purpose: "Demonstrate infrastructure governance as a life-cycle public-value, fiscal discipline, procurement integrity, stewardship, accountability, and learning system."
+  sectors:
+    - transport
+    - water
+    - energy
+    - communications
+    - public_buildings
+    - digital_public_infrastructure
+  decision_uses:
+    - project_prioritization
+    - public_value_review
+    - fiscal_risk_review
+    - procurement_governance
+    - asset_stewardship
+    - transparency_reporting
+    - policy_learning

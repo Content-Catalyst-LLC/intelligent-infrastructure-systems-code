@@ -1,0 +1,10 @@
+governance_scoring_policy:
+  version: "1.0.0"
+  rule: "Governance readiness must combine public-value justification, affordability, delivery readiness, stewardship readiness, accountability quality, and learning capacity."
+  weights:
+    public_value_score: 0.20
+    affordability_score: 0.15
+    delivery_readiness_score: 0.15
+    stewardship_readiness_score: 0.20
+    accountability_quality: 0.15
+    learning_capacity_score: 0.15

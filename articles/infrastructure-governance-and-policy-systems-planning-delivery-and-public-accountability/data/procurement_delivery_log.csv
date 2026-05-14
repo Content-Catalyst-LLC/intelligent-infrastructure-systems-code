@@ -1,0 +1,7 @@
+project_id,procurement_method,competition_status,contract_model,delivery_readiness_score,variation_orders,cost_escalation_percent,delay_months,delivery_status
+GOV-TRN-001,competitive_tender,adequate,design_build,0.68,0,0,0,pre_tender
+GOV-WAT-001,competitive_tender,adequate,design_bid_build,0.74,2,6,3,in_delivery
+GOV-ENE-001,framework_agreement,limited,managed_services_and_equipment,0.62,0,0,0,procurement_review
+GOV-COM-001,competitive_tender,adequate,turnkey_delivery,0.78,1,3,1,in_delivery
+GOV-DPI-001,cloud_service_procurement,limited,managed_service,0.64,0,0,0,pre_tender
+GOV-BLD-001,not_selected,unknown,not_selected,0.55,0,0,0,planning

@@ -1,0 +1,7 @@
+project_id,public_value_score,affordability_score,resilience_score,equity_score,alternatives_reviewed,options_appraisal_status,appraisal_note
+GOV-TRN-001,0.78,0.66,0.70,0.82,true,current,Strong access and equity case; fiscal model needs maintenance sensitivity test
+GOV-WAT-001,0.84,0.72,0.86,0.78,true,current,Renewal addresses core service risk and public health obligation
+GOV-ENE-001,0.82,0.68,0.88,0.70,true,current,Grid modernization justified but procurement and vendor concentration require review
+GOV-COM-001,0.80,0.76,0.84,0.74,true,current,Emergency communications resilience has strong critical-service justification
+GOV-DPI-001,0.73,0.70,0.68,0.76,true,review_required,Platform renewal needs clearer offline access and public evidence plan
+GOV-BLD-001,0.76,0.62,0.82,0.84,false,review_required,Public cooling retrofit requires stronger options analysis

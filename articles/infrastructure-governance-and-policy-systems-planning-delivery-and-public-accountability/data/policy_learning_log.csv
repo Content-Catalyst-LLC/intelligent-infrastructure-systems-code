@@ -1,0 +1,7 @@
+learning_id,date,project_id,finding,corrective_action,owner,status
+LRN-001,2026-05-01,GOV-TRN-001,Maintenance funding gap appears in early appraisal,Add maintenance sensitivity analysis to investment review,regional_transport_authority,open
+LRN-002,2026-05-02,GOV-WAT-001,Renewal program has strong stewardship evidence,Use as model for other utility renewal programs,metropolitan_water_utility,closed
+LRN-003,2026-05-03,GOV-ENE-001,Vendor concentration and limited competition require review,Add procurement market-risk review,public_power_utility,open
+LRN-004,2026-05-04,GOV-COM-001,Emergency communications reporting is current,Maintain quarterly resilience disclosure,emergency_management_agency,closed
+LRN-005,2026-05-05,GOV-DPI-001,Offline public access plan needs strengthening,Add continuity and public-access test,digital_services_department,open
+LRN-006,2026-05-06,GOV-BLD-001,Options appraisal missing for retrofit program,Complete alternatives and heat-vulnerability review,public_buildings_authority,open

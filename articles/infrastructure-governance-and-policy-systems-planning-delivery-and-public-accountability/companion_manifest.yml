@@ -1,0 +1,40 @@
+article:
+  title: "Infrastructure Governance and Policy Systems: Planning, Delivery, and Public Accountability"
+  slug: "infrastructure-governance-and-policy-systems-planning-delivery-and-public-accountability"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-governance-and-policy-systems-planning-delivery-and-public-accountability/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-governance-and-policy-systems-planning-delivery-and-public-accountability"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade infrastructure governance, public finance, procurement integrity, life-cycle stewardship, public accountability, policy learning, and reproducible governance indicators"
+
+workflows:
+  mathematical_lens:
+    - public value score
+    - life-cycle cost
+    - delivery risk
+    - stewardship quality
+    - accountability quality
+    - governance quality
+  python:
+    - infrastructure governance readiness scoring
+    - maintenance backlog calculation
+    - governance risk classification
+    - accountability quality review
+    - public evidence exports
+  r:
+    - sector-level governance reporting
+    - stewardship and transparency diagnostics
+    - readiness summaries
+  sql:
+    - infrastructure project register
+    - project appraisal register
+    - fiscal risk register
+    - procurement delivery log
+    - asset stewardship register
+    - institutional responsibility matrix
+    - accountability transparency log
+    - policy learning log

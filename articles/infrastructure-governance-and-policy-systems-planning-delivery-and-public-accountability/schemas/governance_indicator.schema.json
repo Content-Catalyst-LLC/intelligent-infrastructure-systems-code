@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GovernanceIndicatorRecord",
+  "type": "object",
+  "required": [
+    "project_id",
+    "public_value_score",
+    "affordability_score",
+    "delivery_readiness_score",
+    "stewardship_readiness_score",
+    "transparency_score",
+    "consultation_score",
+    "auditability_score",
+    "disclosure_usability_score"
+  ],
+  "properties": {
+    "project_id": {"type": "string"},
+    "public_value_score": {"type": "number"},
+    "affordability_score": {"type": "number"},
+    "delivery_readiness_score": {"type": "number"},
+    "stewardship_readiness_score": {"type": "number"},
+    "transparency_score": {"type": "number"},
+    "consultation_score": {"type": "number"},
+    "auditability_score": {"type": "number"},
+    "disclosure_usability_score": {"type": "number"}
+  }
+}
