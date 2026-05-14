@@ -1,0 +1,42 @@
+article:
+  title: "Digital Twins and Infrastructure Simulation: Scenario Testing, Modeling, and Infrastructure Intelligence"
+  slug: "digital-twins-and-infrastructure-simulation-scenario-testing-modeling-and-infrastructure-intelligence"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/digital-twins-and-infrastructure-simulation-scenario-testing-modeling-and-infrastructure-intelligence/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/digital-twins-and-infrastructure-simulation-scenario-testing-modeling-and-infrastructure-intelligence"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade digital twins, infrastructure simulation, scenario testing, model validation, telemetry/state estimation, decision support, interoperability, governance, and public evidence scaffold"
+
+workflows:
+  mathematical_lens:
+    - physical system state
+    - noisy observation stream
+    - estimated digital twin state
+    - scenario-based future state
+    - twin error
+    - scenario value
+    - intervention selection under uncertainty
+  python:
+    - synthetic twin asset registry
+    - state estimation
+    - scenario stress testing
+    - intervention comparison
+    - decision-value scoring
+  r:
+    - simulation-output reporting
+    - scenario diagnostics
+    - governance-ready summaries
+  sql:
+    - twin asset registry
+    - telemetry source registry
+    - digital state table
+    - model registry
+    - simulation scenario manifest
+    - simulation outputs
+    - validation sensitivity log
+    - decision intervention log
+    - governance review log

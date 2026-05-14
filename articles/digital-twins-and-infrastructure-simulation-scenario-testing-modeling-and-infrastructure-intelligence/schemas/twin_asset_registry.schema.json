@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TwinAssetRegistryRecord",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "asset_class",
+    "asset_name",
+    "location",
+    "owner",
+    "service_role",
+    "network_id",
+    "criticality_score",
+    "operational_status"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "location": {"type": "string"},
+    "owner": {"type": "string"},
+    "service_role": {"type": "string"},
+    "network_id": {"type": "string"},
+    "criticality_score": {"type": "number"},
+    "operational_status": {"type": "string"}
+  }
+}

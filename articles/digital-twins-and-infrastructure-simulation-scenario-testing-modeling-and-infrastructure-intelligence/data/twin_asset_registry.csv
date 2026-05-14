@@ -1,0 +1,9 @@
+asset_id,asset_class,asset_name,location,owner,service_role,network_id,criticality_score,operational_status
+DT-0001,pump_station,North Pump Station,north_zone,water_utility,primary_pumping,water_network,0.86,active
+DT-0002,bridge,River Crossing Bridge,river_corridor,transport_agency,strategic_crossing,transport_network,0.92,review_required
+DT-0003,substation,East Substation,east_grid,power_utility,critical_distribution,power_network,0.89,active
+DT-0004,road_segment,Freight Corridor Segment,industrial_corridor,transport_agency,freight_and_bus_route,transport_network,0.72,active
+DT-0005,water_main,Older District Water Main,older_neighborhood,water_utility,distribution_main,water_network,0.84,review_required
+DT-0006,building_system,Hospital HVAC System,medical_district,public_buildings,critical_facility_support,building_network,0.80,active
+DT-0007,communications_node,Emergency Communications Node,civic_center,communications_agency,emergency_communications,communications_network,0.88,active
+DT-0008,rail_component,Switch Assembly R12,rail_yard,transport_agency,rail_switching,rail_network,0.77,active

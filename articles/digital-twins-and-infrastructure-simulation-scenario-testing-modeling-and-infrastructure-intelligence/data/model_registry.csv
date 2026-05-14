@@ -1,0 +1,6 @@
+model_id,model_name,model_type,model_version,owner,decision_use,validation_status,uncertainty_statement,valid_use
+MOD-001,Asset State Estimator,state_estimation,v1.0,infrastructure_analytics,current,Validated against recent inspections for example data,Educational state-estimation only
+MOD-002,Scenario Stress Model,scenario_simulation,v1.0,infrastructure_analytics,review_required,Sensitivity to load and climate multipliers remains high,Educational stress testing only
+MOD-003,Intervention Value Model,decision_support,v1.0,planning_team,review_required,Cost and benefit functions are simplified,Decision-support demonstration only
+MOD-004,Network Dependency Model,network_simulation,v0.8,systems_team,review_required,Interdependency assumptions require expert review,Network scenario exploration only
+MOD-005,Public Evidence Summarizer,governance_reporting,v1.0,governance_team,current,Outputs require human review,Public evidence draft support only

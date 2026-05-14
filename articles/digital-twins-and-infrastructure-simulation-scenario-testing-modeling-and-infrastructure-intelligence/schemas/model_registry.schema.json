@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DigitalTwinModelRegistryRecord",
+  "type": "object",
+  "required": [
+    "model_id",
+    "model_name",
+    "model_type",
+    "model_version",
+    "owner",
+    "decision_use",
+    "validation_status",
+    "uncertainty_statement",
+    "valid_use"
+  ],
+  "properties": {
+    "model_id": {"type": "string"},
+    "model_name": {"type": "string"},
+    "model_type": {"type": "string"},
+    "model_version": {"type": "string"},
+    "owner": {"type": "string"},
+    "decision_use": {"type": "string"},
+    "validation_status": {"type": "string"},
+    "uncertainty_statement": {"type": "string"},
+    "valid_use": {"type": "string"}
+  }
+}

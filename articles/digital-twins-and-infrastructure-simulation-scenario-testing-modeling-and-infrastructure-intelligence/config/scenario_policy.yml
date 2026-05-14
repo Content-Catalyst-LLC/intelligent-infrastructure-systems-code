@@ -1,0 +1,12 @@
+scenario_policy:
+  version: "1.0.0"
+  rule: "Scenario outputs are conditional analyses, not predictions. Each scenario must document stressors, interventions, assumptions, time horizon, uncertainty, and decision-use limits."
+  required_fields:
+    - scenario_id
+    - scenario_type
+    - load_multiplier
+    - climate_multiplier
+    - disruption_multiplier
+    - intervention
+    - time_horizon_years
+    - assumption_note

@@ -1,0 +1,9 @@
+source_id,asset_id,source_type,signal_name,unit,update_frequency_minutes,owner,qc_status,valid_use,notes
+SRC-001,DT-0001,sensor_feed,flow_rate,l_s,5,water_utility,pass,operations_and_scenario_state,Flow telemetry from pump station
+SRC-002,DT-0001,sensor_feed,vibration_rms,mm_s,5,water_utility,pass,maintenance_state,Vibration feed supports pump health estimate
+SRC-003,DT-0002,inspection_record,structural_condition,index,10080,transport_agency,review_required,maintenance_and_risk,Bridge inspection updated weekly in example
+SRC-004,DT-0003,sensor_feed,transformer_temperature,degC,5,power_utility,pass,operations_and_risk,Thermal monitoring feed
+SRC-005,DT-0004,traffic_feed,vehicle_count,vehicles_hour,15,transport_agency,pass,load_state,Traffic load feed
+SRC-006,DT-0005,pressure_sensor,pressure_transient,index,5,water_utility,review_required,pipe_risk_state,Transient pressure event feed
+SRC-007,DT-0006,building_management,energy_efficiency,index,15,public_buildings,pass,facility_performance,HVAC operational feed
+SRC-008,DT-0007,status_feed,node_availability,index,1,communications_agency,pass,service_continuity,Communications availability feed

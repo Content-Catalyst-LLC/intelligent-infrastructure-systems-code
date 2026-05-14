@@ -1,0 +1,7 @@
+validation_id,model_id,test_date,test_type,result,status,notes
+VAL-001,MOD-001,2026-05-01,inspection_backcheck,acceptable,current,State estimator aligns with recent synthetic inspection records
+VAL-002,MOD-002,2026-05-02,load_multiplier_sensitivity,high_sensitivity,review_required,Outputs sensitive to demand-surge assumption
+VAL-003,MOD-002,2026-05-03,climate_multiplier_sensitivity,high_sensitivity,review_required,Flood and heat stress assumptions strongly affect rankings
+VAL-004,MOD-003,2026-05-04,cost_function_review,simplified,review_required,Decision value model is illustrative only
+VAL-005,MOD-004,2026-05-05,expert_review,pending,review_required,Network dependency assumptions require engineering review
+VAL-006,MOD-005,2026-05-06,governance_review,acceptable,current,Public evidence template requires human review

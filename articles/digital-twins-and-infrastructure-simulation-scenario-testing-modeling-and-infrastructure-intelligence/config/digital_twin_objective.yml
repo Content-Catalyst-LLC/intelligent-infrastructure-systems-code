@@ -1,0 +1,28 @@
+digital_twin_objective:
+  version: "1.0.0"
+  title: "Digital Twins and Infrastructure Simulation"
+  purpose: "Demonstrate digital-twin state estimation, scenario simulation, risk testing, intervention comparison, validation, and governance readiness."
+  system_scope:
+    asset_classes:
+      - pump_station
+      - bridge
+      - substation
+      - road_segment
+      - water_main
+      - building_system
+      - rail_component
+      - communications_node
+    twin_types:
+      - asset_twin
+      - network_twin
+      - operational_twin
+      - planning_twin
+      - territorial_twin
+  decision_uses:
+    - maintenance_prioritization
+    - scenario_testing
+    - resilience_planning
+    - operations_support
+    - intervention_comparison
+    - investment_planning
+    - public_evidence

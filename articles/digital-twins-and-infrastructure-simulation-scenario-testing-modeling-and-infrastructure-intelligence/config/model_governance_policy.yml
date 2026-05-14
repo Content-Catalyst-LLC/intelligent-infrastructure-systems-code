@@ -1,0 +1,12 @@
+model_governance_policy:
+  version: "1.0.0"
+  rule: "Digital twin outputs must not be used for operational or public decisions unless scope, data sources, model assumptions, validation status, uncertainty, and governance owner are documented."
+  required_fields:
+    - model_id
+    - model_type
+    - model_version
+    - owner
+    - assumptions
+    - validation_status
+    - uncertainty_statement
+    - valid_use

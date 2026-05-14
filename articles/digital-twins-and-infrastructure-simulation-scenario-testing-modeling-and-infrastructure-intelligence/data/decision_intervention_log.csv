@@ -1,0 +1,7 @@
+decision_id,date,scenario_id,asset_id,recommended_intervention,decision_owner,status,public_note_required,notes
+DEC-001,2026-05-01,SCN-003,DT-0002,targeted_repair,transport_agency,open,true,Bridge risk scenario requires engineering review
+DEC-002,2026-05-02,SCN-003,DT-0005,targeted_repair,water_utility,open,true,Water main flood-stress result requires field validation
+DEC-003,2026-05-03,SCN-004,DT-0004,targeted_repair,transport_agency,open,false,Freight corridor demand-surge scenario under review
+DEC-004,2026-05-04,SCN-005,DT-0007,renewal,communications_agency,open,true,Emergency communications node resilience scenario
+DEC-005,2026-05-05,SCN-006,DT-0002,renewal,planning_team,review_required,true,Long-horizon adaptation scenario, not capital approval
+DEC-006,2026-05-06,SCN-001,DT-0001,defer,water_utility,closed,false,Baseline scenario supports routine monitoring only

@@ -1,0 +1,7 @@
+scenario_id,scenario_type,load_multiplier,climate_multiplier,disruption_multiplier,intervention,time_horizon_years,assumption_note
+SCN-001,baseline,1.00,1.00,1.00,defer,5,Current conditions with no major stressor
+SCN-002,heat_stress,1.15,1.30,1.05,inspect,5,High heat stresses power and building systems
+SCN-003,flood_stress,1.05,1.45,1.20,targeted_repair,10,Flood exposure stresses transport and water assets
+SCN-004,demand_surge,1.30,1.10,1.05,targeted_repair,10,Demand growth stresses network capacity
+SCN-005,cascading_failure,1.20,1.25,1.50,renewal,15,Critical asset failure creates network disruption
+SCN-006,adaptation_investment,1.10,1.35,1.10,renewal,20,Long-horizon climate adaptation investment pathway

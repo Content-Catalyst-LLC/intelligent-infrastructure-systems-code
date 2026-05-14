@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "digital_twin_asset_locations",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DT-0001",
+        "asset_class": "pump_station",
+        "criticality_score": 0.86
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DT-0002",
+        "asset_class": "bridge",
+        "criticality_score": 0.92
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1800, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "DT-0005",
+        "asset_class": "water_main",
+        "criticality_score": 0.84
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2600, 38.6600]}
+    }
+  ]
+}

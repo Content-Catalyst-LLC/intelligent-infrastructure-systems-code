@@ -1,0 +1,6 @@
+review_id,date,review_area,decision,owner,status,public_note_required
+GOV-001,2026-05-01,scope,Approved educational twin scope for asset and network simulation examples,infrastructure_analytics,closed,false
+GOV-002,2026-05-02,model_validation,Require additional sensitivity notes for stress scenarios,infrastructure_analytics,open,true
+GOV-003,2026-05-03,interoperability,Document GIS BIM telemetry and work-order identifiers,systems_team,open,false
+GOV-004,2026-05-04,security,Flag cyber-physical access-control review for operational twin use,security_team,open,true
+GOV-005,2026-05-05,public_evidence,Require uncertainty and valid-use caveats for public scenario outputs,governance_team,open,true

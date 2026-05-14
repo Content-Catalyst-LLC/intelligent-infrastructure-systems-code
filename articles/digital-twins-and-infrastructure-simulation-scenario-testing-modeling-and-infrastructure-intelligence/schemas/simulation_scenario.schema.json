@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SimulationScenarioManifestRecord",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "scenario_type",
+    "load_multiplier",
+    "climate_multiplier",
+    "disruption_multiplier",
+    "intervention",
+    "time_horizon_years",
+    "assumption_note"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "scenario_type": {"type": "string"},
+    "load_multiplier": {"type": "number"},
+    "climate_multiplier": {"type": "number"},
+    "disruption_multiplier": {"type": "number"},
+    "intervention": {"type": "string"},
+    "time_horizon_years": {"type": "number"},
+    "assumption_note": {"type": "string"}
+  }
+}
