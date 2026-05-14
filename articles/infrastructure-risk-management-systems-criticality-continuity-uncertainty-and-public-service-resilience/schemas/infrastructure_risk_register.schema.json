@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureRiskRegisterRecord",
+  "type": "object",
+  "required": [
+    "risk_id",
+    "asset_id",
+    "sector",
+    "risk_type",
+    "hazard",
+    "vulnerability",
+    "failure_probability",
+    "consequence_score",
+    "mitigation_effectiveness",
+    "continuity_readiness",
+    "governance_readiness",
+    "risk_owner",
+    "status"
+  ],
+  "properties": {
+    "risk_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "sector": {"type": "string"},
+    "risk_type": {"type": "string"},
+    "hazard": {"type": "string"},
+    "vulnerability": {"type": "string"},
+    "failure_probability": {"type": "number"},
+    "consequence_score": {"type": "number"},
+    "mitigation_effectiveness": {"type": "number"},
+    "continuity_readiness": {"type": "number"},
+    "governance_readiness": {"type": "number"},
+    "risk_owner": {"type": "string"},
+    "status": {"type": "string"}
+  }
+}

@@ -1,0 +1,22 @@
+risk_management_objective:
+  version: "1.0.0"
+  title: "Infrastructure Risk Management Systems"
+  purpose: "Demonstrate infrastructure risk management as a lifecycle public-service continuity and governance system."
+  risk_categories:
+    - physical_asset
+    - environmental_climate
+    - cyber_digital
+    - operational
+    - financial_fiscal
+    - supply_chain
+    - institutional_governance
+    - social_political
+  decision_uses:
+    - investment_prioritization
+    - continuity_planning
+    - resilience_review
+    - emergency_preparedness
+    - risk_financing
+    - cyber_physical_coordination
+    - public_reporting
+    - governance_review

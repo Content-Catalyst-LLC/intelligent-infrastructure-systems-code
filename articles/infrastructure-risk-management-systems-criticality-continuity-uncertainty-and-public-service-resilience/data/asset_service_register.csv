@@ -1,0 +1,8 @@
+asset_id,asset_name,sector,service_role,owner,critical_function,affected_population,substitute_available,recovery_owner,operational_status
+A-WATER-01,North Water Main,water,drinking_water_distribution,water_utility,water_service_continuity,48000,false,water_operations,review_required
+A-POWER-07,East Transformer Bank,energy,critical_distribution,power_utility,electric_service_continuity,72000,false,grid_operations,active
+A-BRIDGE-12,River Crossing Bridge,transport,freight_bus_emergency_access,transport_agency,emergency_route_continuity,62000,true,transport_operations,review_required
+A-CYBER-03,Emergency Communications Node,communications,emergency_communications,communications_agency,emergency_coordination,105000,false,communications_operations,active
+A-FLOOD-09,Stormwater Outfall Basin,stormwater,flood_risk_and_drainage,stormwater_agency,flood_conveyance,36000,false,stormwater_operations,review_required
+A-HVAC-04,Hospital HVAC System,public_buildings,critical_facility_support,public_buildings,health_facility_continuity,18000,true,facility_operations,active
+A-DATA-02,Civic Service Data Platform,digital_public_infrastructure,civic_service_delivery,digital_services,public_service_access,160000,true,digital_operations,active

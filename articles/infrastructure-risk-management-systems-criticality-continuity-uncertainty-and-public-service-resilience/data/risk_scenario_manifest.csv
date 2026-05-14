@@ -1,0 +1,7 @@
+scenario_id,scenario_type,primary_sector,affected_assets,severity,time_horizon_years,assumption_note,status
+SCN-001,compound_heat_power_failure,energy,A-POWER-07;A-HVAC-04,high,5,Heat event increases load and causes transformer and facility stress,review_required
+SCN-002,pipe_failure_service_outage,water,A-WATER-01,high,5,Aging main fails during demand peak,open
+SCN-003,bridge_flood_closure,transport,A-BRIDGE-12;A-FLOOD-09,high,10,Flood exposure closes emergency and freight route,review_required
+SCN-004,communications_cyber_compromise,communications,A-CYBER-03;A-DATA-02,high,3,Network compromise disrupts emergency communication and digital services,open
+SCN-005,stormwater_extreme_rainfall,stormwater,A-FLOOD-09,high,10,Extreme rainfall exceeds drainage and monitoring capacity,open
+SCN-006,platform_outage_during_emergency,digital_public_infrastructure,A-DATA-02;A-CYBER-03,medium_high,3,Civic service platform outage coincides with emergency demand spike,review_required

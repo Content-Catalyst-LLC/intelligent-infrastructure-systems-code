@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RiskScenarioManifestRecord",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "scenario_type",
+    "primary_sector",
+    "affected_assets",
+    "severity",
+    "time_horizon_years",
+    "assumption_note",
+    "status"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "scenario_type": {"type": "string"},
+    "primary_sector": {"type": "string"},
+    "affected_assets": {"type": "string"},
+    "severity": {"type": "string"},
+    "time_horizon_years": {"type": "number"},
+    "assumption_note": {"type": "string"},
+    "status": {"type": "string"}
+  }
+}

@@ -1,0 +1,8 @@
+treatment_id,risk_id,treatment_type,description,estimated_cost,mitigation_gain,owner,status
+TRT-001,R-001,renewal,Replace high-risk water main segment and add pressure monitoring,650000,0.25,water_utility,planned
+TRT-002,R-002,spares_and_cooling,Add transformer thermal mitigation and spare transformer procurement,950000,0.22,power_utility,review_required
+TRT-003,R-003,rehabilitation,Rehabilitate bridge bearings and improve flood closure protocol,1250000,0.24,transport_agency,planned
+TRT-004,R-004,cyber_resilience,Improve segmentation access control and recovery exercises,420000,0.20,communications_agency,planned
+TRT-005,R-005,capacity_and_sensor_upgrade,Increase drainage capacity and add level sensors,780000,0.28,stormwater_agency,review_required
+TRT-006,R-006,preventive_maintenance,Repair HVAC redundancy and create heat contingency protocol,240000,0.18,public_buildings,planned
+TRT-007,R-007,platform_resilience,Add failover capacity and service-demand surge playbook,360000,0.20,digital_services,planned

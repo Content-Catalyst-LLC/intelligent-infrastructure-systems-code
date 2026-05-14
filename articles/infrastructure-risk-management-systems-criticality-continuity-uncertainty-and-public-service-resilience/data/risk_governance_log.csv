@@ -1,0 +1,8 @@
+governance_id,date,risk_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,R-001,Escalate water main renewal and continuity exercise,water_utility,open,true
+GOV-002,2026-05-02,R-002,Approve transformer spares review and continuity funding pathway,power_utility,open,true
+GOV-003,2026-05-03,R-003,Review bridge flood closure and alternate routing plan,transport_agency,open,true
+GOV-004,2026-05-04,R-004,Approve communications cyber resilience and recovery exercise,communications_agency,open,true
+GOV-005,2026-05-05,R-005,Escalate stormwater capacity and sensor coverage review,stormwater_agency,open,true
+GOV-006,2026-05-06,R-006,Schedule hospital HVAC continuity exercise,public_buildings,open,false
+GOV-007,2026-05-07,R-007,Review civic platform failover and emergency demand surge playbook,digital_services,open,true

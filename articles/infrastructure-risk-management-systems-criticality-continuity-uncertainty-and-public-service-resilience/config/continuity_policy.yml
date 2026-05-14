@@ -1,0 +1,10 @@
+continuity_policy:
+  version: "1.0.0"
+  rule: "High-criticality risks require documented continuity plans, fallback modes, recovery-time objectives, exercise records, and accountable owners."
+  minimum_fields:
+    - essential_function
+    - fallback_mode
+    - recovery_time_objective_hours
+    - recovery_owner
+    - exercise_status
+    - after_action_review_status

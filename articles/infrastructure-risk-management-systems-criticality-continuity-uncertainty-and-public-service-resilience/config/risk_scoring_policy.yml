@@ -1,0 +1,8 @@
+risk_scoring_policy:
+  version: "1.0.0"
+  rule: "Infrastructure risk priority must combine probability, consequence, criticality, dependency centrality, mitigation effectiveness, continuity readiness, governance readiness, and residual exposure."
+  weights:
+    residual_risk: 0.35
+    criticality_score: 0.25
+    continuity_gap: 0.20
+    governance_gap: 0.20

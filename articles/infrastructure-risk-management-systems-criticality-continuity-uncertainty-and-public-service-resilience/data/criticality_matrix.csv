@@ -1,0 +1,8 @@
+asset_id,service_importance,dependency_centrality,substitute_gap,public_harm,criticality_score,criticality_class
+A-WATER-01,0.90,0.70,0.65,0.80,0.775,high
+A-POWER-07,0.95,0.82,0.75,0.76,0.827,high
+A-BRIDGE-12,0.88,0.78,0.70,0.72,0.775,high
+A-CYBER-03,0.92,0.88,0.82,0.75,0.842,high
+A-FLOOD-09,0.78,0.64,0.60,0.84,0.724,high
+A-HVAC-04,0.84,0.58,0.48,0.78,0.688,medium_high
+A-DATA-02,0.86,0.76,0.50,0.70,0.723,high

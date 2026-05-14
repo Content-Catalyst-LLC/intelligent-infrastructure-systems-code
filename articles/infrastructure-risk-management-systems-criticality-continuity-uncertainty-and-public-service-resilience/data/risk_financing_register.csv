@@ -1,0 +1,8 @@
+finance_id,risk_id,financing_strategy,insured,retained_risk_statement,reserve_required,finance_owner,status
+FIN-001,R-001,reduction_and_retention,false,Service outage risk retained until renewal funding approved,150000,water_finance,open
+FIN-002,R-002,insurance_spares_and_reserve,true,Insurance covers some damage but not service continuity,300000,power_finance,review_required
+FIN-003,R-003,capital_renewal_and_reserve,true,Bridge closure impact partly insured but continuity requires alternate routing,250000,transport_finance,open
+FIN-004,R-004,cyber_insurance_and_recovery_reserve,true,Cyber policy does not replace recovery exercises,200000,communications_finance,open
+FIN-005,R-005,adaptation_investment_and_reserve,false,Flood damages largely retained by public agency,175000,stormwater_finance,review_required
+FIN-006,R-006,maintenance_and_contingency,false,Facility continuity risk retained until redundancy improved,90000,building_finance,open
+FIN-007,R-007,platform_resilience_and_reserve,true,Insurance does not cover public service access failure,120000,digital_finance,open

@@ -1,0 +1,9 @@
+source_asset_id,target_asset_id,dependency_type,dependency_strength,notes
+A-POWER-07,A-WATER-01,electricity_for_pumping,0.90,Water service depends on power for pumping
+A-CYBER-03,A-POWER-07,communications_for_grid_coordination,0.70,Grid operations depend on communications
+A-CYBER-03,A-WATER-01,communications_for_water_operations,0.62,Water operations depend on communications
+A-BRIDGE-12,A-FLOOD-09,transport_access_for_stormwater_repair,0.55,Stormwater response depends on transport access
+A-FLOOD-09,A-BRIDGE-12,flooding_impacts_transport,0.72,Stormwater failure affects transport corridor
+A-DATA-02,A-CYBER-03,digital_public_services_depend_on_comms,0.68,Civic platform access depends on communications
+A-POWER-07,A-HVAC-04,electricity_for_critical_facility,0.84,Hospital HVAC depends on power
+A-CYBER-03,A-HVAC-04,emergency_comms_for_facility_response,0.50,Facility response depends on communications

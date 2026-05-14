@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "name": "infrastructure_risk_exposure_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "A-WATER-01",
+        "risk_id": "R-001",
+        "sector": "water",
+        "risk_type": "pipe_failure"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "A-POWER-07",
+        "risk_id": "R-002",
+        "sector": "energy",
+        "risk_type": "transformer_failure"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "asset_id": "A-FLOOD-09",
+        "risk_id": "R-005",
+        "sector": "stormwater",
+        "risk_type": "extreme_rainfall"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2600, 38.6600]}
+    }
+  ]
+}

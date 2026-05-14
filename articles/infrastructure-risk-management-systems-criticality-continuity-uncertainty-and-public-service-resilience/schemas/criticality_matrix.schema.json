@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CriticalityMatrixRecord",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "service_importance",
+    "dependency_centrality",
+    "substitute_gap",
+    "public_harm",
+    "criticality_score",
+    "criticality_class"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "service_importance": {"type": "number"},
+    "dependency_centrality": {"type": "number"},
+    "substitute_gap": {"type": "number"},
+    "public_harm": {"type": "number"},
+    "criticality_score": {"type": "number"},
+    "criticality_class": {"type": "string"}
+  }
+}
