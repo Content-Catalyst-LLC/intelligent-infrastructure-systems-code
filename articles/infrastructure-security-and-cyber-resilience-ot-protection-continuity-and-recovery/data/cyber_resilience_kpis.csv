@@ -1,0 +1,7 @@
+system_id,sector,service_role,exposure,vulnerability,control_effectiveness,asset_visibility,identity_governance,detection_capability,containment_readiness,recovery_readiness,continuity_readiness,governance_readiness,high_criticality
+water-ot-environment,water,treatment_pumping_and_distribution,0.72,0.62,0.58,0.68,0.66,0.64,0.62,0.60,0.58,0.64,true
+grid-substation-control,energy,critical_distribution,0.68,0.58,0.64,0.72,0.70,0.68,0.66,0.62,0.64,0.68,true
+transport-dispatch-signaling,transport,signal_dispatch_and_emergency_access,0.64,0.55,0.62,0.70,0.67,0.66,0.63,0.66,0.68,0.69,true
+emergency-communications-node,communications,emergency_coordination,0.61,0.50,0.70,0.76,0.72,0.74,0.72,0.70,0.72,0.74,true
+civic-service-platform,digital_public_infrastructure,identity_payments_and_public_access,0.69,0.56,0.66,0.74,0.68,0.70,0.67,0.68,0.63,0.70,true
+hospital-building-management,public_buildings,critical_facility_support,0.66,0.57,0.60,0.62,0.61,0.60,0.58,0.59,0.57,0.62,true

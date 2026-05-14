@@ -1,0 +1,10 @@
+continuity_policy:
+  version: "1.0.0"
+  rule: "High-criticality cyber-physical systems require documented degraded-mode operations, fallback communication, recovery-time objectives, backup validation, and operational verification."
+  minimum_fields:
+    - essential_service
+    - fallback_mode
+    - recovery_time_objective_hours
+    - backup_test_status
+    - manual_operation_status
+    - public_communication_status

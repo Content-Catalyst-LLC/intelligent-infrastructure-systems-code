@@ -1,0 +1,10 @@
+zone_id,system_id,zone_name,environment,trust_level,connected_to,segmentation_status,remote_access_allowed,notes
+ZONE-001,water-ot-environment,Water Enterprise IT,IT,medium,ZONE-002,tested,true,Enterprise-to-OT conduit restricted
+ZONE-002,water-ot-environment,Water OT Control Zone,OT,high,ZONE-003,tested,false,Core SCADA and HMI environment
+ZONE-003,water-ot-environment,Water Field Device Zone,OT_field,high,ZONE-002,review_required,false,PLC and sensor network needs updated verification
+ZONE-004,grid-substation-control,Grid Operations Zone,OT,high,ZONE-005,tested,false,Substation operations network
+ZONE-005,grid-substation-control,Vendor Maintenance Conduit,vendor,medium,ZONE-004,review_required,true,Remote support requires stronger session logging
+ZONE-006,transport-dispatch-signaling,Transport Control Zone,OT,high,ZONE-007,tested,false,Dispatch and signaling network
+ZONE-007,transport-dispatch-signaling,Passenger Information Zone,IT,medium,ZONE-006,review_required,true,Information system dependency requires testing
+ZONE-008,civic-service-platform,Public Cloud Service Zone,cloud,medium,ZONE-009,tested,true,Cloud-hosted public service layer
+ZONE-009,civic-service-platform,Identity and Payment API Zone,IT,high,ZONE-008,tested,true,High-impact public access dependency

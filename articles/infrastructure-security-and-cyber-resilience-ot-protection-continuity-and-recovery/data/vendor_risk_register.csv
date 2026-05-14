@@ -1,0 +1,7 @@
+vendor_id,system_id,vendor_name,vendor_type,remote_access,critical_dependency,contract_security_clause,concentration_risk,review_status,notes
+VEN-001,water-ot-environment,SCADA Integrator A,systems_integrator,true,true,partial,medium,review_required,Remote support session logging needs update
+VEN-002,grid-substation-control,Substation OEM B,equipment_vendor,true,true,current,high,review_required,Long lead-time spare parts and proprietary firmware
+VEN-003,transport-dispatch-signaling,Transit Platform C,managed_service,true,true,current,medium,current,Dispatch platform support contract reviewed
+VEN-004,emergency-communications-node,Telecom Provider D,telecommunications,true,true,current,high,current,Emergency communications dependency requires redundancy testing
+VEN-005,civic-service-platform,Cloud Provider E,cloud_provider,true,true,current,high,current,Cloud dependency has failover plan
+VEN-006,hospital-building-management,BMS Vendor F,building_system_vendor,true,true,partial,medium,review_required,Remote access and patch governance need review

@@ -1,0 +1,19 @@
+cyber_resilience_objective:
+  version: "1.0.0"
+  title: "Infrastructure Security and Cyber Resilience"
+  purpose: "Demonstrate cyber resilience as public-service continuity across IT, OT, ICS, field devices, vendors, recovery, governance, and public trust."
+  sectors:
+    - water
+    - energy
+    - transport
+    - communications
+    - public_buildings
+    - digital_public_infrastructure
+  decision_uses:
+    - cyber_resilience_review
+    - incident_response_planning
+    - continuity_planning
+    - OT_modernization
+    - vendor_risk_review
+    - public_service_recovery
+    - governance_reporting

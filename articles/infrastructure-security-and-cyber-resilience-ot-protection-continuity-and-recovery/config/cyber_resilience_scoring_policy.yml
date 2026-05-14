@@ -1,0 +1,11 @@
+cyber_resilience_scoring_policy:
+  version: "1.0.0"
+  rule: "Cyber resilience readiness must combine asset visibility, identity governance, control effectiveness, detection capability, containment readiness, recovery readiness, continuity readiness, and governance readiness."
+  weights:
+    asset_visibility: 0.14
+    identity_governance: 0.14
+    control_effectiveness: 0.15
+    detection_capability: 0.14
+    containment_readiness: 0.13
+    recovery_readiness: 0.15
+    governance_readiness: 0.15

@@ -1,0 +1,7 @@
+scenario_id,system_id,scenario_type,severity,affected_service,detection_objective_minutes,containment_objective_minutes,recovery_objective_hours,assumption_note,status
+SCN-001,water-ot-environment,ot_ransomware,high,treatment_pumping_and_distribution,30,60,24,Ransomware affects engineering workstation and visibility,review_required
+SCN-002,grid-substation-control,remote_access_compromise,high,critical_distribution,20,45,8,Compromised vendor access attempts lateral movement,review_required
+SCN-003,transport-dispatch-signaling,dispatch_system_outage,high,signal_dispatch_and_emergency_access,30,60,12,Dispatch and passenger information disrupted,current
+SCN-004,emergency-communications-node,communications_node_compromise,high,emergency_coordination,15,30,6,Emergency node requires radio fallback,current
+SCN-005,civic-service-platform,cloud_platform_outage,high,identity_payments_and_public_access,20,60,4,Public portal outage during demand surge,current
+SCN-006,hospital-building-management,bms_compromise,high,critical_facility_support,30,60,12,Building management disruption during heat event,review_required

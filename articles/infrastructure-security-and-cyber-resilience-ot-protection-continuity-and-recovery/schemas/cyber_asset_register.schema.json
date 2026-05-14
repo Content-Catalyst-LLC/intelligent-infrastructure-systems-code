@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CyberAssetRegisterRecord",
+  "type": "object",
+  "required": [
+    "system_id",
+    "asset_id",
+    "asset_name",
+    "sector",
+    "environment",
+    "asset_type",
+    "service_role",
+    "criticality",
+    "owner",
+    "remote_access",
+    "inventory_status"
+  ],
+  "properties": {
+    "system_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "sector": {"type": "string"},
+    "environment": {"type": "string"},
+    "asset_type": {"type": "string"},
+    "service_role": {"type": "string"},
+    "criticality": {"type": "string"},
+    "owner": {"type": "string"},
+    "remote_access": {"type": "boolean"},
+    "inventory_status": {"type": "string"}
+  }
+}

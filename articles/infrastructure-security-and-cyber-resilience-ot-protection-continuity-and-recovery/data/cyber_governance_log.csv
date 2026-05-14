@@ -1,0 +1,7 @@
+governance_id,date,system_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,water-ot-environment,Escalate OT segmentation and manual pumping continuity test,water_utility,open,true
+GOV-002,2026-05-02,grid-substation-control,Review vendor remote access and recovery test for substation control,power_utility,open,true
+GOV-003,2026-05-03,transport-dispatch-signaling,Maintain dispatch continuity exercise cycle and passenger information fallback,transport_agency,closed,false
+GOV-004,2026-05-04,emergency-communications-node,Maintain radio fallback and backup communications validation,communications_agency,closed,false
+GOV-005,2026-05-05,civic-service-platform,Review offline public-service access for platform outage,digital_services,open,true
+GOV-006,2026-05-06,hospital-building-management,Escalate BMS segmentation and heat-event manual override review,public_buildings,open,true

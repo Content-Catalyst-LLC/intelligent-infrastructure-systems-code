@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "cyber_resilience_service_points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "water-ot-environment",
+        "sector": "water",
+        "service_role": "treatment_pumping_and_distribution"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "grid-substation-control",
+        "sector": "energy",
+        "service_role": "critical_distribution"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "emergency-communications-node",
+        "sector": "communications",
+        "service_role": "emergency_coordination"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6500]}
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+system_id,asset_id,asset_name,sector,environment,asset_type,service_role,criticality,owner,remote_access,inventory_status
+water-ot-environment,CYB-WAT-001,Water Treatment SCADA,water,OT,SCADA,treatment_pumping_and_distribution,high,water_utility,true,current
+grid-substation-control,CYB-ENE-001,Substation Control Environment,energy,OT,ICS,critical_distribution,high,power_utility,true,current
+transport-dispatch-signaling,CYB-TRN-001,Transport Dispatch and Signaling,transport,OT,control_system,signal_dispatch_and_emergency_access,high,transport_agency,true,current
+emergency-communications-node,CYB-COM-001,Emergency Communications Node,communications,IT_OT_hybrid,network_node,emergency_coordination,high,communications_agency,true,current
+civic-service-platform,CYB-DPI-001,Civic Service Platform,digital_public_infrastructure,IT_cloud,public_platform,identity_payments_and_public_access,high,digital_services,true,current
+hospital-building-management,CYB-BLD-001,Hospital Building Management System,public_buildings,OT,building_management,critical_facility_support,high,public_buildings,true,review_required

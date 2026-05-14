@@ -1,0 +1,38 @@
+article:
+  title: "Infrastructure Security and Cyber Resilience: OT Protection, Continuity, and Recovery"
+  slug: "infrastructure-security-and-cyber-resilience-ot-protection-continuity-and-recovery"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-security-and-cyber-resilience-ot-protection-continuity-and-recovery/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-security-and-cyber-resilience-ot-protection-continuity-and-recovery"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade infrastructure security, OT protection, cyber-physical continuity, recovery readiness, vendor risk, control baselines, governance, and public evidence scaffold"
+
+workflows:
+  mathematical_lens:
+    - exposure times vulnerability
+    - residual exposure after controls
+    - impact duration as detection plus containment plus recovery
+    - resilience quality
+    - service continuity
+    - public trust
+  python:
+    - cyber-physical system readiness scoring
+    - residual exposure calculation
+    - recovery and continuity review classification
+    - governance watchlist generation
+  r:
+    - cyber baseline reporting
+    - OT risk summaries
+    - sector-level resilience diagnostics
+  sql:
+    - cyber asset register
+    - OT zone conduit map
+    - control baseline
+    - incident scenario manifest
+    - continuity recovery log
+    - vendor risk register
+    - cyber governance log

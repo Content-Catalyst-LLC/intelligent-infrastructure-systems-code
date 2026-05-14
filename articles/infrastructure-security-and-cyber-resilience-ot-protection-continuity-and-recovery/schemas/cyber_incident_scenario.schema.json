@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CyberIncidentScenarioRecord",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "system_id",
+    "scenario_type",
+    "severity",
+    "affected_service",
+    "detection_objective_minutes",
+    "containment_objective_minutes",
+    "recovery_objective_hours",
+    "assumption_note",
+    "status"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "system_id": {"type": "string"},
+    "scenario_type": {"type": "string"},
+    "severity": {"type": "string"},
+    "affected_service": {"type": "string"},
+    "detection_objective_minutes": {"type": "number"},
+    "containment_objective_minutes": {"type": "number"},
+    "recovery_objective_hours": {"type": "number"},
+    "assumption_note": {"type": "string"},
+    "status": {"type": "string"}
+  }
+}

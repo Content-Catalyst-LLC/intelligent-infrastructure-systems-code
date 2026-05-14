@@ -1,0 +1,10 @@
+control_id,system_id,control_family,control_name,implementation_status,evidence_status,owner,test_frequency_days,control_effectiveness
+CTRL-001,water-ot-environment,governance,OT cyber risk ownership,current,current,water_security,180,0.62
+CTRL-002,water-ot-environment,identity,MFA for remote access,current,current,water_security,90,0.66
+CTRL-003,water-ot-environment,segmentation,IT OT segmentation,review_required,partial,water_security,180,0.58
+CTRL-004,grid-substation-control,identity,Privileged access review,current,current,power_security,90,0.70
+CTRL-005,grid-substation-control,recovery,Substation control recovery test,review_required,partial,power_operations,180,0.62
+CTRL-006,transport-dispatch-signaling,detection,Control-system monitoring,current,current,transport_security,90,0.66
+CTRL-007,emergency-communications-node,recovery,Backup communications channel,current,current,communications_operations,90,0.72
+CTRL-008,civic-service-platform,continuity,Offline service fallback,review_required,partial,digital_services,180,0.63
+CTRL-009,hospital-building-management,segmentation,BMS segmentation and access control,review_required,partial,facility_security,180,0.60
