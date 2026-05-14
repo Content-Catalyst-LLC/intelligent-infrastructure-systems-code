@@ -1,0 +1,8 @@
+telemetry_id,asset_id,timestamp,signal_type,value,unit,qc_flag,notes
+TEL-001,A-0001,2026-05-01T12:00:00Z,vibration_rms,6.2,mm_s,pass,Moderate vibration
+TEL-002,A-0002,2026-05-01T12:00:00Z,vibration_rms,3.1,mm_s,pass,Normal vibration
+TEL-003,A-0004,2026-05-01T12:00:00Z,strain_index,0.68,index,review_required,Bridge strain trend elevated
+TEL-004,A-0005,2026-05-01T12:00:00Z,pavement_roughness,3.4,IRI,pass,Roughness increasing
+TEL-005,A-0006,2026-05-01T12:00:00Z,temperature,92.0,degC,review_required,Peak-load thermal anomaly
+TEL-006,A-0007,2026-05-01T12:00:00Z,pressure_transient,1.8,index,review_required,Transient events after valve operations
+TEL-007,A-0008,2026-05-01T12:00:00Z,efficiency,0.78,index,pass,HVAC efficiency declining

@@ -1,0 +1,9 @@
+asset_id,asset_class,asset_name,location,owner,install_year,design_life_years,replacement_cost,service_role,operational_status
+A-0001,pump,North Pump Station Pump 1,north_zone,water_utility,2004,30,250000,primary_pumping,active
+A-0002,pump,North Pump Station Pump 2,north_zone,water_utility,2011,30,240000,redundant_pumping,active
+A-0003,valve,Transmission Valve 17,central_corridor,water_utility,1998,40,45000,isolation_control,active
+A-0004,bridge_component,Bridge Bearing Set B12,river_crossing,transport_agency,1987,50,900000,strategic_crossing,review_required
+A-0005,road_segment,Arterial Segment R-44,freight_corridor,transport_agency,2009,25,1200000,freight_and_bus_route,active
+A-0006,substation_asset,Transformer T7,east_substation,power_utility,1995,45,1800000,critical_distribution,active
+A-0007,pipe_segment,Water Main WM-88,older_neighborhood,water_utility,1965,80,650000,distribution_main,review_required
+A-0008,building_system,Hospital HVAC Unit H3,medical_district,public_buildings,2014,20,350000,critical_facility_support,active

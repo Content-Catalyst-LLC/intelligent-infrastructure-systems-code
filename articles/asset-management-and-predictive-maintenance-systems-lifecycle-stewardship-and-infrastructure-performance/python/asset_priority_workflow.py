@@ -1,132 +1,113 @@
-"""
-Asset Management and Predictive Maintenance Mini-Workflow
-
-This script demonstrates:
-- synthetic infrastructure asset register
-- condition and age-based failure probability
-- criticality-weighted risk scoring
-- maintenance priority ranking
-- intervention shortlist creation
-
-It is educational and does not use operational infrastructure data.
-"""
-
 from __future__ import annotations
 
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 
+ARTICLE_DIR = Path(__file__).resolve().parents[1]
+DATA_DIR = ARTICLE_DIR / "data"
+OUTPUT_DIR = ARTICLE_DIR / "outputs"
+OUTPUT_DIR.mkdir(exist_ok=True)
 
-OUTPUT_DIR = Path("../outputs")
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+ASSET_REGISTER = DATA_DIR / "asset_register.csv"
+CONDITION = DATA_DIR / "condition_inspections.csv"
+CRITICALITY = DATA_DIR / "criticality_scores.csv"
+LCC = DATA_DIR / "lifecycle_cost_scenarios.csv"
 
-RANDOM_SEED = 42
-
-
-def build_asset_register(n_assets: int = 250) -> pd.DataFrame:
-    """Create a synthetic infrastructure asset register."""
-    rng = np.random.default_rng(RANDOM_SEED)
-
-    return pd.DataFrame(
-        {
-            "asset_id": [f"A-{i:04d}" for i in range(1, n_assets + 1)],
-            "asset_class": rng.choice(
-                [
-                    "pump",
-                    "valve",
-                    "bridge_component",
-                    "road_segment",
-                    "substation_asset",
-                ],
-                size=n_assets,
-                p=[0.20, 0.20, 0.20, 0.25, 0.15],
-            ),
-            "age_years": rng.integers(1, 60, size=n_assets),
-            "condition_score": rng.uniform(0.15, 0.98, size=n_assets),
-            "service_consequence": rng.integers(1, 6, size=n_assets),
-            "environmental_exposure": rng.uniform(0.0, 1.0, size=n_assets),
-        }
-    )
-
-
-def score_assets(assets: pd.DataFrame) -> pd.DataFrame:
-    """Estimate failure probability, risk score, and priority score."""
-    scored = assets.copy()
-
+def estimate_failure_probability(age_years: pd.Series, condition_score: pd.Series, criticality_score: pd.Series) -> pd.Series:
     linear_risk = (
         -3.0
-        + 0.045 * scored["age_years"]
-        + 2.5 * (1 - scored["condition_score"])
-        + 0.9 * scored["environmental_exposure"]
+        + 0.045 * age_years
+        + 2.5 * (1 - condition_score)
+        + 0.8 * criticality_score
+    )
+    return 1 / (1 + np.exp(-linear_risk))
+
+def recommended_strategy(priority_score: float) -> str:
+    if priority_score >= 0.70:
+        return "urgent_review"
+    if priority_score >= 0.55:
+        return "planned_intervention"
+    if priority_score >= 0.40:
+        return "condition_based_maintenance"
+    return "monitor"
+
+def main() -> None:
+    assets = pd.read_csv(ASSET_REGISTER)
+    condition = pd.read_csv(CONDITION).sort_values("inspection_date").drop_duplicates("asset_id", keep="last")
+    criticality = pd.read_csv(CRITICALITY)
+    lcc = pd.read_csv(LCC)
+
+    portfolio = (
+        assets
+        .merge(condition[["asset_id", "condition_score", "defect_score", "inspection_date"]], on="asset_id", how="left")
+        .merge(criticality[["asset_id", "criticality_score", "service_consequence", "environmental_consequence", "equity_consequence"]], on="asset_id", how="left")
     )
 
-    scored["failure_probability"] = 1 / (1 + np.exp(-linear_risk))
+    portfolio["age_years"] = 2026 - portfolio["install_year"]
+    portfolio["failure_probability"] = estimate_failure_probability(
+        portfolio["age_years"],
+        portfolio["condition_score"],
+        portfolio["criticality_score"],
+    )
+    portfolio["risk_score"] = portfolio["failure_probability"] * portfolio["criticality_score"]
 
-    scored["risk_score"] = (
-        scored["failure_probability"] * scored["service_consequence"]
+    portfolio["priority_score"] = (
+        0.35 * (1 - portfolio["condition_score"])
+        + 0.25 * portfolio["failure_probability"]
+        + 0.25 * portfolio["criticality_score"]
+        + 0.10 * (portfolio["environmental_consequence"] / 5)
+        + 0.05 * (portfolio["equity_consequence"] / 5)
     )
 
-    scored["priority_score"] = (
-        0.40 * (1 - scored["condition_score"])
-        + 0.30 * scored["failure_probability"]
-        + 0.20 * (scored["service_consequence"] / 5)
-        + 0.10 * scored["environmental_exposure"]
-    )
+    portfolio["recommended_strategy"] = portfolio["priority_score"].apply(recommended_strategy)
 
-    scored["recommended_strategy"] = pd.cut(
-        scored["priority_score"],
-        bins=[-0.01, 0.35, 0.55, 0.75, 1.01],
-        labels=[
-            "monitor",
-            "condition_based_maintenance",
-            "planned_intervention",
-            "urgent_review",
-        ],
-    )
+    shortlist = portfolio.sort_values("priority_score", ascending=False).reset_index(drop=True)
+    shortlist_path = OUTPUT_DIR / "asset_priority_shortlist.csv"
+    shortlist.to_csv(shortlist_path, index=False)
 
-    return scored
-
-
-def summarize_portfolio(scored: pd.DataFrame) -> pd.DataFrame:
-    """Summarize asset condition and risk by class and strategy."""
-    return (
-        scored
-        .groupby(["asset_class", "recommended_strategy"], observed=True)
+    strategy_summary = (
+        portfolio.groupby(["asset_class", "recommended_strategy"], dropna=False)
         .agg(
             asset_count=("asset_id", "count"),
             mean_condition=("condition_score", "mean"),
             mean_failure_probability=("failure_probability", "mean"),
-            mean_risk_score=("risk_score", "mean"),
-            mean_priority_score=("priority_score", "mean"),
+            mean_criticality=("criticality_score", "mean"),
+            mean_priority=("priority_score", "mean"),
         )
         .reset_index()
+        .round(3)
+        .sort_values(["recommended_strategy", "mean_priority"], ascending=[True, False])
     )
+    summary_path = OUTPUT_DIR / "asset_strategy_summary.csv"
+    strategy_summary.to_csv(summary_path, index=False)
 
-
-def main() -> None:
-    assets = build_asset_register()
-    scored = score_assets(assets)
-    summary = summarize_portfolio(scored)
-
-    shortlist = (
-        scored
-        .sort_values("priority_score", ascending=False)
-        .head(20)
-        .reset_index(drop=True)
+    lcc_summary = (
+        lcc.groupby(["asset_id", "strategy"], dropna=False)
+        .agg(total_cost_proxy=("total_cost_proxy", "sum"))
+        .reset_index()
+        .sort_values(["asset_id", "total_cost_proxy"])
     )
+    lcc_path = OUTPUT_DIR / "lifecycle_cost_comparison.csv"
+    lcc_summary.to_csv(lcc_path, index=False)
 
-    scored.to_csv(OUTPUT_DIR / "synthetic_asset_register_scored.csv", index=False)
-    shortlist.to_csv(OUTPUT_DIR / "maintenance_priority_shortlist.csv", index=False)
-    summary.to_csv(OUTPUT_DIR / "asset_portfolio_summary.csv", index=False)
+    print("Asset priority shortlist")
+    print(shortlist[[
+        "asset_id",
+        "asset_class",
+        "asset_name",
+        "age_years",
+        "condition_score",
+        "criticality_score",
+        "failure_probability",
+        "risk_score",
+        "priority_score",
+        "recommended_strategy",
+    ]].to_string(index=False))
 
-    print("Top maintenance-priority assets:")
-    print(shortlist)
-
-    print("\nPortfolio summary:")
-    print(summary)
-
+    print(f"\nWrote: {shortlist_path}")
+    print(f"Wrote: {summary_path}")
+    print(f"Wrote: {lcc_path}")
 
 if __name__ == "__main__":
     main()

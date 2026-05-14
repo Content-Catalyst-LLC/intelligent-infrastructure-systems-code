@@ -1,0 +1,13 @@
+risk_scoring_policy:
+  version: "1.0.0"
+  rule: "Maintenance priority must combine condition, failure probability, failure consequence, service criticality, feasibility, and governance review rather than condition alone."
+  required_fields:
+    - condition_score
+    - failure_probability
+    - failure_consequence
+    - service_consequence
+    - environmental_consequence
+    - redundancy_score
+    - recovery_difficulty
+    - equity_consequence
+    - uncertainty_caveat

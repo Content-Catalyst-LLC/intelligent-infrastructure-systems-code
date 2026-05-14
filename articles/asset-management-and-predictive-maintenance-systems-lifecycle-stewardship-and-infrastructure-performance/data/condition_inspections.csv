@@ -1,0 +1,9 @@
+inspection_id,asset_id,inspection_date,condition_score,defect_score,inspection_method,inspector,notes
+INS-001,A-0001,2026-01-15,0.72,0.28,vibration_and_visual,asset_team,Moderate bearing wear
+INS-002,A-0002,2026-01-15,0.84,0.16,vibration_and_visual,asset_team,Good condition
+INS-003,A-0003,2026-02-01,0.66,0.34,manual_valve_exercise,field_team,Slow operation
+INS-004,A-0004,2026-02-12,0.48,0.52,structural_inspection,bridge_team,Corrosion and movement noted
+INS-005,A-0005,2026-03-03,0.58,0.42,pavement_condition_survey,transport_team,Rutting and cracking
+INS-006,A-0006,2026-03-15,0.62,0.38,thermal_and_oil_test,power_team,Thermal anomaly under peak load
+INS-007,A-0007,2026-03-21,0.44,0.56,break_history_review,water_team,Repeated breaks and age concern
+INS-008,A-0008,2026-04-01,0.76,0.24,mechanical_inspection,facility_team,Maintenance overdue but stable

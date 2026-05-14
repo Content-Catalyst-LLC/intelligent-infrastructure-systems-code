@@ -1,0 +1,9 @@
+asset_id,condition_score,failure_probability,criticality_score,risk_score,priority_score,recommended_strategy
+A-0001,0.72,0.31,0.82,0.254,0.53,condition_based_maintenance
+A-0002,0.84,0.18,0.66,0.119,0.34,monitor
+A-0003,0.66,0.26,0.52,0.135,0.43,condition_based_maintenance
+A-0004,0.48,0.47,0.90,0.423,0.75,urgent_review
+A-0005,0.58,0.36,0.68,0.245,0.56,planned_intervention
+A-0006,0.62,0.42,0.88,0.370,0.68,urgent_review
+A-0007,0.44,0.55,0.86,0.473,0.80,urgent_review
+A-0008,0.76,0.25,0.78,0.195,0.46,condition_based_maintenance

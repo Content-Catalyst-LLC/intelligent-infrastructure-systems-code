@@ -1,0 +1,9 @@
+asset_id,service_consequence,safety_consequence,environmental_consequence,redundancy_score,recovery_difficulty,equity_consequence,criticality_score
+A-0001,5,3,4,2,4,3,0.82
+A-0002,4,2,3,3,3,3,0.66
+A-0003,3,2,3,3,2,2,0.52
+A-0004,5,5,3,1,5,4,0.90
+A-0005,4,3,2,2,3,4,0.68
+A-0006,5,4,4,1,5,4,0.88
+A-0007,5,3,5,2,4,5,0.86
+A-0008,5,4,2,2,4,4,0.78

@@ -1,0 +1,6 @@
+review_id,date,asset_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,A-0004,Escalate bridge bearing rehabilitation review,transport_agency,open,true
+GOV-002,2026-05-02,A-0006,Schedule transformer thermal anomaly review,power_utility,open,true
+GOV-003,2026-05-03,A-0007,Prioritize water main renewal candidate,water_utility,open,true
+GOV-004,2026-05-04,A-0001,Approve condition-based maintenance work order,water_utility,closed,false
+GOV-005,2026-05-05,A-0008,Approve preventive HVAC maintenance for critical facility,public_buildings,closed,false

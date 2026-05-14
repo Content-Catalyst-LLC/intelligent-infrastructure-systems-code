@@ -1,0 +1,30 @@
+asset_management_objective:
+  version: "1.0.0"
+  title: "Asset Management and Predictive Maintenance Systems"
+  purpose: "Demonstrate lifecycle asset stewardship, condition scoring, risk prioritization, predictive maintenance, lifecycle costing, and governance readiness."
+  asset_classes:
+    - pump
+    - valve
+    - bridge_component
+    - road_segment
+    - substation_asset
+    - pipe_segment
+    - rail_component
+    - building_system
+  maintenance_strategies:
+    - reactive
+    - preventive
+    - condition_based
+    - predictive
+    - rehabilitation
+    - renewal
+    - replacement
+    - decommission
+  decision_uses:
+    - maintenance_prioritization
+    - lifecycle_planning
+    - risk_review
+    - capital_renewal
+    - public_performance_reporting
+    - budget_justification
+    - resilience_planning

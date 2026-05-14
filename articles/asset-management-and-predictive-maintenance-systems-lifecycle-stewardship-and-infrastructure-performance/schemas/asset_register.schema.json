@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AssetRegisterRecord",
+  "type": "object",
+  "required": [
+    "asset_id",
+    "asset_class",
+    "asset_name",
+    "location",
+    "owner",
+    "install_year",
+    "design_life_years",
+    "replacement_cost",
+    "service_role",
+    "operational_status"
+  ],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "location": {"type": "string"},
+    "owner": {"type": "string"},
+    "install_year": {"type": "number"},
+    "design_life_years": {"type": "number"},
+    "replacement_cost": {"type": "number"},
+    "service_role": {"type": "string"},
+    "operational_status": {"type": "string"}
+  }
+}

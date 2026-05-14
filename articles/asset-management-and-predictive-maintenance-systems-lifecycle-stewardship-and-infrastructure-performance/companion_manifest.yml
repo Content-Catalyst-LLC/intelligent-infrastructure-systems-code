@@ -1,0 +1,43 @@
+article:
+  title: "Asset Management and Predictive Maintenance Systems: Lifecycle Stewardship and Infrastructure Performance"
+  slug: "asset-management-and-predictive-maintenance-systems-lifecycle-stewardship-and-infrastructure-performance"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/asset-management-and-predictive-maintenance-systems-lifecycle-stewardship-and-infrastructure-performance/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/asset-management-and-predictive-maintenance-systems-lifecycle-stewardship-and-infrastructure-performance"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade lifecycle asset management, predictive maintenance, criticality, reliability, remaining useful life, lifecycle cost, digital twins, governance, and infrastructure stewardship scaffold"
+
+workflows:
+  mathematical_lens:
+    - asset portfolio set
+    - condition state
+    - deterioration and maintenance effect
+    - probability times consequence risk
+    - criticality-weighted priority
+    - remaining useful life
+    - lifecycle cost
+    - budget-constrained portfolio optimization
+  python:
+    - synthetic asset register
+    - condition and age-based failure probability
+    - criticality-weighted risk scoring
+    - maintenance priority ranking
+    - intervention shortlist
+  r:
+    - lifecycle cost proxy
+    - reliability diagnostics
+    - grouped portfolio summaries
+  sql:
+    - asset register
+    - condition inspection records
+    - telemetry observations
+    - work orders
+    - failure events
+    - intervention options
+    - lifecycle cost scenarios
+    - risk and criticality scores
+    - governance review log

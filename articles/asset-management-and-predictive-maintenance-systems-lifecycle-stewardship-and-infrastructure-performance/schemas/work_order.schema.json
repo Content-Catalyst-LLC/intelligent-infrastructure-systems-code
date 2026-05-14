@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MaintenanceWorkOrder",
+  "type": "object",
+  "required": [
+    "work_order_id",
+    "asset_id",
+    "created_date",
+    "maintenance_strategy",
+    "priority",
+    "status",
+    "estimated_cost"
+  ],
+  "properties": {
+    "work_order_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "created_date": {"type": "string"},
+    "maintenance_strategy": {"type": "string"},
+    "priority": {"type": "string"},
+    "status": {"type": "string"},
+    "estimated_cost": {"type": "number"},
+    "planned_start": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

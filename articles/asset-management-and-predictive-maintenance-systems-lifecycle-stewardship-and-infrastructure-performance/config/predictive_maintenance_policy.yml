@@ -1,0 +1,11 @@
+predictive_maintenance_policy:
+  version: "1.0.0"
+  rule: "Predictive maintenance is justified only where degradation signals are observable, lead time is actionable, asset consequence is meaningful, and the institution can convert predictions into work orders."
+  valid_use_requirements:
+    - asset criticality documented
+    - telemetry or inspection signal documented
+    - model assumptions documented
+    - validation or caveat documented
+    - work-order pathway defined
+    - budget pathway defined
+    - human review required

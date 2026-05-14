@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "name": "asset_management_locations",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "A-0001", "asset_class": "pump", "criticality_score": 0.82},
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "A-0004", "asset_class": "bridge_component", "criticality_score": 0.90},
+      "geometry": {"type": "Point", "coordinates": [-90.1800, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "A-0007", "asset_class": "pipe_segment", "criticality_score": 0.86},
+      "geometry": {"type": "Point", "coordinates": [-90.2600, 38.6600]}
+    }
+  ]
+}

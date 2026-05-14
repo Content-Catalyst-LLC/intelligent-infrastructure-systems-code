@@ -1,0 +1,5 @@
+failure_event_id,asset_id,event_date,failure_mode,downtime_hours,service_impact,cost,notes
+FE-001,A-0001,2024-10-12,bearing_overheating,6,partial_pumping_reduction,22000,Recovered with spare pump
+FE-002,A-0003,2025-03-19,valve_stuck,3,isolation_delay,9000,Manual workaround required
+FE-003,A-0005,2025-08-04,pavement_distress,0,roughness_and_delay,45000,Emergency patching
+FE-004,A-0007,2025-12-11,pipe_break,14,water_service_interruption,85000,Affected older neighborhood

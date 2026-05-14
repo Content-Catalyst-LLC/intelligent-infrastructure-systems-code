@@ -1,0 +1,7 @@
+scenario_id,asset_id,strategy,maintenance_cost,operations_cost,capital_renewal_cost,expected_failure_cost,discount_rate,time_horizon_years,total_cost_proxy
+LCC-001,A-0001,condition_based,45000,60000,0,40000,0.035,10,145000
+LCC-002,A-0001,run_to_failure,12000,60000,250000,120000,0.035,10,442000
+LCC-003,A-0004,rehabilitation,220000,40000,0,150000,0.035,15,410000
+LCC-004,A-0004,defer,30000,40000,900000,500000,0.035,15,1470000
+LCC-005,A-0007,renewal,650000,70000,0,65000,0.035,20,785000
+LCC-006,A-0007,defer,35000,70000,650000,220000,0.035,20,975000

@@ -1,0 +1,7 @@
+work_order_id,asset_id,created_date,maintenance_strategy,priority,status,estimated_cost,planned_start,notes
+WO-001,A-0001,2026-05-02,condition_based,medium,planned,18000,2026-06-10,Bearing inspection and lubrication
+WO-002,A-0004,2026-05-02,predictive,urgent,review_required,220000,2026-06-20,Bridge bearing rehabilitation review
+WO-003,A-0005,2026-05-03,preventive,medium,planned,145000,2026-07-01,Pavement resurfacing segment
+WO-004,A-0006,2026-05-04,predictive,urgent,review_required,300000,2026-06-15,Transformer thermal anomaly investigation
+WO-005,A-0007,2026-05-05,renewal,urgent,review_required,650000,2026-08-01,Water main renewal candidate
+WO-006,A-0008,2026-05-05,preventive,medium,planned,28000,2026-06-05,HVAC preventive maintenance
