@@ -1,0 +1,6 @@
+review_id,date,review_area,decision,owner,status,public_note_required
+GOV-001,2026-05-01,public_value,Approve readiness framework for observability interoperability AI governance resilience cyber equity and accountability,governance_team,closed,false
+GOV-002,2026-05-02,cyber_resilience,Require cyber-resilience review for critical systems below threshold,security_team,open,true
+GOV-003,2026-05-03,equity,Require equity review for transport and public-service optimization systems,equity_review_team,open,true
+GOV-004,2026-05-04,interoperability,Require schema and identifier governance for stormwater and public buildings systems,data_governance_team,open,false
+GOV-005,2026-05-05,ai_governance,Require human-review workflow and model-card updates for all high-consequence AI systems,ai_governance_team,open,true

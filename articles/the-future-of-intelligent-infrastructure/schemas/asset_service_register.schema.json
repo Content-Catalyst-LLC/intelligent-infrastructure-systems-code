@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AssetServiceRegister",
+  "type": "object",
+  "required": [
+    "system_id",
+    "sector",
+    "service_role",
+    "critical_assets",
+    "total_assets",
+    "observable_critical_assets",
+    "owner",
+    "high_criticality",
+    "operational_status"
+  ],
+  "properties": {
+    "system_id": {"type": "string"},
+    "sector": {"type": "string"},
+    "service_role": {"type": "string"},
+    "critical_assets": {"type": "number"},
+    "total_assets": {"type": "number"},
+    "observable_critical_assets": {"type": "number"},
+    "owner": {"type": "string"},
+    "high_criticality": {"type": "boolean"},
+    "operational_status": {"type": "string"}
+  }
+}

@@ -1,0 +1,21 @@
+infrastructure_intelligence_objective:
+  version: "1.0.0"
+  title: "The Future of Intelligent Infrastructure"
+  purpose: "Demonstrate how intelligent infrastructure can be evaluated as a public systems capability across observability, interoperability, AI governance, resilience, cyber resilience, equity, accountability, and adaptive capacity."
+  sectors:
+    - water
+    - transport
+    - energy
+    - stormwater
+    - public_buildings
+    - communications
+    - digital_public_infrastructure
+  decision_uses:
+    - public_service_continuity
+    - maintenance_prioritization
+    - resilience_planning
+    - cyber_resilience_review
+    - climate_adaptation
+    - emergency_response
+    - public_value_reporting
+    - infrastructure_governance

@@ -1,0 +1,12 @@
+readiness_scoring_policy:
+  version: "1.0.0"
+  rule: "Infrastructure intelligence readiness must be assessed across observability, interoperability, AI governance, resilience, cyber resilience, equity, public accountability, and adaptive capacity."
+  dimensions:
+    observability: 0.15
+    interoperability: 0.13
+    ai_governance: 0.12
+    resilience_readiness: 0.15
+    cyber_resilience: 0.14
+    equity_readiness: 0.12
+    public_accountability: 0.10
+    adaptive_capacity: 0.09

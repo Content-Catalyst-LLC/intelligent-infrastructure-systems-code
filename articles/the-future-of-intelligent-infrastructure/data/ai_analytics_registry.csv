@@ -1,0 +1,8 @@
+model_id,system_id,model_name,model_type,decision_use,validation_status,human_review_required,ai_governance_score,notes
+AI-001,water-network-intelligence,Leak Risk Triage,anomaly_detection,maintenance_prioritization,current,true,0.70,Supports review not automated action
+AI-002,transport-corridor-intelligence,Incident Congestion Forecast,forecasting,operations_support,review_required,true,0.68,Needs equity and emergency-route review
+AI-003,energy-grid-intelligence,Transformer Thermal Risk,predictive_maintenance,asset_prioritization,current,true,0.72,Validated against inspection history
+AI-004,stormwater-monitoring-intelligence,Flood Hotspot Classifier,risk_classification,emergency_response,review_required,true,0.64,Needs additional field validation
+AI-005,public-buildings-intelligence,Energy Fault Detection,anomaly_detection,maintenance_prioritization,review_required,true,0.66,False positives require review
+AI-006,communications-resilience-intelligence,Node Failure Prediction,predictive_maintenance,continuity_planning,current,true,0.74,Requires cyber incident coordination
+AI-007,digital-public-infrastructure,Service Demand Forecast,forecasting,service_planning,current,true,0.76,Public-service use requires explainability

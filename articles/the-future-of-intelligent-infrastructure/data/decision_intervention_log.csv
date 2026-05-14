@@ -1,0 +1,8 @@
+decision_id,date,system_id,recommendation,decision_owner,status,public_note_required
+DEC-001,2026-05-01,water-network-intelligence,Review cyber recovery and pressure-sensor blind spots,water_utility,open,true
+DEC-002,2026-05-02,transport-corridor-intelligence,Add equity review to corridor optimization and emergency-route scenarios,transport_agency,open,true
+DEC-003,2026-05-03,energy-grid-intelligence,Review cyber recovery for transformer analytics and critical distribution,power_utility,open,true
+DEC-004,2026-05-04,stormwater-monitoring-intelligence,Prioritize interoperability and flood sensor coverage review,stormwater_agency,open,true
+DEC-005,2026-05-05,public-buildings-intelligence,Improve HVAC observability and cyber fallback for critical facilities,public_buildings,open,false
+DEC-006,2026-05-06,communications-resilience-intelligence,Maintain routine monitoring and backup power validation,communications_agency,closed,false
+DEC-007,2026-05-07,digital-public-infrastructure,Maintain routine monitoring and accessibility metrics review,digital_services,open,true

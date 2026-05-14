@@ -1,0 +1,41 @@
+article:
+  title: "The Future of Intelligent Infrastructure"
+  slug: "the-future-of-intelligent-infrastructure"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/the-future-of-intelligent-infrastructure/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/the-future-of-intelligent-infrastructure"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade intelligent infrastructure readiness, public-value KPIs, AI governance, cyber resilience, interoperability, resilience scenarios, equity, public accountability, and infrastructure systems stewardship scaffold"
+
+workflows:
+  mathematical_lens:
+    - observability coverage
+    - interoperability maturity
+    - risk as probability times consequence
+    - adaptive capacity
+    - cyber-resilience readiness
+    - infrastructure intelligence quality
+    - public-value scoring
+  python:
+    - infrastructure intelligence readiness scoring
+    - review-priority classification
+    - public-value KPI synthesis
+    - governance watchlist generation
+  r:
+    - sector readiness summaries
+    - public-value and resilience reporting
+    - cyber and equity readiness review
+  sql:
+    - asset service register
+    - observability registry
+    - interoperability map
+    - AI analytics registry
+    - cyber resilience controls
+    - resilience scenario manifest
+    - infrastructure intelligence KPIs
+    - decision intervention log
+    - governance review log

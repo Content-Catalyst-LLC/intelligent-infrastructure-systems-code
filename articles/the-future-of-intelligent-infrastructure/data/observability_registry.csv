@@ -1,0 +1,8 @@
+observability_id,system_id,observability_source,coverage_score,freshness_score,quality_score,blind_spot_note
+OBS-001,water-network-intelligence,pressure_flow_water_quality_telemetry,0.78,0.80,0.76,Older distribution mains under-monitored
+OBS-002,transport-corridor-intelligence,traffic_signal_sensor_weather_and_incident_feeds,0.82,0.84,0.78,Pedestrian and vulnerable-user exposure gaps
+OBS-003,energy-grid-intelligence,substation_feeders_transformer_monitoring,0.80,0.82,0.77,Distributed energy resources unevenly visible
+OBS-004,stormwater-monitoring-intelligence,rain_gauge_level_sensor_and_flood_reports,0.70,0.68,0.66,Small culverts and localized flooding gaps
+OBS-005,public-buildings-intelligence,building_management_inspection_and_energy_records,0.67,0.62,0.64,School HVAC condition records incomplete
+OBS-006,communications-resilience-intelligence,node_availability_network_monitoring,0.86,0.88,0.82,Backup power status unevenly tracked
+OBS-007,digital-public-infrastructure,platform_uptime_api_status_and_service_metrics,0.84,0.86,0.80,User accessibility metrics incomplete

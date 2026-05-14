@@ -1,0 +1,8 @@
+control_id,system_id,segmentation_score,access_control_score,recovery_score,monitoring_score,incident_response_status,cyber_resilience_score
+CYB-001,water-network-intelligence,0.70,0.72,0.64,0.66,review_required,0.68
+CYB-002,transport-corridor-intelligence,0.74,0.72,0.70,0.72,current,0.72
+CYB-003,energy-grid-intelligence,0.76,0.74,0.66,0.70,review_required,0.69
+CYB-004,stormwater-monitoring-intelligence,0.62,0.64,0.60,0.62,review_required,0.62
+CYB-005,public-buildings-intelligence,0.60,0.62,0.58,0.60,review_required,0.60
+CYB-006,communications-resilience-intelligence,0.80,0.78,0.76,0.80,current,0.79
+CYB-007,digital-public-infrastructure,0.82,0.84,0.78,0.82,current,0.82

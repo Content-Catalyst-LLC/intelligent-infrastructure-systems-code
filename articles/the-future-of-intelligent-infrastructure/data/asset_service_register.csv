@@ -1,0 +1,8 @@
+system_id,sector,service_role,critical_assets,total_assets,observable_critical_assets,owner,high_criticality,operational_status
+water-network-intelligence,water,drinking_water_distribution,42,96,33,water_utility,true,active
+transport-corridor-intelligence,transport,freight_bus_emergency_access,30,74,25,transport_agency,true,active
+energy-grid-intelligence,energy,critical_distribution,38,88,30,power_utility,true,active
+stormwater-monitoring-intelligence,stormwater,flood_risk_and_drainage,24,60,17,stormwater_agency,true,review_required
+public-buildings-intelligence,public_buildings,schools_hospitals_civic_facilities,18,52,12,public_buildings,false,active
+communications-resilience-intelligence,communications,emergency_communications,16,40,14,communications_agency,true,active
+digital-public-infrastructure,digital_public_infrastructure,civic_service_platforms,12,28,10,digital_services,true,active

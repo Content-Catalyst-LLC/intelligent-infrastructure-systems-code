@@ -1,0 +1,3 @@
+public_evidence_policy:
+  version: "1.0.0"
+  rule: "Public claims about intelligent infrastructure must include public-service purpose, observability coverage, interoperability status, AI governance, cyber-resilience status, equity indicators, public-value KPIs, valid-use limits, and governance owner."

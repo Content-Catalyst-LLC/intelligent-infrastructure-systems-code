@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "infrastructure_service_zones",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "water-network-intelligence",
+        "sector": "water",
+        "observability": 0.78
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "transport-corridor-intelligence",
+        "sector": "transport",
+        "observability": 0.82
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1800, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "system_id": "stormwater-monitoring-intelligence",
+        "sector": "stormwater",
+        "observability": 0.70
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2600, 38.6600]}
+    }
+  ]
+}

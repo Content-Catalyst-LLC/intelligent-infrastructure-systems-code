@@ -1,0 +1,3 @@
+scenario_policy:
+  version: "1.0.0"
+  rule: "Resilience scenario outputs are conditional analyses, not predictions. Each scenario must document stressor type, affected sector, severity, time horizon, assumptions, recovery objective, and governance owner."

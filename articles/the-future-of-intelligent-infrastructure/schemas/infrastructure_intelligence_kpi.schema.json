@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureIntelligenceKPI",
+  "type": "object",
+  "required": [
+    "system_id",
+    "sector",
+    "observability",
+    "interoperability",
+    "ai_governance",
+    "resilience_readiness",
+    "cyber_resilience",
+    "equity_readiness",
+    "public_accountability",
+    "adaptive_capacity",
+    "high_criticality"
+  ],
+  "properties": {
+    "system_id": {"type": "string"},
+    "sector": {"type": "string"},
+    "observability": {"type": "number"},
+    "interoperability": {"type": "number"},
+    "ai_governance": {"type": "number"},
+    "resilience_readiness": {"type": "number"},
+    "cyber_resilience": {"type": "number"},
+    "equity_readiness": {"type": "number"},
+    "public_accountability": {"type": "number"},
+    "adaptive_capacity": {"type": "number"},
+    "high_criticality": {"type": "boolean"}
+  }
+}

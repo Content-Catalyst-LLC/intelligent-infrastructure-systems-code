@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResilienceScenarioManifest",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "system_id",
+    "scenario_type",
+    "severity",
+    "time_horizon_years",
+    "recovery_objective_hours",
+    "scenario_status",
+    "assumption_note"
+  ],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "system_id": {"type": "string"},
+    "scenario_type": {"type": "string"},
+    "severity": {"type": "string"},
+    "time_horizon_years": {"type": "number"},
+    "recovery_objective_hours": {"type": "number"},
+    "scenario_status": {"type": "string"},
+    "assumption_note": {"type": "string"}
+  }
+}

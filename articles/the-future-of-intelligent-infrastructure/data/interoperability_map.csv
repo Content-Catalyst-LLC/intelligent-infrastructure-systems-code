@@ -1,0 +1,8 @@
+interop_id,system_id,core_systems,systems_with_shared_identifiers,api_documented,schema_governed,interoperability_score,notes
+INT-001,water-network-intelligence,8,5,true,true,0.66,Asset IDs partly aligned across GIS SCADA and work orders
+INT-002,transport-corridor-intelligence,9,6,true,true,0.70,Traffic operations and maintenance systems partially integrated
+INT-003,energy-grid-intelligence,10,7,true,true,0.74,Utility telemetry and asset registry mostly aligned
+INT-004,stormwater-monitoring-intelligence,7,4,false,true,0.58,Hydrologic sensors and maintenance records need stronger linkage
+INT-005,public-buildings-intelligence,6,4,false,false,0.61,Building systems and capital planning identifiers inconsistent
+INT-006,communications-resilience-intelligence,8,6,true,true,0.75,Network status and incident records aligned
+INT-007,digital-public-infrastructure,7,6,true,true,0.82,Platform APIs documented with access governance

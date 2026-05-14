@@ -1,0 +1,8 @@
+system_id,sector,observability,interoperability,ai_governance,resilience_readiness,cyber_resilience,equity_readiness,public_accountability,adaptive_capacity,high_criticality
+water-network-intelligence,water,0.78,0.66,0.70,0.74,0.68,0.72,0.70,0.73,true
+transport-corridor-intelligence,transport,0.82,0.70,0.68,0.76,0.72,0.62,0.66,0.71,true
+energy-grid-intelligence,energy,0.80,0.74,0.72,0.78,0.69,0.68,0.70,0.75,true
+stormwater-monitoring-intelligence,stormwater,0.70,0.58,0.64,0.66,0.62,0.78,0.68,0.70,true
+public-buildings-intelligence,public_buildings,0.67,0.61,0.66,0.64,0.60,0.74,0.72,0.65,false
+communications-resilience-intelligence,communications,0.86,0.75,0.74,0.82,0.79,0.70,0.74,0.78,true
+digital-public-infrastructure,digital_public_infrastructure,0.84,0.82,0.76,0.80,0.82,0.76,0.78,0.80,true

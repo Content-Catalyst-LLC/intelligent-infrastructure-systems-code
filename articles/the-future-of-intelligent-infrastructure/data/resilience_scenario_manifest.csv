@@ -1,0 +1,8 @@
+scenario_id,system_id,scenario_type,severity,time_horizon_years,recovery_objective_hours,scenario_status,assumption_note
+SCN-001,water-network-intelligence,drought_and_pipe_failure,high,10,24,review_required,Drought plus pressure transient event
+SCN-002,transport-corridor-intelligence,heat_flood_and_signal_outage,high,5,12,current,Extreme heat and localized flood disruption
+SCN-003,energy-grid-intelligence,heat_peak_load_and_transformer_failure,high,5,8,current,Heat-driven peak demand and component stress
+SCN-004,stormwater-monitoring-intelligence,extreme_rainfall_and_sensor_gap,high,10,18,review_required,Localized flood under incomplete monitoring
+SCN-005,public-buildings-intelligence,heat_event_and_hvac_failure,medium,5,24,review_required,School and hospital HVAC stress scenario
+SCN-006,communications-resilience-intelligence,backup_power_and_node_failure,high,5,6,current,Emergency communications continuity scenario
+SCN-007,digital-public-infrastructure,platform_outage_and_service_demand_spike,high,3,4,current,Civic service platform outage during emergency demand
