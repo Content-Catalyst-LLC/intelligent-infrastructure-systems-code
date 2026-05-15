@@ -1,0 +1,6 @@
+nbs_id,service_zone_id,asset_name,nature_based_type,resilience_function,condition_score,maintenance_status,equity_access_status
+NBS-001,UZ-FLOOD-A,Riverfront Wetland Storage,wetland,flood_storage_and_habitat,0.72,review_required,partial
+NBS-002,UZ-HEAT-B,Central Tree Canopy Program,urban_forest,heat_mitigation_and_air_quality,0.66,review_required,partial
+NBS-003,UZ-FLOOD-A,Permeable Corridor Retrofit,permeable_surface,runoff_reduction,0.70,current,current
+NBS-004,UZ-DROUGHT-D,Water-Sensitive Open Space,green_infrastructure,drought_and_stormwater_management,0.64,review_required,partial
+NBS-005,UZ-COMPOUND-G,Blue-Green Resilience Corridor,blue_green_corridor,flood_heat_biodiversity_public_space,0.60,review_required,partial

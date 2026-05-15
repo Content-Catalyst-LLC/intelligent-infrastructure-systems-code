@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "service_zone_points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "service_zone_id": "UZ-FLOOD-A",
+        "zone_name": "Riverfront Lowland District",
+        "primary_risk": "urban_flooding"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "service_zone_id": "UZ-HEAT-B",
+        "zone_name": "Central Heat Island District",
+        "primary_risk": "extreme_heat"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "service_zone_id": "UZ-TRANSPORT-E",
+        "zone_name": "East Access Corridor",
+        "primary_risk": "transport_disruption"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1600, 38.6500]}
+    }
+  ]
+}

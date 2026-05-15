@@ -1,0 +1,9 @@
+edge_id,source_service_id,dependent_service_id,dependency_type,dependency_weight,failure_mode,mitigation_note
+DEP-001,SVC-WTR-001,SVC-ENG-001,power_dependency,0.90,pumping_loss,backup_power_and_microgrid_review
+DEP-002,SVC-WTR-001,SVC-COM-001,communications_dependency,0.45,telemetry_loss,redundant_radio_and_manual_operations
+DEP-003,SVC-DRN-001,SVC-ENG-001,power_dependency,0.72,pump_station_loss,backup_power_for_pump_stations
+DEP-004,SVC-TRN-001,SVC-DRN-001,drainage_dependency,0.68,road_flooding,priority_drainage_and_detour_routes
+DEP-005,SVC-HLT-001,SVC-ENG-001,power_dependency,0.82,cooling_center_outage,backup_power_for_cooling_centers
+DEP-006,SVC-HLT-001,SVC-TRN-001,access_dependency,0.55,reduced_access,accessible_transport_and_shelter_routing
+DEP-007,SVC-COM-001,SVC-ENG-001,power_dependency,0.76,network_outage,backup_power_and_satellite_failover
+DEP-008,SVC-HSG-001,SVC-HLT-001,health_support_dependency,0.48,limited_shelter_health_support,coordinate_shelter_and_public_health

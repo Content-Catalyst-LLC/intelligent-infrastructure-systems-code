@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CriticalServiceInventoryRecord",
+  "type": "object",
+  "required": [
+    "service_id",
+    "service_zone_id",
+    "service_name",
+    "service_domain",
+    "responsible_owner",
+    "normal_capacity",
+    "criticality",
+    "target_recovery_hours",
+    "service_failure_probability"
+  ],
+  "properties": {
+    "service_id": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "service_name": {"type": "string"},
+    "service_domain": {"type": "string"},
+    "responsible_owner": {"type": "string"},
+    "normal_capacity": {"type": "number", "minimum": 0},
+    "criticality": {"type": "string"},
+    "target_recovery_hours": {"type": "number", "minimum": 0},
+    "service_failure_probability": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

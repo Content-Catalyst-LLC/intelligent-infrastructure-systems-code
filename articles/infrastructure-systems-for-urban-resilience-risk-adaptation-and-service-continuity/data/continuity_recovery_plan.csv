@@ -1,0 +1,9 @@
+service_id,disruption_capacity,expected_recovery_hours,redundancy_score,maintainability_score,adaptability_score,governance_response_score,continuity_plan_status
+SVC-WTR-001,74,16,0.70,0.76,0.68,0.72,review_required
+SVC-DRN-001,58,14,0.62,0.68,0.64,0.66,review_required
+SVC-ENG-001,66,12,0.64,0.70,0.66,0.68,review_required
+SVC-COM-001,72,6,0.68,0.72,0.70,0.74,current
+SVC-TRN-001,60,16,0.58,0.64,0.62,0.60,review_required
+SVC-HLT-001,76,5,0.72,0.70,0.74,0.76,current
+SVC-HSG-001,52,48,0.50,0.58,0.56,0.54,review_required
+SVC-NBS-001,80,72,0.74,0.66,0.78,0.62,review_required

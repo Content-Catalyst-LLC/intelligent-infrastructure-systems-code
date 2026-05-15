@@ -1,0 +1,43 @@
+article:
+  title: "Infrastructure Systems for Urban Resilience: Risk, Adaptation, and Service Continuity"
+  slug: "infrastructure-systems-for-urban-resilience-risk-adaptation-and-service-continuity"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-systems-for-urban-resilience/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-systems-for-urban-resilience-risk-adaptation-and-service-continuity"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not an official emergency-management, public-safety, or infrastructure-certification system."
+
+engineering_stack:
+  analytics:
+    - Python
+    - R
+    - SQL
+    - Julia
+  systems:
+    - C
+    - Embedded C
+    - Rust
+    - Go
+    - Fortran
+  edge_and_hardware:
+    - MicroPython
+    - PYNQ
+    - Verilog HDL
+    - VHDL placeholder
+  interface:
+    - TypeScript
+
+core_workflows:
+  - hazard_and_stress_register
+  - critical_service_inventory
+  - infrastructure_dependency_graph
+  - service_continuity_scoring
+  - cascading_dependency_stress
+  - recovery_lag_detection
+  - vulnerability_and_equity_review
+  - nature_based_resilience_register
+  - governance_watchlist_generation
+  - edge_service_status_validation
+  - fpga_service_threshold_flags

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureDependencyEdgeRecord",
+  "type": "object",
+  "required": [
+    "edge_id",
+    "source_service_id",
+    "dependent_service_id",
+    "dependency_type",
+    "dependency_weight",
+    "failure_mode",
+    "mitigation_note"
+  ],
+  "properties": {
+    "edge_id": {"type": "string"},
+    "source_service_id": {"type": "string"},
+    "dependent_service_id": {"type": "string"},
+    "dependency_type": {"type": "string"},
+    "dependency_weight": {"type": "number", "minimum": 0, "maximum": 1},
+    "failure_mode": {"type": "string"},
+    "mitigation_note": {"type": "string"}
+  }
+}

@@ -1,0 +1,9 @@
+resilience_scoring_policy:
+  version: "1.0.0"
+  rule: "Urban resilience review must combine service continuity, dependency stress, recovery lag, urban risk, equity gaps, redundancy, and governance capacity."
+  thresholds:
+    minimum_service_continuity_score: 0.75
+    maximum_recovery_lag_hours: 0
+    high_dependency_stress: 0.30
+    high_urban_risk_score: 0.25
+    high_equity_gap_score: 0.35

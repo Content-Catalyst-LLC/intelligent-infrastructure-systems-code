@@ -1,0 +1,10 @@
+dependency_policy:
+  version: "1.0.0"
+  rule: "Critical-service resilience claims should include a documented dependency review across power, water, drainage, transport, communications, health, housing, emergency response, and public facilities."
+  required_elements:
+    - source_service_id
+    - dependent_service_id
+    - dependency_type
+    - dependency_weight
+    - failure_mode
+    - mitigation_note

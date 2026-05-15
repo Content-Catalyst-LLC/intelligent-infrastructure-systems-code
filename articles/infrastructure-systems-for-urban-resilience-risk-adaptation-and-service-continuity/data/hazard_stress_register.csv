@@ -1,0 +1,8 @@
+hazard_id,service_zone_id,hazard_type,hazard_class,hazard_intensity,exposure_score,likely_service_impacts,scenario_note
+HZ-URB-001,UZ-FLOOD-A,urban_flooding,shock,0.82,0.78,drainage_transport_housing_power,"100-year rainfall with undersized drainage and road closures"
+HZ-URB-002,UZ-HEAT-B,extreme_heat,shock_and_stress,0.78,0.74,energy_health_housing_transit,"Five-day heat wave with elevated cooling load"
+HZ-URB-003,UZ-POWER-C,power_outage,shock,0.70,0.72,water_pumping_communications_cooling_health,"Regional outage during summer peak demand"
+HZ-URB-004,UZ-DROUGHT-D,drought,stress,0.66,0.64,water_ecosystems_affordability_fire_risk,"Seasonal drought with source-water stress"
+HZ-URB-005,UZ-TRANSPORT-E,transport_disruption,shock,0.62,0.68,mobility_emergency_access_supply_chains,"Major corridor disruption after flooding"
+HZ-URB-006,UZ-HOUSING-F,housing_insecurity,stress,0.72,0.70,shelter_heat_recovery_health,"High exposure in poor-quality housing stock"
+HZ-URB-007,UZ-COMPOUND-G,compound_event,shock_and_stress,0.86,0.82,power_water_transport_health_communications,"Flood and heat event with communications disruption"

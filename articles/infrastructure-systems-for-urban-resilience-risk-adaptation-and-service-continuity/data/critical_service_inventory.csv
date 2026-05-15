@@ -1,0 +1,9 @@
+service_id,service_zone_id,service_name,service_domain,responsible_owner,normal_capacity,criticality,target_recovery_hours,service_failure_probability
+SVC-WTR-001,UZ-FLOOD-A,Water Pumping and Treatment,water,water_agency,100,high,12,0.28
+SVC-DRN-001,UZ-FLOOD-A,Stormwater Drainage,drainage,public_works,100,high,6,0.36
+SVC-ENG-001,UZ-HEAT-B,Neighborhood Power Supply,energy,electric_utility,100,high,8,0.32
+SVC-COM-001,UZ-POWER-C,Emergency Communications,communications,emergency_management,100,high,4,0.26
+SVC-TRN-001,UZ-TRANSPORT-E,Transit and Emergency Access,transport,transport_authority,100,high,10,0.34
+SVC-HLT-001,UZ-HEAT-B,Cooling and Public Health Support,health_support,public_health,100,high,4,0.30
+SVC-HSG-001,UZ-HOUSING-F,Resilient Shelter and Housing Support,housing,housing_department,100,high,24,0.38
+SVC-NBS-001,UZ-FLOOD-A,Blue-Green Flood Storage,nature_based,parks_and_water_agency,100,medium,48,0.22

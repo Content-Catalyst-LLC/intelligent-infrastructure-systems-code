@@ -1,0 +1,30 @@
+urban_resilience_objective:
+  version: "1.0.0"
+  title: "Infrastructure Systems for Urban Resilience"
+  purpose: "Demonstrate urban resilience as service-continuity infrastructure across hazards, chronic stresses, critical services, dependency graphs, recovery, vulnerability, nature-based systems, governance, and adaptation."
+  hazard_scope:
+    - flooding
+    - extreme_heat
+    - drought
+    - storm
+    - power_outage
+    - cyber_incident
+    - wildfire_smoke
+    - chronic_infrastructure_deterioration
+    - housing_insecurity
+  critical_services:
+    - water
+    - wastewater
+    - drainage
+    - energy
+    - communications
+    - transport
+    - emergency_response
+    - health_support
+    - shelter
+    - public_facilities
+  not_for:
+    - official_emergency_response
+    - certified_engineering_design
+    - public_safety_authority
+    - capital_budget_approval

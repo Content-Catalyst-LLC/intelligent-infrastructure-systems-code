@@ -1,0 +1,7 @@
+governance_id,date,service_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,SVC-DRN-001,Prioritize pump-station backup power and drainage bottleneck review,public_works,open,true
+GOV-002,2026-05-02,SVC-ENG-001,Review heat-wave peak load and critical facility microgrid options,electric_utility,open,true
+GOV-003,2026-05-03,SVC-TRN-001,Update flood detour and emergency access routing,transport_authority,open,true
+GOV-004,2026-05-04,SVC-HSG-001,Coordinate resilient shelter and aging housing retrofit strategy,housing_department,open,true
+GOV-005,2026-05-05,SVC-HLT-001,Test cooling center backup power and accessible transit coordination,public_health,open,true
+GOV-006,2026-05-06,SVC-NBS-001,Update wetland maintenance and public access plan,parks_and_water_agency,open,true
