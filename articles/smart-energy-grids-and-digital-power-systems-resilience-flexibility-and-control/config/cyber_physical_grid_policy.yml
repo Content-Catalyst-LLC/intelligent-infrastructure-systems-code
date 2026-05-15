@@ -1,0 +1,17 @@
+cyber_physical_grid_policy:
+  version: "1.0.0"
+  rule: "Smart grid systems must protect SCADA, AMI, DERMS, OMS, telemetry, remote access, field devices, credentials, firmware, data platforms, public communication systems, and fallback procedures."
+  required_elements:
+    - scada_asset_inventory
+    - ami_inventory
+    - derms_inventory
+    - field_device_inventory
+    - firmware_inventory
+    - authentication
+    - network_segmentation
+    - access_control
+    - telemetry_integrity_checks
+    - logging
+    - incident_response
+    - manual_fallback
+    - public_communication_continuity

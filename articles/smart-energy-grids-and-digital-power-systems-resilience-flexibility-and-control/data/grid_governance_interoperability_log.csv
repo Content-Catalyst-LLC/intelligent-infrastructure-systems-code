@@ -1,0 +1,7 @@
+governance_id,date,asset_id,service_zone_id,decision,owner,status,public_note_required
+GOV-SG-001,2026-05-01,SG-FDR-001,SZ-SOUTH-C,Review south feeder voltage adequacy DER visibility and flexibility coordination,distribution_utility,open,true
+GOV-SG-002,2026-05-02,SG-TRF-001,SZ-EAST-D,Review transformer loading telemetry quality and local capacity risk,distribution_utility,open,true
+GOV-SG-003,2026-05-03,SG-EV-001,SZ-CBD-B,Review EV charging flexibility program customer protections and feeder monitoring,transport_energy_operator,open,true
+GOV-SG-004,2026-05-04,SG-CTL-001,SZ-CBD-B,Review distribution control platform segmentation remote access and degraded-mode procedures,distribution_utility,open,true
+GOV-SG-005,2026-05-05,SG-DER-001,SZ-SOUTH-C,Review DER coordination register dispatch permissions and inverter governance,aggregator,open,true
+GOV-SG-006,2026-05-06,SG-MIC-001,SZ-RIVER-E,Review critical services microgrid islanding reconnection and restoration support,public_works,open,true

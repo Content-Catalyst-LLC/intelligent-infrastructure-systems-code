@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "grid_assets",
+  "features": [
+    {"type": "Feature", "properties": {"asset_id": "SG-SUB-001", "asset_class": "substation"}, "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}},
+    {"type": "Feature", "properties": {"asset_id": "SG-FDR-001", "asset_class": "distribution_feeder"}, "geometry": {"type": "Point", "coordinates": [-90.2600, 38.5600]}},
+    {"type": "Feature", "properties": {"asset_id": "SG-MIC-001", "asset_class": "microgrid"}, "geometry": {"type": "Point", "coordinates": [-90.2320, 38.6120]}}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GridAssetInventoryRecord",
+  "type": "object",
+  "required": ["asset_id", "asset_name", "asset_class", "domain", "service_zone_id", "grid_node_id", "owner_operator", "criticality", "commission_year", "nominal_capacity_mw"],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "domain": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "grid_node_id": {"type": "string"},
+    "owner_operator": {"type": "string"},
+    "criticality": {"type": "string"},
+    "commission_year": {"type": "integer"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "nominal_capacity_mw": {"type": "number"}
+  }
+}

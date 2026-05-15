@@ -1,0 +1,11 @@
+asset_id,asset_name,asset_class,domain,service_zone_id,grid_node_id,owner_operator,criticality,commission_year,latitude,longitude,nominal_capacity_mw
+SG-GEN-001,North Wind Interconnection,generation,generation,SZ-NORTH-A,GN-NORTH-A,renewable_operator,high,2021,38.8400,-90.5100,150
+SG-SUB-001,Central Digital Substation,substation,substation,SZ-CBD-B,GN-CBD-B,distribution_utility,high,2008,38.6400,-90.1900,120
+SG-FDR-001,South Smart Feeder,distribution_feeder,distribution,SZ-SOUTH-C,GN-SOUTH-C,distribution_utility,high,1999,38.5600,-90.2600,45
+SG-TRF-001,East Service Transformer,transformer,distribution,SZ-EAST-D,GN-EAST-D,distribution_utility,high,1994,38.6200,-90.2200,25
+SG-BAT-001,Riverfront Grid Battery,storage,storage,SZ-RIVER-E,GN-RIVER-E,storage_operator,medium,2023,38.6100,-90.2300,40
+SG-MTR-001,Smart Meter District Cluster,smart_meter,metering,SZ-CBD-B,GN-CBD-B,distribution_utility,medium,2022,38.6460,-90.1980,0
+SG-EV-001,Urban EV Charging Hub,ev_charging,grid_edge,SZ-CBD-B,GN-CBD-B,transport_energy_operator,medium,2024,38.6450,-90.2000,12
+SG-DER-001,Community DER Portfolio,distributed_energy_resource,grid_edge,SZ-SOUTH-C,GN-SOUTH-C,aggregator,medium,2023,38.5650,-90.2550,20
+SG-MIC-001,Critical Services Microgrid,microgrid,resilience,SZ-RIVER-E,GN-RIVER-E,public_works,high,2024,38.6120,-90.2320,15
+SG-CTL-001,Distribution Control Platform,control_system,control,SZ-CBD-B,GN-CBD-B,distribution_utility,high,2020,38.6410,-90.1950,0

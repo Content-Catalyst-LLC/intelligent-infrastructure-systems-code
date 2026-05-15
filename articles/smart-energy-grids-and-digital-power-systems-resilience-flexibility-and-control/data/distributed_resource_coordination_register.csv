@@ -1,0 +1,6 @@
+service_zone_id,zone_name,available_flexibility_mw,flexibility_need_mw,storage_flexibility_mw,demand_response_mw,der_flexibility_mw,interconnection_support_mw,dispatch_coordination_score,customer_protection_score,primary_flexibility_issue
+SZ-NORTH-A,North Renewable Zone,34,52,10,6,8,10,0.58,0.62,transmission_and_flexibility_shortfall
+SZ-CBD-B,Central Business Grid Edge Zone,28,46,6,8,4,10,0.56,0.60,ev_and_metering_coordination_gap
+SZ-SOUTH-C,South DER Zone,24,38,5,6,9,4,0.54,0.58,der_visibility_and_voltage_risk
+SZ-EAST-D,East Transformer Zone,16,30,3,4,5,4,0.50,0.56,local_capacity_and_transformer_stress
+SZ-RIVER-E,Riverfront Resilience Zone,36,34,18,6,4,8,0.74,0.70,current

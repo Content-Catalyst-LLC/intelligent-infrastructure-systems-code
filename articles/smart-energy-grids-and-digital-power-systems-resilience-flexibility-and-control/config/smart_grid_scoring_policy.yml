@@ -1,0 +1,11 @@
+smart_grid_scoring_policy:
+  version: "1.0.0"
+  rule: "Smart grid infrastructure must be assessed through observability, voltage adequacy, flexibility, balancing pressure, service continuity, resilience, cyber-physical risk, and governance actionability, not digital device deployment alone."
+  thresholds:
+    minimum_grid_observability_score: 0.70
+    minimum_voltage_adequacy_score: 0.70
+    minimum_flexibility_adequacy_score: 0.75
+    high_balancing_pressure_score: 0.20
+    minimum_service_continuity_score: 0.90
+    minimum_grid_resilience_score: 0.70
+    high_cyber_physical_risk_score: 0.35

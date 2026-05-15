@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GridTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "asset_id", "timestamp", "voltage_pu", "frequency_hz", "current_a", "power_flow_mw", "loading_percent", "load_mw", "available_supply_mw", "allowed_voltage_deviation_pu", "served_hours", "required_service_hours", "telemetry_reliability_score", "data_quality_score", "coverage_score", "metadata_completeness_score", "latency_seconds", "quality_flag"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "voltage_pu": {"type": "number"},
+    "frequency_hz": {"type": "number"},
+    "current_a": {"type": "number"},
+    "power_flow_mw": {"type": "number"},
+    "loading_percent": {"type": "number"},
+    "load_mw": {"type": "number"},
+    "available_supply_mw": {"type": "number"},
+    "allowed_voltage_deviation_pu": {"type": "number"},
+    "served_hours": {"type": "number"},
+    "required_service_hours": {"type": "number"},
+    "telemetry_reliability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "data_quality_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "coverage_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "metadata_completeness_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "latency_seconds": {"type": "number", "minimum": 0},
+    "quality_flag": {"type": "string"}
+  }
+}

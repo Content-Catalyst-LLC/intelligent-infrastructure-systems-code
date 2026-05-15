@@ -1,0 +1,36 @@
+smart_grid_objective:
+  version: "1.0.0"
+  title: "Smart Energy Grids and Digital Power Systems"
+  purpose: "Demonstrate smart grid infrastructure as public, safety-critical cyber-physical infrastructure involving sensing, telemetry, distributed coordination, flexibility, voltage adequacy, reliability, resilience, cybersecurity, interoperability, governance, and public accountability."
+  domains:
+    - generation
+    - transmission
+    - substation
+    - distribution_feeder
+    - transformer
+    - protection_system
+    - storage
+    - smart_meter
+    - distributed_energy_resource
+    - ev_charging
+    - flexible_load
+    - microgrid
+    - control_system
+  decision_uses:
+    - grid_observability_review
+    - voltage_adequacy_review
+    - distributed_resource_coordination
+    - flexibility_adequacy_review
+    - outage_management_review
+    - service_continuity_review
+    - resilience_planning
+    - cyber_physical_risk_review
+    - regulatory_reporting
+    - capital_planning
+  not_for:
+    - certified_grid_operations
+    - protection_engineering_automation
+    - market_settlement
+    - reliability_compliance_replacement
+    - public_safety_automation
+    - cybersecurity_audit_replacement

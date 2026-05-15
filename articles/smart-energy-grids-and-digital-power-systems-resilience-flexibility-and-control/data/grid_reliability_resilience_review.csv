@@ -1,0 +1,6 @@
+service_zone_id,zone_name,outage_events_12mo,mean_restoration_minutes,backup_capability_score,response_capacity_score,exposure_risk_score,resilience_review_status
+SZ-NORTH-A,North Renewable Zone,2,180,0.58,0.62,0.44,review_required
+SZ-CBD-B,Central Business Grid Edge Zone,3,160,0.56,0.60,0.42,review_required
+SZ-SOUTH-C,South DER Zone,4,240,0.52,0.58,0.50,review_required
+SZ-EAST-D,East Transformer Zone,5,300,0.46,0.54,0.56,review_required
+SZ-RIVER-E,Riverfront Resilience Zone,1,70,0.78,0.76,0.34,current

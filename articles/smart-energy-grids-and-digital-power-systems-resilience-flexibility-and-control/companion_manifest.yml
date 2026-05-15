@@ -1,0 +1,31 @@
+article:
+  title: "Smart Energy Grids and Digital Power Systems: Resilience, Flexibility and Control"
+  slug: "smart-energy-grids-and-digital-power-systems-resilience-flexibility-and-control"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/smart-energy-grids-and-digital-power-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/smart-energy-grids-and-digital-power-systems-resilience-flexibility-and-control"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for grid operations, protection engineering, reliability compliance, market settlement, public safety, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - grid_asset_inventory
+  - telemetry_quality_review
+  - grid_observability_scoring
+  - voltage_adequacy_scoring
+  - flexibility_adequacy_scoring
+  - balancing_pressure_review
+  - distributed_resource_coordination
+  - service_continuity_scoring
+  - grid_resilience_scoring
+  - cyber_physical_grid_risk_review
+  - governance_and_interoperability_watchlist
+  - edge_grid_quality_validation
+  - fpga_grid_threshold_flags

@@ -1,0 +1,6 @@
+service_zone_id,scada_visibility_score,device_inventory_score,remote_access_risk_score,segmentation_gap_score,firmware_governance_score,incident_readiness_score,cyber_physical_risk_score,cyber_review_status
+SZ-NORTH-A,0.74,0.70,0.34,0.30,0.62,0.66,0.34,review_required
+SZ-CBD-B,0.70,0.66,0.42,0.38,0.58,0.60,0.42,review_required
+SZ-SOUTH-C,0.66,0.62,0.40,0.42,0.54,0.58,0.44,review_required
+SZ-EAST-D,0.60,0.58,0.46,0.48,0.50,0.54,0.50,review_required
+SZ-RIVER-E,0.78,0.76,0.24,0.22,0.72,0.74,0.24,current
