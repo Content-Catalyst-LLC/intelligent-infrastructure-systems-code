@@ -1,0 +1,8 @@
+forecast_id,hazard_id,forecast_name,forecast_type,model_owner,forecast_lead_time_minutes,decision_delay_minutes,uncertainty_level,threshold_status,impact_interpretation_status
+FC-001,HZ-001,River Stage Forecast,hydrological_forecast,water_agency,300,30,medium,current,current
+FC-002,HZ-002,Flash Flood Guidance,flash_flood_forecast,meteorological_agency,60,15,high,review_required,partial
+FC-003,HZ-003,Urban Flood Impact Forecast,impact_forecast,public_works,90,20,high,review_required,partial
+FC-004,HZ-004,Coastal Surge Forecast,coastal_forecast,coastal_authority,360,45,medium,current,current
+FC-005,HZ-005,Heat Health Warning,impact_forecast,public_health,1440,60,medium,current,current
+FC-006,HZ-006,Smoke Exposure Forecast,air_quality_forecast,environmental_agency,720,45,medium,current,current
+FC-007,HZ-007,Compound Hazard Situation Estimate,multi_hazard_forecast,emergency_management,180,40,high,review_required,partial

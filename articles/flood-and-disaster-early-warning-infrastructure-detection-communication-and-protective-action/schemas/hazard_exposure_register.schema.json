@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HazardExposureRegisterRecord",
+  "type": "object",
+  "required": [
+    "hazard_id",
+    "warning_zone_id",
+    "community_name",
+    "hazard_type",
+    "criticality",
+    "hazard_severity",
+    "exposure_score",
+    "vulnerability_score",
+    "lead_time_need_minutes",
+    "primary_protective_action"
+  ],
+  "properties": {
+    "hazard_id": {"type": "string"},
+    "warning_zone_id": {"type": "string"},
+    "community_name": {"type": "string"},
+    "hazard_type": {"type": "string"},
+    "criticality": {"type": "string"},
+    "hazard_severity": {"type": "number", "minimum": 0, "maximum": 1},
+    "exposure_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "vulnerability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "lead_time_need_minutes": {"type": "number", "minimum": 0},
+    "primary_protective_action": {"type": "string"}
+  }
+}

@@ -1,0 +1,8 @@
+observation_id,hazard_id,asset_name,observation_type,owner,telemetry_status,calibration_status,uptime_score,maintenance_status,detection_reliability
+OBS-001,HZ-001,East River Gauge,river_gauge,water_agency,current,current,0.92,current,0.88
+OBS-002,HZ-002,North Creek Rainfall Array,rain_gauge_network,meteorological_agency,current,review_required,0.84,review_required,0.78
+OBS-003,HZ-003,Urban Drainage Sensor Cluster,stormwater_sensor,public_works,partial,review_required,0.76,review_required,0.72
+OBS-004,HZ-004,Harbor Tide and Surge Gauge,coastal_gauge,coastal_authority,current,current,0.90,current,0.86
+OBS-005,HZ-005,Heat Index Station Network,weather_station,public_health,current,current,0.88,current,0.84
+OBS-006,HZ-006,Smoke and Air Quality Monitor,air_quality_sensor,environmental_agency,current,current,0.86,current,0.82
+OBS-007,HZ-007,Compound Hazard Operations Feed,multi_sensor_feed,emergency_management,partial,review_required,0.74,review_required,0.70

@@ -1,0 +1,8 @@
+hazard_id,warning_zone_id,community_name,hazard_type,criticality,hazard_severity,exposure_score,vulnerability_score,lead_time_need_minutes,primary_protective_action
+HZ-001,WZ-FLOOD-A,East River Floodplain,riverine_flood,high,0.74,0.72,0.66,180,evacuation_and_road_closure
+HZ-002,WZ-FLASH-B,North Creek Basin,flash_flood,high,0.82,0.78,0.70,30,rapid_shelter_in_place_and_high_ground
+HZ-003,WZ-URBAN-C,Central Underpass District,urban_flooding,high,0.76,0.74,0.62,45,road_closure_and_transit_reroute
+HZ-004,WZ-COAST-D,Harbor Lowlands,coastal_flood,high,0.80,0.76,0.64,240,evacuation_and_shelter_activation
+HZ-005,WZ-HEAT-E,Central Heat Island,heat_wave,high,0.72,0.68,0.70,720,cooling_center_activation
+HZ-006,WZ-SMOKE-F,Western Interface District,wildfire_smoke,medium,0.66,0.58,0.60,360,clean_air_shelter_and_health_alert
+HZ-007,WZ-COMPOUND-G,South Interchange District,compound_hazard,high,0.84,0.80,0.72,90,multi_agency_response_and_route_management

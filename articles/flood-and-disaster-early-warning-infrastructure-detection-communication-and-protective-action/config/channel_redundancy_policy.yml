@@ -1,0 +1,3 @@
+channel_redundancy_policy:
+  version: "1.0.0"
+  rule: "Each high-criticality warning zone should have at least one primary public alert channel, one secondary broadcast or telecom channel, and one community-facing local channel."

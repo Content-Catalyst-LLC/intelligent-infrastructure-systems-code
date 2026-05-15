@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "warning_zone_points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_zone_id": "WZ-FLOOD-A",
+        "hazard_type": "riverine_flood",
+        "community_name": "East River Floodplain"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_zone_id": "WZ-FLASH-B",
+        "hazard_type": "flash_flood",
+        "community_name": "North Creek Basin"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "warning_zone_id": "WZ-COAST-D",
+        "hazard_type": "coastal_flood",
+        "community_name": "Harbor Lowlands"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6500]}
+    }
+  ]
+}

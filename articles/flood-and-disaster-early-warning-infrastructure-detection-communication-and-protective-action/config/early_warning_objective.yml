@@ -1,0 +1,18 @@
+early_warning_objective:
+  version: "1.0.0"
+  title: "Flood and Disaster Early Warning Infrastructure"
+  purpose: "Demonstrate early warning as public-safety infrastructure across risk knowledge, observation, forecasting, dissemination, accessibility, preparedness, protective action, governance, and after-action learning."
+  hazards:
+    - riverine_flood
+    - flash_flood
+    - urban_flooding
+    - coastal_flood
+    - heat_wave
+    - wildfire_smoke
+    - landslide
+    - compound_hazard
+  not_for:
+    - live_warning_operations
+    - certification
+    - emergency_authority_substitution
+    - automated_evacuation_orders

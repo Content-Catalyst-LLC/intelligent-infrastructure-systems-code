@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WarningChannelRegisterRecord",
+  "type": "object",
+  "required": [
+    "channel_id",
+    "warning_zone_id",
+    "primary_channel",
+    "secondary_channel",
+    "community_channel",
+    "population_reach",
+    "message_comprehension",
+    "trust_score",
+    "communication_delay_minutes",
+    "channel_test_status"
+  ],
+  "properties": {
+    "channel_id": {"type": "string"},
+    "warning_zone_id": {"type": "string"},
+    "primary_channel": {"type": "string"},
+    "secondary_channel": {"type": "string"},
+    "community_channel": {"type": "string"},
+    "population_reach": {"type": "number", "minimum": 0, "maximum": 1},
+    "message_comprehension": {"type": "number", "minimum": 0, "maximum": 1},
+    "trust_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "communication_delay_minutes": {"type": "number", "minimum": 0},
+    "channel_test_status": {"type": "string"}
+  }
+}

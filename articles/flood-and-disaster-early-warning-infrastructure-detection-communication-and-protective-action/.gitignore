@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite
+outputs/warning_chain_math
+outputs/edge_threshold_detector
+outputs/warning_risk_model
+*.vcd

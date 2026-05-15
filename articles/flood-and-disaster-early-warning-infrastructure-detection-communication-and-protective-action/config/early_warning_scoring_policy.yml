@@ -1,0 +1,8 @@
+early_warning_scoring_policy:
+  version: "1.0.0"
+  rule: "Early warning readiness must combine risk knowledge, observation reliability, forecast usefulness, dissemination reach, message comprehension, trust, action capacity, accessibility, preparedness, and governance readiness."
+  warning_thresholds:
+    low_useful_lead_time_ratio: 0.50
+    high_residual_warning_risk: 0.25
+    high_accessibility_gap: 0.35
+    low_protective_probability: 0.35

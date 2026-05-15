@@ -1,0 +1,8 @@
+channel_id,warning_zone_id,primary_channel,secondary_channel,community_channel,population_reach,message_comprehension,trust_score,communication_delay_minutes,channel_test_status
+CH-001,WZ-FLOOD-A,cell_broadcast,radio,local_emergency_volunteers,0.84,0.78,0.72,10,current
+CH-002,WZ-FLASH-B,cell_broadcast,sirens,neighborhood_captains,0.76,0.70,0.68,8,review_required
+CH-003,WZ-URBAN-C,sms_and_app,radio,transit_staff_and_local_groups,0.72,0.68,0.64,12,review_required
+CH-004,WZ-COAST-D,cell_broadcast,television,coastal_community_network,0.82,0.76,0.70,15,current
+CH-005,WZ-HEAT-E,sms_and_app,radio,public_health_outreach,0.78,0.74,0.69,20,current
+CH-006,WZ-SMOKE-F,radio,sms_and_app,health_clinics_and_schools,0.74,0.72,0.68,18,current
+CH-007,WZ-COMPOUND-G,cell_broadcast,sirens,faith_and_community_partners,0.70,0.66,0.62,15,review_required

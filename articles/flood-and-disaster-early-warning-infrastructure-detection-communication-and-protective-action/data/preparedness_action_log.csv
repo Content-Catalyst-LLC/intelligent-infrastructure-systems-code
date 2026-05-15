@@ -1,0 +1,8 @@
+preparedness_id,warning_zone_id,protective_action_plan,shelter_status,evacuation_route_status,drill_status,mobilization_time_minutes,action_capacity,preparedness_owner
+PR-001,WZ-FLOOD-A,evacuation_and_road_closure,current,current,current,60,0.76,emergency_management
+PR-002,WZ-FLASH-B,rapid_high_ground_protocol,partial,review_required,review_required,20,0.62,local_emergency_services
+PR-003,WZ-URBAN-C,underpass_closure_and_transit_reroute,current,partial,review_required,25,0.60,public_works
+PR-004,WZ-COAST-D,coastal_evacuation_and_shelter_activation,current,current,current,90,0.74,coastal_authority
+PR-005,WZ-HEAT-E,cooling_center_activation,current,current,current,120,0.78,public_health
+PR-006,WZ-SMOKE-F,clean_air_shelter_and_health_alert,partial,current,current,90,0.70,public_health
+PR-007,WZ-COMPOUND-G,multi_agency_route_and_shelter_plan,partial,review_required,review_required,60,0.56,emergency_management

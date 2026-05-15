@@ -1,0 +1,7 @@
+governance_id,date,warning_zone_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,WZ-FLOOD-A,Update evacuation messaging and accessibility review,emergency_management,open,true
+GOV-002,2026-05-02,WZ-FLASH-B,Strengthen flash flood siren testing and community captain protocol,local_emergency_services,open,true
+GOV-003,2026-05-03,WZ-URBAN-C,Create underpass closure threshold and transit reroute drill,public_works,open,true
+GOV-004,2026-05-04,WZ-COAST-D,Maintain coastal evacuation drill and shelter readiness,coastal_authority,closed,false
+GOV-005,2026-05-05,WZ-HEAT-E,Expand heat warning outreach through clinics and libraries,public_health,open,true
+GOV-006,2026-05-06,WZ-COMPOUND-G,Conduct multi-agency compound hazard exercise,emergency_management,open,true

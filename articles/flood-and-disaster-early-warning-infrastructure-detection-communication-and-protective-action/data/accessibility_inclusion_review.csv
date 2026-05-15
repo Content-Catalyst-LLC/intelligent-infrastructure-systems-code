@@ -1,0 +1,8 @@
+review_id,warning_zone_id,language_access,disability_access,device_access_gap,mobility_support,community_trust_status,accessibility_readiness,review_status
+INC-001,WZ-FLOOD-A,current,partial,medium,current,current,0.70,review_required
+INC-002,WZ-FLASH-B,partial,partial,high,partial,review_required,0.56,review_required
+INC-003,WZ-URBAN-C,partial,partial,high,partial,review_required,0.54,review_required
+INC-004,WZ-COAST-D,current,current,medium,current,current,0.74,current
+INC-005,WZ-HEAT-E,current,partial,medium,current,current,0.72,current
+INC-006,WZ-SMOKE-F,current,partial,medium,partial,current,0.68,review_required
+INC-007,WZ-COMPOUND-G,partial,partial,high,partial,review_required,0.50,review_required
