@@ -1,0 +1,11 @@
+infrastructure_id,asset_name,domain,service_zone_id,responsible_agency,asset_type,criticality,latitude,longitude,domain_failure_probability
+SCI-TRN-001,Central Mobility Corridor,transport,SCZ-CBD-A,transport_department,corridor,high,38.6400,-90.1900,0.18
+SCI-ENE-001,Downtown Grid Substation,energy,SCZ-CBD-A,energy_utility,substation,high,38.6410,-90.1950,0.14
+SCI-WTR-001,East Water Pumping Station,water,SCZ-EAST-B,water_agency,pump_station,high,38.6200,-90.2200,0.12
+SCI-STM-001,Riverfront Stormwater Basin,stormwater,SCZ-RIVER-C,public_works,drainage_basin,high,38.6100,-90.2300,0.24
+SCI-BLD-001,Civic Center Public Building,buildings,SCZ-CBD-A,facilities_department,civic_building,high,38.6350,-90.2050,0.15
+SCI-WST-001,North Waste Transfer Facility,waste,SCZ-NORTH-D,sanitation_department,transfer_facility,medium,38.6700,-90.2500,0.10
+SCI-AIR-001,Central Environmental Monitoring Zone,environmental_monitoring,SCZ-CBD-A,environmental_agency,monitoring_zone,medium,38.6500,-90.2000,0.16
+SCI-DPI-001,Digital Service Portal,digital_public_infrastructure,SCZ-CITYWIDE,digital_services,service_platform,high,38.6400,-90.2000,0.20
+SCI-EMG-001,Emergency Operations Coordination Node,emergency_management,SCZ-CITYWIDE,emergency_management,operations_node,high,38.6450,-90.1980,0.13
+SCI-PUB-001,North Park Public Space Network,public_space,SCZ-NORTH-D,parks_department,public_space_network,medium,38.6720,-90.2520,0.08

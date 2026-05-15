@@ -1,0 +1,11 @@
+domain,indicator_name,accessibility_score,resilience_score,inclusion_score,trust_score,unequal_burden_score,interpretation
+transport,mobility_service_continuity,0.72,0.66,0.64,0.62,0.36,Mobility continuity and accessibility review
+energy,grid_service_continuity,0.78,0.82,0.70,0.68,0.28,Energy continuity and resilience review
+water,water_service_continuity,0.80,0.78,0.72,0.70,0.24,Water service continuity review
+stormwater,stormwater_service_continuity,0.66,0.58,0.62,0.60,0.44,Stormwater flood resilience and exposure review
+buildings,building_service_continuity,0.74,0.64,0.68,0.62,0.32,Civic building continuity and shelter review
+waste,waste_service_continuity,0.70,0.62,0.66,0.60,0.30,Waste service and public health review
+environmental_monitoring,exposure_monitoring_continuity,0.68,0.60,0.62,0.58,0.42,Environmental exposure monitoring review
+digital_public_infrastructure,digital_service_continuity,0.62,0.64,0.54,0.56,0.38,Digital public service access and trust review
+emergency_management,emergency_coordination_continuity,0.84,0.86,0.76,0.74,0.20,Emergency coordination readiness review
+public_space,public_space_service_continuity,0.70,0.60,0.66,0.62,0.28,Public space service and access review

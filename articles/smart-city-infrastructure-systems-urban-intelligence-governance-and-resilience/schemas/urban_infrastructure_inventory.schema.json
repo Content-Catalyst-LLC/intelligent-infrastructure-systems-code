@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UrbanInfrastructureInventoryRecord",
+  "type": "object",
+  "required": ["infrastructure_id", "asset_name", "domain", "service_zone_id", "responsible_agency", "asset_type", "criticality"],
+  "properties": {
+    "infrastructure_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "domain": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "responsible_agency": {"type": "string"},
+    "asset_type": {"type": "string"},
+    "criticality": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "domain_failure_probability": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

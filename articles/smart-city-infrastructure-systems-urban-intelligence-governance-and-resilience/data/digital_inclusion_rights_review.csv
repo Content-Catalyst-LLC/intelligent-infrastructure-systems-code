@@ -1,0 +1,6 @@
+service_zone_id,zone_name,population_exposed,digital_access_gap_score,language_access_gap_score,disability_access_gap_score,offline_service_gap_score,privacy_risk_score,public_review_status
+SCZ-CBD-A,Central Business District,high,0.28,0.22,0.30,0.24,0.36,review_required
+SCZ-EAST-B,East Service Zone,medium,0.32,0.26,0.34,0.30,0.28,review_required
+SCZ-RIVER-C,Riverfront Flood Zone,high,0.42,0.30,0.36,0.40,0.34,review_required
+SCZ-NORTH-D,North Service Zone,medium,0.38,0.28,0.32,0.36,0.26,review_required
+SCZ-CITYWIDE,Citywide Digital Services,high,0.40,0.34,0.42,0.44,0.38,review_required

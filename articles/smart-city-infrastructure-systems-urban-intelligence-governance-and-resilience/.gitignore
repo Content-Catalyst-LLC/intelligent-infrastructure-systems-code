@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite
+outputs/smart_city_metrics
+outputs/edge_smart_city_quality_check
+outputs/smart_city_performance_model
+*.vcd

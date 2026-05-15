@@ -1,0 +1,10 @@
+smart_city_scoring_policy:
+  version: "1.0.0"
+  rule: "Smart city infrastructure must be assessed through observability, service continuity, public value, inclusion, rights protection, cybersecurity, and governance capacity, not technology deployment alone."
+  thresholds:
+    minimum_service_continuity_score: 0.75
+    minimum_domain_observability_score: 0.70
+    minimum_public_value_score: 0.65
+    high_dependency_stress_score: 0.30
+    high_digital_access_gap_score: 0.35
+    high_privacy_risk_score: 0.35

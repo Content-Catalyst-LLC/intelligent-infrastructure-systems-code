@@ -1,0 +1,7 @@
+governance_id,date,infrastructure_id,decision,owner,status,public_note_required
+GOV-SCI-001,2026-05-01,SCI-STM-001,Review riverfront stormwater continuity and mobility disruption dependencies,public_works,open,true
+GOV-SCI-002,2026-05-02,SCI-DPI-001,Review digital service portal access gaps and offline service pathways,digital_services,open,true
+GOV-SCI-003,2026-05-03,SCI-AIR-001,Review environmental exposure monitoring coverage and public reporting,environmental_agency,open,true
+GOV-SCI-004,2026-05-04,SCI-BLD-001,Review civic center building continuity and emergency shelter readiness,facilities_department,open,true
+GOV-SCI-005,2026-05-05,SCI-TRN-001,Coordinate mobility service continuity with power and stormwater dependencies,transport_department,open,true
+GOV-SCI-006,2026-05-06,SCI-EMG-001,Test emergency coordination fallback and communications redundancy,emergency_management,open,true

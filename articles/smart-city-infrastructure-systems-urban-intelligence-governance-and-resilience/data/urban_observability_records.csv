@@ -1,0 +1,11 @@
+record_id,infrastructure_id,timestamp,domain,indicator_name,observed_service_capacity,normal_service_capacity,data_quality_score,coverage_score,interoperability_score,governance_response_score,latency_seconds,quality_flag
+OBS-001,SCI-TRN-001,2026-05-01T08:00:00Z,transport,mobility_service_continuity,0.72,1.00,0.82,0.80,0.76,0.68,48,review
+OBS-002,SCI-ENE-001,2026-05-01T08:00:00Z,energy,grid_service_continuity,0.91,1.00,0.88,0.84,0.80,0.72,35,good
+OBS-003,SCI-WTR-001,2026-05-01T08:00:00Z,water,water_service_continuity,0.86,1.00,0.86,0.82,0.78,0.70,42,good
+OBS-004,SCI-STM-001,2026-05-01T08:00:00Z,stormwater,stormwater_service_continuity,0.58,1.00,0.78,0.56,0.70,0.62,55,review
+OBS-005,SCI-BLD-001,2026-05-01T08:00:00Z,buildings,building_service_continuity,0.74,1.00,0.80,0.76,0.72,0.66,64,review
+OBS-006,SCI-WST-001,2026-05-01T08:00:00Z,waste,waste_service_continuity,0.88,1.00,0.76,0.68,0.62,0.64,120,good
+OBS-007,SCI-AIR-001,2026-05-01T08:00:00Z,environmental_monitoring,exposure_monitoring_continuity,0.69,1.00,0.74,0.54,0.66,0.58,80,review
+OBS-008,SCI-DPI-001,2026-05-01T08:00:00Z,digital_public_infrastructure,digital_service_continuity,0.81,1.00,0.84,0.88,0.82,0.60,40,review
+OBS-009,SCI-EMG-001,2026-05-01T08:00:00Z,emergency_management,emergency_coordination_continuity,0.92,1.00,0.90,0.86,0.84,0.76,30,good
+OBS-010,SCI-PUB-001,2026-05-01T08:00:00Z,public_space,public_space_service_continuity,0.79,1.00,0.72,0.66,0.60,0.62,130,review

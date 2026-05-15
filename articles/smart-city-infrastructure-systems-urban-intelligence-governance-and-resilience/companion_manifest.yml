@@ -1,0 +1,29 @@
+article:
+  title: "Smart City Infrastructure Systems: Urban Intelligence, Governance and Resilience"
+  slug: "smart-city-infrastructure-systems-urban-intelligence-governance-and-resilience"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/smart-city-infrastructure-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/smart-city-infrastructure-systems-urban-intelligence-governance-and-resilience"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for municipal operations, public safety, accessibility compliance, privacy compliance, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - urban_infrastructure_inventory
+  - urban_observability_review
+  - cross_domain_dependency_mapping
+  - service_continuity_scoring
+  - public_value_indicator_review
+  - rights_and_inclusion_review
+  - digital_access_gap_detection
+  - privacy_risk_review
+  - cybersecurity_and_fallback_review
+  - edge_smart_city_quality_validation
+  - fpga_service_continuity_flags

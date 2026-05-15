@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UrbanObservabilityRecord",
+  "type": "object",
+  "required": ["record_id", "infrastructure_id", "timestamp", "domain", "indicator_name", "observed_service_capacity", "normal_service_capacity", "data_quality_score", "coverage_score", "interoperability_score", "governance_response_score", "latency_seconds", "quality_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "infrastructure_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "domain": {"type": "string"},
+    "indicator_name": {"type": "string"},
+    "observed_service_capacity": {"type": "number"},
+    "normal_service_capacity": {"type": "number"},
+    "data_quality_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "coverage_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "interoperability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "governance_response_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "latency_seconds": {"type": "number", "minimum": 0},
+    "quality_flag": {"type": "string"}
+  }
+}

@@ -1,0 +1,31 @@
+smart_city_objective:
+  version: "1.0.0"
+  title: "Smart City Infrastructure Systems"
+  purpose: "Demonstrate smart city infrastructure as public urban coordination infrastructure across physical assets, digital systems, sensing, telemetry, data platforms, service continuity, public value, rights, inclusion, governance, and resilience."
+  domains:
+    - transport
+    - energy
+    - water
+    - stormwater
+    - buildings
+    - waste
+    - environmental_monitoring
+    - digital_public_infrastructure
+    - emergency_management
+    - public_space
+  decision_uses:
+    - service_continuity_review
+    - urban_observability_review
+    - cross_domain_dependency_mapping
+    - rights_and_inclusion_review
+    - digital_access_gap_detection
+    - privacy_risk_review
+    - emergency_response
+    - resilience_planning
+    - public_reporting
+  not_for:
+    - certified_municipal_operations
+    - public_safety_automation
+    - privacy_compliance_replacement
+    - accessibility_compliance_replacement
+    - cybersecurity_audit_replacement
