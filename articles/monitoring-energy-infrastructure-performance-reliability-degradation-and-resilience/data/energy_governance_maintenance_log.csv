@@ -1,0 +1,7 @@
+governance_id,date,asset_id,decision,owner,status,public_note_required
+GOV-EN-001,2026-05-01,EN-TRF-001,Inspect East Service Transformer due to high stress and degradation,distribution_utility,open,true
+GOV-EN-002,2026-05-02,EN-DST-001,Review Central Distribution Feeder loading and voltage performance,distribution_utility,open,true
+GOV-EN-003,2026-05-03,EN-TRN-001,Assess transmission corridor thermal loading and resilience margin,transmission_operator,open,true
+GOV-EN-004,2026-05-04,EN-BAT-001,Review battery cycling strategy and degradation-management policy,storage_operator,open,true
+GOV-EN-005,2026-05-05,EN-SUB-001,Review substation condition indicators and maintenance action plan,distribution_utility,open,true
+GOV-EN-006,2026-05-06,EN-EV-001,Review EV charging hub grid-edge impact and local voltage behavior,transport_energy_operator,open,true

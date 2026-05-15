@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EnergyPerformanceTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "asset_id", "timestamp", "available_hours", "total_hours", "power_served_mw", "power_demand_mw", "loading_percent", "temperature_c", "voltage_pu", "efficiency_score", "latency_seconds", "quality_flag"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "available_hours": {"type": "number"},
+    "total_hours": {"type": "number"},
+    "power_served_mw": {"type": "number"},
+    "power_demand_mw": {"type": "number"},
+    "loading_percent": {"type": "number"},
+    "temperature_c": {"type": "number"},
+    "voltage_pu": {"type": "number"},
+    "current_a": {"type": "number"},
+    "efficiency_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "latency_seconds": {"type": "number", "minimum": 0},
+    "quality_flag": {"type": "string"}
+  }
+}

@@ -1,0 +1,10 @@
+asset_id,voltage_deviation_score,frequency_deviation_score,harmonics_score,reactive_power_imbalance_score,power_quality_risk_score,stability_review_status
+EN-GEN-001,0.12,0.08,0.14,0.10,0.11,current
+EN-TRN-001,0.20,0.12,0.18,0.22,0.18,current
+EN-DST-001,0.36,0.16,0.30,0.34,0.30,review_required
+EN-SUB-001,0.28,0.14,0.32,0.36,0.30,review_required
+EN-TRF-001,0.42,0.18,0.38,0.40,0.36,review_required
+EN-BAT-001,0.18,0.10,0.24,0.26,0.22,current
+EN-INV-001,0.22,0.12,0.34,0.28,0.26,current
+EN-MTR-001,0.30,0.15,0.28,0.22,0.24,current
+EN-EV-001,0.38,0.18,0.36,0.34,0.34,review_required

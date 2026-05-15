@@ -1,0 +1,10 @@
+asset_id,outage_events_12mo,mean_restoration_minutes,fallback_capacity_score,observability_score,restoration_time_score,black_start_or_islanding_relevance,resilience_review_status
+EN-GEN-001,1,45,0.62,0.78,0.35,false,current
+EN-TRN-001,2,180,0.58,0.72,0.70,false,review_required
+EN-DST-001,4,240,0.50,0.68,0.78,false,review_required
+EN-SUB-001,3,210,0.52,0.70,0.74,false,review_required
+EN-TRF-001,5,300,0.42,0.62,0.86,false,review_required
+EN-BAT-001,1,60,0.76,0.74,0.42,true,review_required
+EN-INV-001,1,50,0.64,0.76,0.38,false,current
+EN-MTR-001,2,90,0.48,0.60,0.50,false,review_required
+EN-EV-001,2,120,0.56,0.66,0.58,false,review_required

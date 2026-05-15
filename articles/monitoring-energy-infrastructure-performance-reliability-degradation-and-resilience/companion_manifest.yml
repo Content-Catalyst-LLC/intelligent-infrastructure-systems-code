@@ -1,0 +1,30 @@
+article:
+  title: "Monitoring Energy Infrastructure Performance: Reliability, Degradation and Resilience"
+  slug: "monitoring-energy-infrastructure-performance-reliability-degradation-and-resilience"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/monitoring-energy-infrastructure-performance/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/monitoring-energy-infrastructure-performance-reliability-degradation-and-resilience"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for grid operations, protection engineering, public safety, regulatory compliance, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - energy_asset_inventory
+  - performance_telemetry_review
+  - availability_scoring
+  - service_continuity_scoring
+  - condition_and_degradation_review
+  - stress_index_calculation
+  - power_quality_risk_review
+  - resilience_scoring
+  - cybersecurity_and_telemetry_integrity_review
+  - governance_and_maintenance_watchlist
+  - edge_energy_quality_validation
+  - fpga_energy_threshold_flags

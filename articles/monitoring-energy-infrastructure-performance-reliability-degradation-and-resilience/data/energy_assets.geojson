@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "energy_assets",
+  "features": [
+    {"type": "Feature", "properties": {"asset_id": "EN-TRN-001", "asset_class": "transmission"}, "geometry": {"type": "Point", "coordinates": [-90.3000, 38.7600]}},
+    {"type": "Feature", "properties": {"asset_id": "EN-SUB-001", "asset_class": "substation"}, "geometry": {"type": "Point", "coordinates": [-90.1950, 38.6410]}},
+    {"type": "Feature", "properties": {"asset_id": "EN-BAT-001", "asset_class": "storage"}, "geometry": {"type": "Point", "coordinates": [-90.2300, 38.6100]}}
+  ]
+}

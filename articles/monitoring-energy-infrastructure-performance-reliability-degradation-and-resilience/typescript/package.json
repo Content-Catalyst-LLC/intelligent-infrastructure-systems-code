@@ -1,0 +1,12 @@
+{
+  "name": "energy-infrastructure-performance-dashboard-scaffold",
+  "version": "1.0.0",
+  "description": "TypeScript scaffold for energy infrastructure performance dashboards.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

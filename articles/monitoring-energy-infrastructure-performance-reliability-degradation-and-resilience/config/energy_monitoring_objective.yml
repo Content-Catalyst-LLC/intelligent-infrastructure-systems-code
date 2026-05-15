@@ -1,0 +1,30 @@
+energy_monitoring_objective:
+  version: "1.0.0"
+  title: "Monitoring Energy Infrastructure Performance"
+  purpose: "Demonstrate energy infrastructure performance monitoring as public infrastructure observability and lifecycle stewardship across reliability, degradation, power quality, service continuity, resilience, digital monitoring, and governance."
+  asset_classes:
+    - generation
+    - transmission
+    - distribution
+    - substation
+    - transformer
+    - storage
+    - inverter
+    - smart_meter
+    - grid_edge
+  decision_uses:
+    - reliability_review
+    - asset_condition_review
+    - maintenance_prioritization
+    - degradation_analysis
+    - power_quality_review
+    - resilience_planning
+    - outage_after_action_review
+    - capital_planning
+    - regulatory_reporting
+  not_for:
+    - certified_grid_operations
+    - protection_engineering_automation
+    - public_safety_automation
+    - cybersecurity_audit_replacement
+    - regulatory_compliance_replacement

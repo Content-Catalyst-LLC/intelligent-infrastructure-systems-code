@@ -1,0 +1,10 @@
+performance_scoring_policy:
+  version: "1.0.0"
+  rule: "Energy performance monitoring must assess availability, service continuity, degradation, stress, power quality, resilience, and governance actionability, not uptime alone."
+  thresholds:
+    minimum_availability_score: 0.95
+    minimum_service_continuity_score: 0.90
+    high_degradation_score: 0.25
+    high_stress_score: 0.65
+    high_power_quality_risk_score: 0.35
+    minimum_resilience_score: 0.70
