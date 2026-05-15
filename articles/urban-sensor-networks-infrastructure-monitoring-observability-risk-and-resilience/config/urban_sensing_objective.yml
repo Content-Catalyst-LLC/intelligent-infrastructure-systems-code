@@ -1,0 +1,27 @@
+urban_sensing_objective:
+  version: "1.0.0"
+  title: "Urban Sensor Networks and Infrastructure Monitoring"
+  purpose: "Demonstrate urban sensing as public observability infrastructure across devices, telemetry, metadata, data quality, cybersecurity, coverage, exposure, service relevance, governance, and response."
+  domains:
+    - transport
+    - water
+    - stormwater
+    - energy
+    - buildings
+    - environmental_exposure
+    - public_space
+    - structural_health
+  decision_uses:
+    - asset_condition_monitoring
+    - maintenance_prioritization
+    - threshold_alerting
+    - service_status_review
+    - environmental_exposure_mapping
+    - urban_resilience_planning
+    - public_reporting
+  not_for:
+    - certified_infrastructure_operations
+    - public_safety_automation
+    - emergency_warning_issuance
+    - privacy_review_replacement
+    - cybersecurity_audit_replacement

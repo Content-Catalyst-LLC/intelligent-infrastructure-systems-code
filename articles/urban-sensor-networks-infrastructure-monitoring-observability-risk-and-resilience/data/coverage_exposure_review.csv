@@ -1,0 +1,8 @@
+service_zone_id,zone_name,population_exposed,critical_assets_observed,critical_assets_needed,coverage_score,exposure_score,vulnerability_score,interoperability_score,governance_response_score,review_status
+UZ-MOB-A,Main Mobility Corridor,high,8,10,0.80,0.72,0.64,0.78,0.68,current
+UZ-WTR-B,East Water Service Zone,medium,7,8,0.88,0.66,0.58,0.82,0.72,current
+UZ-FLD-C,Riverfront Flood Basin,high,5,9,0.56,0.82,0.76,0.70,0.62,review_required
+UZ-AIR-D,Central Air Exposure Zone,high,3,7,0.43,0.80,0.72,0.66,0.58,review_required
+UZ-HT-E,Central Heat Island Zone,high,4,8,0.50,0.84,0.74,0.68,0.60,review_required
+UZ-FAC-F,Civic Facilities Zone,medium,6,7,0.86,0.68,0.62,0.76,0.70,current
+UZ-PUB-G,North Park Public Space Zone,medium,4,5,0.80,0.54,0.48,0.62,0.64,current

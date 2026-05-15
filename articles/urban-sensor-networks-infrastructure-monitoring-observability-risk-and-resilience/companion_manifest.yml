@@ -1,0 +1,29 @@
+article:
+  title: "Urban Sensor Networks and Infrastructure Monitoring: Observability, Risk, and Resilience"
+  slug: "urban-sensor-networks-infrastructure-monitoring-observability-risk-and-resilience"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/urban-sensor-networks-and-infrastructure-monitoring/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/urban-sensor-networks-infrastructure-monitoring-observability-risk-and-resilience"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for infrastructure operations, public safety, privacy compliance, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - urban_sensor_inventory
+  - telemetry_record_review
+  - sensor_asset_linkage
+  - calibration_device_health_review
+  - latency_and_uptime_scoring
+  - threshold_exceedance_detection
+  - urban_observability_scoring
+  - coverage_and_exposure_gap_review
+  - cybersecurity_and_governance_review
+  - edge_sensor_quality_validation
+  - fpga_telemetry_quality_flags

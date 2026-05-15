@@ -1,0 +1,9 @@
+sensor_id,asset_id,asset_name,service_zone_id,responsible_agency,asset_criticality,service_relevance_score
+USN-TRN-001,AST-TRN-001,Main Corridor Arterial,UZ-MOB-A,transport_authority,high,0.90
+USN-WTR-001,AST-WTR-001,East Pumping Station,UZ-WTR-B,water_agency,high,0.92
+USN-STM-001,AST-STM-001,Riverfront Drainage Basin,UZ-FLD-C,public_works,high,0.94
+USN-AIR-001,AST-AIR-001,Central Exposure Zone,UZ-AIR-D,environmental_agency,medium,0.88
+USN-HEAT-001,AST-HEAT-001,Central Heat Island Zone,UZ-HT-E,public_health,high,0.91
+USN-BLD-001,AST-BLD-001,Civic Center Facility,UZ-FAC-F,facilities_department,high,0.86
+USN-BRG-001,AST-BRG-001,South Bridge,UZ-MOB-A,public_works,high,0.93
+USN-LGT-001,AST-PRK-001,North Park Lighting System,UZ-PUB-G,parks_department,medium,0.72

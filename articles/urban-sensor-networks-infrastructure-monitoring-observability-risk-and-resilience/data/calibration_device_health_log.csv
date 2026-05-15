@@ -1,0 +1,9 @@
+sensor_id,calibration_status,last_calibration_date,battery_status,uptime_score,calibration_score,metadata_score,provenance_score,device_health_status
+USN-TRN-001,current,2026-03-15,grid_powered,0.96,0.94,0.92,0.90,current
+USN-WTR-001,current,2026-02-20,grid_powered,0.94,0.92,0.90,0.88,current
+USN-STM-001,current,2026-03-01,solar_good,0.88,0.90,0.86,0.84,current
+USN-AIR-001,review_required,2025-11-10,grid_powered,0.82,0.68,0.82,0.80,review_required
+USN-HEAT-001,current,2026-02-01,battery_good,0.90,0.88,0.86,0.86,current
+USN-BLD-001,current,2026-01-25,grid_powered,0.92,0.88,0.84,0.82,current
+USN-BRG-001,review_required,2025-09-30,battery_low,0.70,0.62,0.78,0.76,review_required
+USN-LGT-001,current,2026-04-01,grid_powered,0.90,0.86,0.82,0.80,current

@@ -1,0 +1,11 @@
+data_governance_policy:
+  version: "1.0.0"
+  rule: "Urban sensor networks must document public purpose, access, retention, privacy safeguards, cybersecurity controls, data minimization, and accountable use."
+  required_elements:
+    - public_purpose
+    - access_control
+    - retention_policy
+    - cybersecurity_controls
+    - privacy_review
+    - public_reporting_caveats
+    - response_pathway

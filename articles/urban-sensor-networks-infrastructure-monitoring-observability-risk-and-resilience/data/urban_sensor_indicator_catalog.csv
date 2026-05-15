@@ -1,0 +1,9 @@
+domain,variable,indicator_name,threshold_value,threshold_unit,max_acceptable_latency_seconds,interpretation
+transport,vehicle_count,High traffic review threshold,120,count,120,Corridor congestion review required
+water,pressure_kpa,Low pressure review threshold,250,kpa,120,Water pressure service review required
+stormwater,water_level_m,Flood gauge review threshold,1.5,m,60,Flood and drainage review required
+environmental_exposure,pm25_ug_m3,PM2.5 review threshold,35.0,ug_m3,300,Air quality exposure review required
+environmental_exposure,temperature_c,Urban heat review threshold,35.0,degC,300,Heat exposure review required
+buildings,indoor_temperature_c,Indoor heat review threshold,27.0,degC,300,Public facility comfort and heat review required
+structural_health,vibration_mm_s,Bridge vibration review threshold,5.0,mm_s,120,Structural health inspection review required
+public_space,lighting_status,Lighting status expected threshold,1,binary,300,Public space lighting status check

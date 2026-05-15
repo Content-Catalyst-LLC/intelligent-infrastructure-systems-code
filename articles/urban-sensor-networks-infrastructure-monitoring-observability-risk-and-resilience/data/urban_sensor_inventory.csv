@@ -1,0 +1,9 @@
+sensor_id,sensor_name,domain,platform_type,latitude,longitude,operator,operational_status,variable,firmware_version
+USN-TRN-001,Main Corridor Traffic Detector,transport,roadside_detector,38.6400,-90.1900,transport_authority,current,vehicle_count,1.4.2
+USN-WTR-001,East Pump Pressure Sensor,water,pressure_sensor,38.6200,-90.2200,water_agency,current,pressure_kpa,2.1.0
+USN-STM-001,Riverfront Flood Gauge,stormwater,water_level_sensor,38.6100,-90.2300,public_works,current,water_level_m,3.0.1
+USN-AIR-001,Central Air Quality Node,environmental_exposure,air_quality_station,38.6500,-90.2000,environmental_agency,current,pm25_ug_m3,1.8.0
+USN-HEAT-001,Urban Heat Sensor,environmental_exposure,temperature_station,38.6600,-90.2100,public_health,current,temperature_c,1.5.3
+USN-BLD-001,Civic Center HVAC Monitor,buildings,building_management_sensor,38.6350,-90.2050,facilities_department,current,indoor_temperature_c,4.2.0
+USN-BRG-001,South Bridge Vibration Sensor,structural_health,vibration_sensor,38.6000,-90.1800,public_works,review_required,vibration_mm_s,2.0.5
+USN-LGT-001,North Park Lighting Status Node,public_space,lighting_controller,38.6700,-90.2500,parks_department,current,lighting_status,1.2.9

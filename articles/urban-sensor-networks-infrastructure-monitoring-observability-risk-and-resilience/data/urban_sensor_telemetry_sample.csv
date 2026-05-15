@@ -1,0 +1,9 @@
+telemetry_id,sensor_id,timestamp,domain,variable,value,unit,quality_flag,latency_seconds
+TEL-001,USN-TRN-001,2026-05-01T08:00:00Z,transport,vehicle_count,128,count,good,18
+TEL-002,USN-WTR-001,2026-05-01T08:00:00Z,water,pressure_kpa,310,kpa,good,22
+TEL-003,USN-STM-001,2026-05-01T08:00:00Z,stormwater,water_level_m,1.9,m,review,31
+TEL-004,USN-AIR-001,2026-05-01T08:00:00Z,environmental_exposure,pm25_ug_m3,36.8,ug_m3,review,44
+TEL-005,USN-HEAT-001,2026-05-01T14:00:00Z,environmental_exposure,temperature_c,36.2,degC,review,29
+TEL-006,USN-BLD-001,2026-05-01T14:00:00Z,buildings,indoor_temperature_c,27.8,degC,review,64
+TEL-007,USN-BRG-001,2026-05-01T08:00:00Z,structural_health,vibration_mm_s,5.8,mm_s,review,180
+TEL-008,USN-LGT-001,2026-05-01T22:00:00Z,public_space,lighting_status,1,binary,good,36

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UrbanSensorTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "sensor_id", "timestamp", "domain", "variable", "value", "unit", "quality_flag", "latency_seconds"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "domain": {"type": "string"},
+    "variable": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "latency_seconds": {"type": "number", "minimum": 0}
+  }
+}

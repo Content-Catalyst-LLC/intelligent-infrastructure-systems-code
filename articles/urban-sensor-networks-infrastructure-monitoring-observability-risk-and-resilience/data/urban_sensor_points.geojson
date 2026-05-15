@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "urban_sensor_points",
+  "features": [
+    {"type": "Feature", "properties": {"sensor_id": "USN-TRN-001", "domain": "transport"}, "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}},
+    {"type": "Feature", "properties": {"sensor_id": "USN-STM-001", "domain": "stormwater"}, "geometry": {"type": "Point", "coordinates": [-90.2300, 38.6100]}},
+    {"type": "Feature", "properties": {"sensor_id": "USN-AIR-001", "domain": "environmental_exposure"}, "geometry": {"type": "Point", "coordinates": [-90.2000, 38.6500]}}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "urban-sensor-network-dashboard-scaffold",
+  "version": "1.0.0",
+  "description": "TypeScript scaffold for urban sensor network and infrastructure monitoring dashboards.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

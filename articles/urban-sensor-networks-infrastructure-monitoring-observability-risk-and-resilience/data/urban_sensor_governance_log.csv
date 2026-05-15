@@ -1,0 +1,6 @@
+governance_id,date,sensor_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,USN-STM-001,Review riverfront flood gauge threshold and drainage response protocol,public_works,open,true
+GOV-002,2026-05-02,USN-AIR-001,Review PM2.5 calibration and exposure reporting in Central Air Zone,environmental_agency,open,true
+GOV-003,2026-05-03,USN-HEAT-001,Coordinate heat sensor readings with cooling center readiness,public_health,open,true
+GOV-004,2026-05-04,USN-BRG-001,Inspect vibration sensor and South Bridge structural health record,public_works,open,true
+GOV-005,2026-05-05,USN-BLD-001,Review Civic Center HVAC heat threshold and facility response,facilities_department,open,true

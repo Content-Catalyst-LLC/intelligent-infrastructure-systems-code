@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UrbanSensorInventoryRecord",
+  "type": "object",
+  "required": ["sensor_id", "sensor_name", "domain", "platform_type", "latitude", "longitude", "operator", "operational_status", "variable", "firmware_version"],
+  "properties": {
+    "sensor_id": {"type": "string"},
+    "sensor_name": {"type": "string"},
+    "domain": {"type": "string"},
+    "platform_type": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "operator": {"type": "string"},
+    "operational_status": {"type": "string"},
+    "variable": {"type": "string"},
+    "firmware_version": {"type": "string"}
+  }
+}

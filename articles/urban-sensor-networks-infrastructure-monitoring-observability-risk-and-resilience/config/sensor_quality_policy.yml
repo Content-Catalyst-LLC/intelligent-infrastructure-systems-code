@@ -1,0 +1,9 @@
+sensor_quality_policy:
+  version: "1.0.0"
+  rule: "Sensor records used for public indicators or operational review must include uptime, calibration, metadata completeness, latency, provenance, and quality flags."
+  thresholds:
+    minimum_sensor_quality_score: 0.75
+    high_coverage_gap_score: 0.35
+    minimum_governance_response_score: 0.60
+    maximum_latency_seconds_default: 300
+    review_required_for_threshold_exceedance: true
