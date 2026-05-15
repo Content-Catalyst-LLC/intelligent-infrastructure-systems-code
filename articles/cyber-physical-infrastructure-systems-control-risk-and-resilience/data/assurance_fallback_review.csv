@@ -1,0 +1,7 @@
+control_loop_id,timing_validated,safety_boundary_validated,degraded_mode_tested,manual_override_tested,recovery_tested,operator_visibility,override_authority,training_current,escalation_path_defined,fallback_capability_score,manual_override_score,recovery_effectiveness_score,assurance_status
+LOOP-GRID-001,1,1,1,1,1,1,1,1,1,0.82,0.86,0.80,current
+LOOP-WATER-001,1,1,1,1,0,1,1,1,1,0.76,0.82,0.74,review_required
+LOOP-TRANS-001,1,1,0,1,0,1,1,0,1,0.70,0.80,0.68,review_required
+LOOP-BLDG-001,1,0,0,1,0,0,1,0,1,0.64,0.74,0.62,review_required
+LOOP-ENV-001,1,1,0,1,0,1,1,0,1,0.72,0.78,0.68,review_required
+LOOP-SEC-001,0,0,0,1,0,1,1,0,1,0.58,0.76,0.60,review_required

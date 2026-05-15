@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CyberPhysicalAssetInventoryRecord",
+  "type": "object",
+  "required": ["asset_id", "asset_name", "asset_class", "infrastructure_domain", "service_zone_id", "owner_operator", "physical_function", "cyber_components", "criticality", "automation_level"],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "infrastructure_domain": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "owner_operator": {"type": "string"},
+    "physical_function": {"type": "string"},
+    "cyber_components": {"type": "string"},
+    "vendor_dependency": {"type": "string"},
+    "criticality": {"type": "string"},
+    "automation_level": {"type": "string"}
+  }
+}

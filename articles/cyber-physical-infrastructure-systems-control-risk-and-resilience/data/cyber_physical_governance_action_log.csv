@@ -1,0 +1,7 @@
+governance_action_id,date,control_loop_id,asset_id,decision,owner,status,public_note_required
+GOV-CP-001,2026-05-01,LOOP-GRID-001,CP-GRID-001,Review feeder supervisory control loop telemetry quality and reactive support command evidence,electric_utility,open,true
+GOV-CP-002,2026-05-02,LOOP-WATER-001,CP-WATER-001,Review pump control fallback testing and pressure telemetry validation,water_utility,open,true
+GOV-CP-003,2026-05-03,LOOP-TRANS-001,CP-TRANS-001,Review adaptive signal degraded-mode testing and operator training,transportation_authority,open,true
+GOV-CP-004,2026-05-04,LOOP-BLDG-001,CP-BLDG-001,Review building automation safety boundary and HMI operator visibility,facilities_department,open,true
+GOV-CP-005,2026-05-05,LOOP-ENV-001,CP-ENV-001,Review flood warning command validity and public message approval pathway,resilience_office,open,true
+GOV-CP-006,2026-05-06,LOOP-SEC-001,CP-SEC-001,Review remote access dependency exposure segmentation and recovery testing,security_operations,open,true

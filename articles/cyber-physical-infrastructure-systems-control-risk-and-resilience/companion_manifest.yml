@@ -1,0 +1,30 @@
+article:
+  title: "Cyber-Physical Infrastructure Systems: Control, Risk and Resilience"
+  slug: "cyber-physical-infrastructure-systems-control-risk-and-resilience"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/cyber-physical-infrastructure-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/cyber-physical-infrastructure-systems-control-risk-and-resilience"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for production control engineering, public safety, infrastructure operations, regulatory reporting, cybersecurity assurance, or automated intervention."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - cyber_physical_asset_inventory
+  - control_loop_register
+  - telemetry_command_review
+  - dependency_exposure_mapping
+  - assurance_fallback_review
+  - control_integrity_scoring
+  - cyber_physical_resilience_scoring
+  - human_oversight_review
+  - governance_action_tracking
+  - sql_evidence_archive
+  - edge_control_safety_validation
+  - fpga_control_stream_integrity

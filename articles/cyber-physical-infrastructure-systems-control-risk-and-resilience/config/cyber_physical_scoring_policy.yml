@@ -1,0 +1,12 @@
+cyber_physical_scoring_policy:
+  version: "1.0.0"
+  rule: "Cyber-physical infrastructure must be assessed through signal quality, telemetry reliability, control validation, human oversight, security controls, dependency intensity, exposure, fallback capability, manual override, and recovery effectiveness."
+  thresholds:
+    minimum_signal_quality_score: 0.80
+    minimum_telemetry_reliability_score: 0.85
+    minimum_control_validation_score: 0.75
+    minimum_human_oversight_score: 0.75
+    minimum_control_integrity_score: 0.75
+    minimum_cyber_physical_resilience_score: 0.70
+    maximum_dependency_intensity_score: 0.70
+    maximum_exposure_score: 0.40

@@ -1,0 +1,7 @@
+asset_id,critical_functions,cyber_dependent_functions,power_dependency,communications_dependency,identity_dependency,cloud_dependency,vendor_remote_access_dependency,firmware_dependency,dependency_notes
+CP-GRID-001,10,7,high,high,medium,low,medium,high,grid_control_depends_on_SCADA_and_field_devices
+CP-WATER-001,9,7,high,high,medium,low,medium,medium,pump_control_depends_on_SCADA_PLCs_and_networks
+CP-TRANS-001,8,6,high,medium,medium,medium,medium,medium,traffic_coordination_depends_on_signal_controllers_and_platforms
+CP-BLDG-001,7,6,high,medium,medium,medium,high,medium,BMS_access_and_HVAC_dependencies_review_required
+CP-ENV-001,6,4,medium,high,medium,medium,medium,medium,warning_system_depends_on_sensors_gateway_and_messaging
+CP-SEC-001,10,9,high,high,high,medium,high,high,remote_access_identity_and_visibility_dependencies_high

@@ -1,0 +1,7 @@
+record_id,control_loop_id,timestamp,measurement_value,command_issued,command_within_bounds,operator_acknowledged,expected_signals,missing_signals,late_signals,invalid_signals,accuracy_score,calibration_score,timeliness_score,validity_score,metadata_completeness_score,security_control_score,exposure_score,quality_flag
+REC-CP-001,LOOP-GRID-001,2026-05-01T12:00:00Z,0.94,reactive_power_request,true,true,1440,30,36,12,0.86,0.82,0.84,0.86,0.88,0.78,0.32,review
+REC-CP-002,LOOP-WATER-001,2026-05-01T12:00:00Z,34.0,pump_speed_review,true,true,1440,52,66,25,0.82,0.78,0.76,0.80,0.82,0.74,0.38,review
+REC-CP-003,LOOP-TRANS-001,2026-05-01T12:00:00Z,18.0,signal_timing_review,true,true,2880,110,75,64,0.80,0.74,0.82,0.74,0.76,0.72,0.42,review
+REC-CP-004,LOOP-BLDG-001,2026-05-01T12:00:00Z,420.0,hvac_setpoint_review,true,false,288,44,28,20,0.74,0.68,0.60,0.70,0.75,0.68,0.46,review
+REC-CP-005,LOOP-ENV-001,2026-05-01T12:00:00Z,42.0,warning_review,false,true,288,30,36,18,0.78,0.72,0.74,0.72,0.82,0.70,0.40,review
+REC-CP-006,LOOP-SEC-001,2026-05-01T12:00:00Z,6.5,remote_access_review,true,true,1440,130,110,85,0.70,0.66,0.84,0.64,0.78,0.62,0.55,review

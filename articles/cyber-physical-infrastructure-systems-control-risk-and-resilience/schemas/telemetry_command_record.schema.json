@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TelemetryCommandRecord",
+  "type": "object",
+  "required": ["record_id", "control_loop_id", "timestamp", "measurement_value", "command_issued", "command_within_bounds", "operator_acknowledged", "expected_signals", "missing_signals", "late_signals", "invalid_signals", "quality_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "control_loop_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "measurement_value": {"type": "number"},
+    "command_issued": {"type": "string"},
+    "command_within_bounds": {"type": "boolean"},
+    "operator_acknowledged": {"type": "boolean"},
+    "expected_signals": {"type": "number", "minimum": 0},
+    "missing_signals": {"type": "number", "minimum": 0},
+    "late_signals": {"type": "number", "minimum": 0},
+    "invalid_signals": {"type": "number", "minimum": 0},
+    "quality_flag": {"type": "string"}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ControlLoopRegisterRecord",
+  "type": "object",
+  "required": ["control_loop_id", "asset_id", "loop_name", "state_variable", "sensor_id", "controller_id", "actuator_or_intervention", "operator_role", "timing_constraint_seconds", "safety_boundary", "control_mode", "valid_use", "prohibited_use"],
+  "properties": {
+    "control_loop_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "loop_name": {"type": "string"},
+    "state_variable": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "controller_id": {"type": "string"},
+    "actuator_or_intervention": {"type": "string"},
+    "operator_role": {"type": "string"},
+    "timing_constraint_seconds": {"type": "number", "minimum": 0},
+    "safety_boundary": {"type": "string"},
+    "control_mode": {"type": "string"},
+    "valid_use": {"type": "string"},
+    "prohibited_use": {"type": "string"}
+  }
+}

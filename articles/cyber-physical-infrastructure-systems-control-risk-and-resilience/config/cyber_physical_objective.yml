@@ -1,0 +1,29 @@
+cyber_physical_objective:
+  version: "1.0.0"
+  title: "Cyber-Physical Infrastructure Systems"
+  purpose: "Demonstrate cyber-physical infrastructure as a coupled digital-physical control, dependency, assurance, and resilience problem."
+  domains:
+    - energy
+    - water
+    - wastewater
+    - stormwater
+    - transportation
+    - buildings
+    - environmental_monitoring
+    - cyber_physical_operations
+    - public_works
+  decision_uses:
+    - operational_awareness
+    - supervisory_control
+    - control_loop_review
+    - remote_intervention_review
+    - predictive_maintenance
+    - incident_response
+    - cyber_physical_resilience_planning
+    - public_accountability
+  not_for:
+    - production_control_automation
+    - public_safety_automation_without_review
+    - certified_operations_replacement
+    - cybersecurity_assurance_replacement
+    - regulatory_reporting_without_validation
