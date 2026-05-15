@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InfrastructureExposureInventoryRecord",
+  "type": "object",
+  "required": ["system_id", "asset_name", "sector", "community_id", "hazard_type", "service_role", "criticality", "condition_status", "hazard_intensity", "exposure_score", "sensitivity_score", "adaptive_capacity_score"],
+  "properties": {
+    "system_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "sector": {"type": "string"},
+    "community_id": {"type": "string"},
+    "hazard_type": {"type": "string"},
+    "service_role": {"type": "string"},
+    "criticality": {"type": "string"},
+    "condition_status": {"type": "string"},
+    "hazard_intensity": {"type": "number"},
+    "exposure_score": {"type": "number"},
+    "sensitivity_score": {"type": "number"},
+    "adaptive_capacity_score": {"type": "number"}
+  }
+}

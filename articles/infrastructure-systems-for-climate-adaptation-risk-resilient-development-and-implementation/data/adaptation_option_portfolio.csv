@@ -1,0 +1,9 @@
+adaptation_id,system_id,option_name,option_type,option_effectiveness,maladaptation_penalty,option_quality,maintenance_need,review_status
+ADA-001,WAT-001,Source Diversification and Demand Management,operational_and_capital,0.46,0.03,0.68,medium,current
+ADA-002,DRN-001,Green-Gray Drainage Upgrade,hybrid_infrastructure,0.52,0.04,0.72,high,current
+ADA-003,ENE-001,Heat-Ready Feeder and Cooling Resilience Program,energy_resilience,0.44,0.05,0.66,medium,review_required
+ADA-004,TRN-001,Floodable Corridor Redesign and Route Redundancy,transport_resilience,0.48,0.06,0.64,high,review_required
+ADA-005,BLD-001,Passive Survivability and Cooling Shelter Retrofit,building_resilience,0.50,0.02,0.75,medium,current
+ADA-006,COA-001,Staged Protection and Relocation Assessment,adaptation_pathway,0.42,0.08,0.62,high,review_required
+ADA-007,ECO-001,Wetland Restoration and Flood Storage Maintenance,nature_based,0.40,0.01,0.78,medium,current
+ADA-008,COM-001,Redundant Emergency Communications and Smoke Protocol,communications_resilience,0.38,0.02,0.70,low,current

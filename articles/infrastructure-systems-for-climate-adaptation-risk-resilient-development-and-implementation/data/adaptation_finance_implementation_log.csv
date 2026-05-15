@@ -1,0 +1,9 @@
+adaptation_id,funding_source,estimated_cost_millions,finance_readiness,delivery_readiness,operations_readiness,monitoring_readiness,governance_readiness,implementation_status,governance_owner
+ADA-001,water_utility_capital_plan,42.0,0.62,0.58,0.61,0.56,0.64,planning,water_authority
+ADA-002,stormwater_bond_and_resilience_grant,65.0,0.70,0.62,0.58,0.60,0.68,design,public_works
+ADA-003,grid_resilience_program,50.0,0.58,0.52,0.56,0.54,0.60,planning,energy_utility
+ADA-004,transport_capital_program,88.0,0.55,0.50,0.52,0.50,0.58,planning,transport_agency
+ADA-005,public_health_and_facilities_fund,18.0,0.72,0.68,0.66,0.62,0.70,delivery,facilities_department
+ADA-006,coastal_adaptation_study,95.0,0.50,0.42,0.48,0.44,0.56,study,coastal_authority
+ADA-007,watershed_restoration_fund,12.0,0.66,0.64,0.60,0.58,0.67,delivery,parks_and_watershed_agency
+ADA-008,emergency_management_grant,9.0,0.76,0.70,0.68,0.66,0.72,delivery,emergency_management

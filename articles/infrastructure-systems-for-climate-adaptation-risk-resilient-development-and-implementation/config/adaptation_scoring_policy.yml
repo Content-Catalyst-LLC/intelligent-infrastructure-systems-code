@@ -1,0 +1,12 @@
+adaptation_scoring_policy:
+  version: "1.0.0"
+  rule: "Adaptation readiness must combine climate evidence, asset exposure, vulnerability analysis, option quality, finance, implementation, monitoring, maladaptation screening, and governance readiness."
+  weights:
+    climate_evidence: 0.14
+    asset_visibility: 0.14
+    vulnerability_analysis: 0.14
+    option_quality: 0.14
+    finance_readiness: 0.12
+    implementation_readiness: 0.12
+    monitoring_readiness: 0.10
+    governance_readiness: 0.10

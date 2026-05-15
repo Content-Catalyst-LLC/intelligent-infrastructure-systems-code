@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite

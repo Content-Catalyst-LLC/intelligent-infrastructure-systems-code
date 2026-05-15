@@ -1,0 +1,9 @@
+adaptation_id,risk_transfer,lock_in_risk,ecological_damage_risk,emissions_rebound_risk,unequal_protection_risk,overall_maladaptation_flag,review_note
+ADA-001,low,medium,low,low,medium,review_required,Demand management and supply diversification need affordability review
+ADA-002,medium,low,low,low,medium,review_required,Drainage upgrade must avoid shifting flood burden downstream
+ADA-003,low,medium,low,medium,medium,review_required,Cooling resilience should not increase unmanaged peak demand
+ADA-004,medium,medium,medium,low,medium,review_required,Corridor redesign must consider displacement and route equity
+ADA-005,low,low,low,low,low,current,Retrofit supports vulnerable populations directly
+ADA-006,medium,high,medium,low,high,review_required,Protection versus relocation pathway requires public deliberation
+ADA-007,low,low,low,low,low,current,Nature-based option requires maintenance and monitoring
+ADA-008,low,low,low,low,medium,current,Communications redundancy requires accessibility review

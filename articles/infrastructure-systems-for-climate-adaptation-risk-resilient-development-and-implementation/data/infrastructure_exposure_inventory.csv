@@ -1,0 +1,9 @@
+system_id,asset_name,sector,community_id,hazard_type,service_role,criticality,condition_status,hazard_intensity,exposure_score,sensitivity_score,adaptive_capacity_score
+WAT-001,Water Treatment and Pumping System,water,COM-A,drought,water_supply_and_treatment,high,review_required,0.72,0.70,0.68,0.55
+DRN-001,Urban Stormwater Drainage Network,water,COM-B,urban_flooding,stormwater_and_surface_access,high,poor,0.80,0.76,0.72,0.48
+ENE-001,Substation and Cooling-Load Feeder,energy,COM-C,extreme_heat,power_continuity_and_cooling_access,high,review_required,0.78,0.69,0.65,0.57
+TRN-001,Low-Lying Transport Corridor,transport,COM-B,urban_flooding,mobility_and_emergency_access,high,poor,0.82,0.74,0.70,0.50
+BLD-001,Public Cooling and Shelter Facility,buildings,COM-D,extreme_heat,heat_shelter_and_public_health,high,fair,0.76,0.62,0.60,0.58
+COA-001,Coastal Wastewater Facility,coastal_and_riverine,COM-E,sea_level_rise,wastewater_treatment_and_environmental_protection,high,review_required,0.84,0.78,0.74,0.46
+ECO-001,Urban Wetland Flood Buffer,ecological_infrastructure,COM-B,urban_flooding,flood_storage_and_ecological_buffer,medium,fair,0.74,0.66,0.52,0.61
+COM-001,Emergency Communications Node,communications,COM-C,wildfire_smoke,emergency_coordination,high,current,0.66,0.58,0.55,0.64

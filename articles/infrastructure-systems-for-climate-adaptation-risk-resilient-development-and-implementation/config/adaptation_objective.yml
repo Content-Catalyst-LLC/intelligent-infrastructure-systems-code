@@ -1,0 +1,21 @@
+adaptation_objective:
+  version: "1.0.0"
+  title: "Infrastructure Systems for Climate Adaptation"
+  purpose: "Demonstrate adaptation as infrastructure systems change across climate evidence, exposed assets, vulnerable communities, adaptation options, finance, implementation, monitoring, and governance."
+  sectors:
+    - water
+    - energy
+    - transport
+    - buildings
+    - coastal_and_riverine
+    - communications
+    - digital_public_infrastructure
+    - ecological_infrastructure
+  decision_uses:
+    - adaptation_readiness_review
+    - climate_risk_prioritization
+    - infrastructure_portfolio_review
+    - vulnerable_community_protection
+    - standards_revision
+    - adaptation_finance_reporting
+    - governance_reporting

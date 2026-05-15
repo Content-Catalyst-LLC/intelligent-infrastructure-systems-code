@@ -1,0 +1,8 @@
+governance_id,date,adaptation_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,ADA-001,Review affordability protections for drought adaptation,water_authority,open,true
+GOV-002,2026-05-02,ADA-002,Require downstream flood impact review before final design,public_works,open,true
+GOV-003,2026-05-03,ADA-003,Assess peak-demand and cooling equity implications,energy_utility,open,true
+GOV-004,2026-05-04,ADA-004,Require route equity and displacement review,transport_agency,open,true
+GOV-005,2026-05-05,ADA-005,Continue delivery with public-health monitoring,facilities_department,closed,false
+GOV-006,2026-05-06,ADA-006,Begin staged protection and relocation deliberation process,coastal_authority,open,true
+GOV-007,2026-05-07,ADA-007,Fund wetland monitoring and maintenance schedule,parks_and_watershed_agency,closed,false
