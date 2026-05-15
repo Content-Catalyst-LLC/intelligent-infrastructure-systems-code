@@ -1,0 +1,7 @@
+dataset_id,dataset_name,version,domain,source,archive_status,provenance_status,access_policy,quality_flag_policy
+ARCH-001,Surface Station Annual Temperature,v1.0,atmosphere,station_network,current,current,open,required
+ARCH-002,River Stage Climate Reference Record,v1.0,hydrology,water_agency,current,current,open,required
+ARCH-003,Soil Moisture Reference Series,v0.8,land,university_network,review_required,review_required,restricted_review,required
+ARCH-004,Tide Gauge Sea-Level Record,v1.0,ocean,coastal_authority,current,current,open,required
+ARCH-005,Glacier Mass Balance Reference Series,v0.7,cryosphere,research_institute,review_required,review_required,open_with_caveats,required
+ARCH-006,Satellite Land Surface Product,v2.1,land,space_agency,current,current,open,required

@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite
+outputs/climate_record_quality
+outputs/station_sensor_quality_check
+outputs/climate_baseline_model
+*.vcd

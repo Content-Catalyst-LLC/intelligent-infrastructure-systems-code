@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "climate_station_points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "CLM-ATM-001",
+        "station_name": "North Valley Climate Station",
+        "domain": "atmosphere"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6300]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "CLM-HYD-001",
+        "station_name": "East River Hydrology Gauge",
+        "domain": "hydrology"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_id": "CLM-OCE-001",
+        "station_name": "Harbor Tide Gauge",
+        "domain": "ocean"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6500]}
+    }
+  ]
+}

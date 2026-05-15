@@ -1,0 +1,11 @@
+archive_governance_policy:
+  version: "1.0.0"
+  rule: "Climate monitoring data should be versioned, provenance-tracked, documented, and preserved for long-term public and scientific use."
+  required_elements:
+    - source_observation_traceability
+    - dataset_version
+    - quality_flags
+    - metadata_record
+    - access_policy
+    - retention_commitment
+    - processing_method_note

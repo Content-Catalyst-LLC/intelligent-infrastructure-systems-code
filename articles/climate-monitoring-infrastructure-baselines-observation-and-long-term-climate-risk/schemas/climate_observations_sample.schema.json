@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClimateObservationRecord",
+  "type": "object",
+  "required": [
+    "station_id",
+    "date",
+    "variable",
+    "value",
+    "unit",
+    "quality_flag"
+  ],
+  "properties": {
+    "station_id": {"type": "string"},
+    "date": {"type": "string"},
+    "variable": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "quality_flag": {"type": "string"}
+  }
+}

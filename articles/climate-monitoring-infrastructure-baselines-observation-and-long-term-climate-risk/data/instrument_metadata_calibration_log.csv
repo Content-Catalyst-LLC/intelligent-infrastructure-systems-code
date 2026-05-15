@@ -1,0 +1,8 @@
+station_id,instrument_type,variable,calibration_status,metadata_status,last_calibration_date,known_breakpoint,breakpoint_note,provenance_status
+CLM-ATM-001,platinum_resistance_thermometer,surface_air_temperature,current,complete,2026-01-15,false,none,current
+CLM-ATM-002,shielded_temperature_sensor,surface_air_temperature,current,partial,2025-12-10,true,station_relocated_in_2014,current
+CLM-HYD-001,pressure_transducer,river_stage,current,complete,2026-02-01,false,none,current
+CLM-LAND-001,capacitance_soil_moisture_sensor,soil_moisture,review_required,partial,2024-08-20,true,sensor_family_changed_in_2020,review_required
+CLM-OCE-001,tide_gauge,sea_level,current,complete,2026-01-05,false,none,current
+CLM-CRYO-001,stake_network_and_gps,glacier_mass_balance,review_required,partial,2024-09-01,true,field_access_gap_2020_2021,review_required
+CLM-SAT-001,satellite_retrieval_algorithm,land_surface_temperature,current,complete,2026-03-01,true,algorithm_version_update_2022,current

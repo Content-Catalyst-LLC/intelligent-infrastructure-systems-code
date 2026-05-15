@@ -1,0 +1,9 @@
+climate_record_quality_policy:
+  version: "1.0.0"
+  rule: "Climate records used for baseline, anomaly, or trend interpretation must include completeness, metadata, calibration, provenance, and archive review."
+  thresholds:
+    minimum_record_completeness: 0.80
+    minimum_metadata_score: 0.80
+    minimum_calibration_score: 0.80
+    review_flag_missingness: 0.20
+    review_flag_station_break: true

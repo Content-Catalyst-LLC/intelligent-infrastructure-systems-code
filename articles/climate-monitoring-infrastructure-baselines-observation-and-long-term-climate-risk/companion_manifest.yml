@@ -1,0 +1,42 @@
+article:
+  title: "Climate Monitoring Infrastructure: Baselines, Observation, and Long-Term Climate Risk"
+  slug: "climate-monitoring-infrastructure-baselines-observation-and-long-term-climate-risk"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/climate-monitoring-infrastructure/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/climate-monitoring-infrastructure-baselines-observation-and-long-term-climate-risk"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not an official climate monitoring or meteorological system."
+
+engineering_stack:
+  analytics:
+    - Python
+    - R
+    - SQL
+    - Julia
+  systems:
+    - C
+    - Embedded C
+    - Rust
+    - Go
+    - Fortran
+  edge_and_hardware:
+    - MicroPython
+    - PYNQ
+    - Verilog HDL
+    - VHDL placeholder
+  interface:
+    - TypeScript
+
+core_workflows:
+  - climate_baseline_calculation
+  - anomaly_calculation
+  - station_record_completeness
+  - metadata_quality_review
+  - calibration_status_review
+  - climate_archive_provenance
+  - sensor_range_validation
+  - edge_station_telemetry
+  - fpga_stream_quality_flags
+  - governance_watchlist_generation

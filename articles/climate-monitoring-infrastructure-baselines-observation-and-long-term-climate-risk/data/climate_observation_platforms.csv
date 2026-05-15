@@ -1,0 +1,8 @@
+station_id,station_name,platform_type,domain,latitude,longitude,elevation_m,owner,operational_status,record_start,record_end
+CLM-ATM-001,North Valley Climate Station,surface_station,atmosphere,38.6300,-90.2100,142,national_weather_service,current,1991-01-01,2026-05-01
+CLM-ATM-002,Central Urban Heat Station,surface_station,atmosphere,38.6400,-90.1900,158,municipal_climate_program,current,2005-01-01,2026-05-01
+CLM-HYD-001,East River Hydrology Gauge,river_gauge,hydrology,38.6200,-90.2200,128,water_agency,current,1995-01-01,2026-05-01
+CLM-LAND-001,Prairie Soil Moisture Site,soil_sensor_network,land,38.7000,-90.2800,176,university_network,current,2012-01-01,2026-05-01
+CLM-OCE-001,Harbor Tide Gauge,tide_gauge,ocean,38.6500,-90.2500,4,coastal_authority,current,1985-01-01,2026-05-01
+CLM-CRYO-001,Reference Glacier Station,glacier_station,cryosphere,45.1000,-110.5000,2850,research_institute,review_required,1990-01-01,2026-05-01
+CLM-SAT-001,Regional Land Surface Product,satellite_product,land,0.0000,0.0000,0,space_agency,current,2001-01-01,2026-05-01

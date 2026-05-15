@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClimateObservationPlatformRecord",
+  "type": "object",
+  "required": [
+    "station_id",
+    "station_name",
+    "platform_type",
+    "domain",
+    "latitude",
+    "longitude",
+    "owner",
+    "operational_status",
+    "record_start",
+    "record_end"
+  ],
+  "properties": {
+    "station_id": {"type": "string"},
+    "station_name": {"type": "string"},
+    "platform_type": {"type": "string"},
+    "domain": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "elevation_m": {"type": "number"},
+    "owner": {"type": "string"},
+    "operational_status": {"type": "string"},
+    "record_start": {"type": "string"},
+    "record_end": {"type": "string"}
+  }
+}

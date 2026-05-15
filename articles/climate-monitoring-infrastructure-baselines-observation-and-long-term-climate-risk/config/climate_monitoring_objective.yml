@@ -1,0 +1,24 @@
+climate_monitoring_objective:
+  version: "1.0.0"
+  title: "Climate Monitoring Infrastructure"
+  purpose: "Demonstrate climate monitoring as long-duration public knowledge infrastructure across variables, observing networks, metadata, calibration, archives, baselines, anomalies, climate services, and governance."
+  domains:
+    - atmosphere
+    - ocean
+    - land
+    - cryosphere
+    - hydrology
+    - carbon_cycle
+    - ecosystems
+  decision_uses:
+    - climate_baseline_reporting
+    - anomaly_detection
+    - record_quality_review
+    - climate_risk_assessment
+    - adaptation_planning
+    - infrastructure_design_context
+    - public_climate_services
+  not_for:
+    - official_climate_assessment
+    - operational_weather_forecasting
+    - certified_observing_network_operations

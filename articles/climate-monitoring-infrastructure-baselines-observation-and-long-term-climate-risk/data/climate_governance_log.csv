@@ -1,0 +1,6 @@
+governance_id,date,station_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,CLM-ATM-002,Review 2014 station relocation metadata and homogeneity impacts,municipal_climate_program,open,true
+GOV-002,2026-05-02,CLM-LAND-001,Review sensor family change and calibration status,university_network,open,true
+GOV-003,2026-05-03,CLM-CRYO-001,Flag field access gap and update continuity notes,research_institute,open,true
+GOV-004,2026-05-04,CLM-SAT-001,Document retrieval algorithm update in public metadata,space_agency,closed,false
+GOV-005,2026-05-05,CLM-OCE-001,Maintain tide gauge calibration and archive versioning,coastal_authority,closed,false
