@@ -1,0 +1,27 @@
+environmental_monitoring_objective:
+  version: "1.0.0"
+  title: "Infrastructure for Environmental Monitoring Systems"
+  purpose: "Demonstrate environmental monitoring as public stewardship infrastructure across observation, telemetry, metadata, quality, indicators, exposure, governance, and action."
+  domains:
+    - air_quality
+    - water_quality
+    - hydrology
+    - climate
+    - soil
+    - biodiversity
+    - pollution
+    - ecosystem_condition
+  decision_uses:
+    - environmental_status_reporting
+    - threshold_exceedance_detection
+    - exposure_equity_review
+    - stewardship_planning
+    - public_health_response
+    - adaptation_planning
+    - enforcement_review
+    - restoration_prioritization
+  not_for:
+    - certified_regulatory_monitoring
+    - emergency_warning_issuance
+    - replacement_of_laboratory_methods
+    - replacement_of_domain_expert_review

@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "monitoring_site_points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "ENV-AIR-001",
+        "site_name": "Central Corridor Air Station",
+        "domain": "air_quality"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "ENV-WTR-001",
+        "site_name": "East River Water Quality Site",
+        "domain": "water_quality"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.2200, 38.6200]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "site_id": "ENV-BIO-001",
+        "site_name": "Wetland Biodiversity Plot",
+        "domain": "biodiversity"
+      },
+      "geometry": {"type": "Point", "coordinates": [-90.3200, 38.6800]}
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "environmental-monitoring-dashboard-scaffold",
+  "version": "1.0.0",
+  "description": "TypeScript scaffold for environmental monitoring infrastructure dashboards.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

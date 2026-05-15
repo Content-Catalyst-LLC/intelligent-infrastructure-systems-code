@@ -1,0 +1,42 @@
+article:
+  title: "Infrastructure for Environmental Monitoring Systems: Observation, Risk, and Stewardship"
+  slug: "infrastructure-for-environmental-monitoring-systems-observation-risk-and-stewardship"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-for-environmental-monitoring-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-for-environmental-monitoring-systems-observation-risk-and-stewardship"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not a certified environmental monitoring, regulatory, or emergency warning system."
+
+engineering_stack:
+  analytics:
+    - Python
+    - R
+    - SQL
+    - Julia
+  systems:
+    - C
+    - Embedded C
+    - Rust
+    - Go
+    - Fortran
+  edge_and_hardware:
+    - MicroPython
+    - PYNQ
+    - Verilog HDL
+    - VHDL placeholder
+  interface:
+    - TypeScript
+
+core_workflows:
+  - monitoring_site_inventory
+  - environmental_observation_records
+  - threshold_exceedance_detection
+  - monitoring_quality_scoring
+  - environmental_risk_scoring
+  - coverage_and_exposure_equity_review
+  - governance_watchlist_generation
+  - sensor_range_validation
+  - edge_telemetry_validation
+  - fpga_stream_quality_flags

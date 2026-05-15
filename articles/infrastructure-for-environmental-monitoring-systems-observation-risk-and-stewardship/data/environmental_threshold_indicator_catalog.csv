@@ -1,0 +1,8 @@
+domain,variable,indicator_name,threshold_value,threshold_unit,threshold_basis,interpretation
+air_quality,pm25,PM2.5 review threshold,35.0,ug_m3,illustrative_public_health_trigger,Elevated particulate matter review required
+air_quality,no2,NO2 review threshold,40.0,ppb,illustrative_exposure_trigger,Elevated nitrogen dioxide review required
+water_quality,turbidity,Turbidity review threshold,20.0,ntu,illustrative_water_quality_trigger,Turbidity may indicate runoff or disturbance
+water_quality,nitrate,Nitrate review threshold,10.0,mg_l,illustrative_water_quality_trigger,Nitrate exceedance review required
+soil,soil_moisture,Soil moisture low threshold,0.30,fraction,illustrative_drought_trigger,Low soil moisture review required
+biodiversity,habitat_condition,Habitat condition low threshold,0.65,index,illustrative_ecological_trigger,Habitat condition review required
+climate,surface_temperature,Urban heat review threshold,35.0,degC,illustrative_heat_trigger,High temperature review required

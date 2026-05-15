@@ -1,0 +1,8 @@
+site_id,monitoring_zone_id,site_name,domain,platform_type,latitude,longitude,operator,operational_status,primary_variable
+ENV-AIR-001,MZ-URBAN-A,Central Corridor Air Station,air_quality,fixed_station,38.6400,-90.1900,environmental_agency,current,pm25
+ENV-AIR-002,MZ-PORT-B,Port District Mobile Air Node,air_quality,mobile_sensor,38.6600,-90.2500,city_health_department,review_required,no2
+ENV-WTR-001,MZ-RIVER-C,East River Water Quality Site,water_quality,water_probe,38.6200,-90.2200,water_agency,current,turbidity
+ENV-WTR-002,MZ-LAKE-D,North Lake Sampling Site,water_quality,lab_sampling_site,38.7000,-90.2800,university_lab,current,nitrate
+ENV-SOIL-001,MZ-AG-E,Prairie Soil Moisture Site,soil,soil_sensor,38.7200,-90.3000,university_network,current,soil_moisture
+ENV-BIO-001,MZ-WET-F,Wetland Biodiversity Plot,biodiversity,field_plot,38.6800,-90.3200,conservation_authority,current,habitat_condition
+ENV-CLM-001,MZ-HEAT-G,Urban Heat Monitoring Site,climate,surface_station,38.6100,-90.1800,municipal_climate_program,current,surface_temperature

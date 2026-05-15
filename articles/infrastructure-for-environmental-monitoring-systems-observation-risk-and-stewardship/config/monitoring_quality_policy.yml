@@ -1,0 +1,9 @@
+monitoring_quality_policy:
+  version: "1.0.0"
+  rule: "Monitoring records used for public indicators or stewardship claims must include completeness, calibration, metadata, provenance, and sampling design review."
+  thresholds:
+    minimum_record_completeness: 0.80
+    minimum_monitoring_quality_score: 0.75
+    high_coverage_gap_score: 0.35
+    high_environmental_risk_score: 0.25
+    review_required_for_threshold_exceedance: true

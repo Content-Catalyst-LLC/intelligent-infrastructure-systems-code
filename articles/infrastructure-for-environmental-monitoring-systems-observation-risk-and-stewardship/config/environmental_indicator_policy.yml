@@ -1,0 +1,12 @@
+environmental_indicator_policy:
+  version: "1.0.0"
+  rule: "Indicators must document variable, unit, threshold, baseline logic where applicable, quality caveats, exposure relevance, and governance use."
+  required_elements:
+    - variable
+    - unit
+    - threshold_value
+    - threshold_basis
+    - quality_flag_policy
+    - spatial_scope
+    - valid_use
+    - response_pathway

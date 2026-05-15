@@ -1,0 +1,7 @@
+governance_id,date,site_id,decision,owner,status,public_note_required
+GOV-001,2026-05-01,ENV-AIR-001,Review PM2.5 exceedance and public-health communication threshold,environmental_agency,open,true
+GOV-002,2026-05-02,ENV-AIR-002,Service mobile NO2 sensor and improve Port District coverage,city_health_department,open,true
+GOV-003,2026-05-03,ENV-WTR-001,Investigate turbidity following storm event,water_agency,open,true
+GOV-004,2026-05-04,ENV-WTR-002,Review nitrate sampling frequency and watershed source inventory,university_lab,open,true
+GOV-005,2026-05-05,ENV-BIO-001,Update habitat monitoring protocol and restoration review,conservation_authority,open,true
+GOV-006,2026-05-06,ENV-CLM-001,Coordinate heat exposure reporting with public-health office,municipal_climate_program,open,true

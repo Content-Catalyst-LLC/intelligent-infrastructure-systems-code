@@ -1,0 +1,9 @@
+observation_id,site_id,timestamp,domain,variable,value,unit,method,quality_flag
+OBS-001,ENV-AIR-001,2026-05-01T08:00:00Z,air_quality,pm25,18.4,ug_m3,optical_sensor,good
+OBS-002,ENV-AIR-001,2026-05-01T09:00:00Z,air_quality,pm25,36.2,ug_m3,optical_sensor,review
+OBS-003,ENV-AIR-002,2026-05-01T08:00:00Z,air_quality,no2,42.0,ppb,electrochemical_sensor,review
+OBS-004,ENV-WTR-001,2026-05-01T08:00:00Z,water_quality,turbidity,22.5,ntu,water_probe,good
+OBS-005,ENV-WTR-002,2026-05-01T08:00:00Z,water_quality,nitrate,11.4,mg_l,lab_analysis,good
+OBS-006,ENV-SOIL-001,2026-05-01T08:00:00Z,soil,soil_moisture,0.27,fraction,soil_sensor,good
+OBS-007,ENV-BIO-001,2026-05-01T08:00:00Z,biodiversity,habitat_condition,0.58,index,field_survey,review
+OBS-008,ENV-CLM-001,2026-05-01T14:00:00Z,climate,surface_temperature,35.8,degC,shielded_temperature_sensor,good

@@ -1,0 +1,8 @@
+site_id,calibration_status,telemetry_status,battery_status,last_calibration_date,record_completeness,calibration_score,metadata_score,provenance_score,sampling_design_score
+ENV-AIR-001,current,current,good,2026-03-01,0.92,0.95,0.90,0.90,0.84
+ENV-AIR-002,review_required,partial,low,2025-11-15,0.70,0.62,0.68,0.72,0.70
+ENV-WTR-001,current,current,good,2026-02-20,0.88,0.92,0.88,0.86,0.82
+ENV-WTR-002,current,current,good,2026-01-10,0.84,0.90,0.86,0.88,0.78
+ENV-SOIL-001,review_required,current,good,2025-10-05,0.76,0.70,0.74,0.76,0.72
+ENV-BIO-001,current,manual,not_applicable,2026-04-01,0.68,0.82,0.78,0.74,0.66
+ENV-CLM-001,current,current,good,2026-02-15,0.90,0.92,0.88,0.90,0.80

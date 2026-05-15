@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MonitoringSiteInventoryRecord",
+  "type": "object",
+  "required": [
+    "site_id",
+    "monitoring_zone_id",
+    "site_name",
+    "domain",
+    "platform_type",
+    "latitude",
+    "longitude",
+    "operator",
+    "operational_status",
+    "primary_variable"
+  ],
+  "properties": {
+    "site_id": {"type": "string"},
+    "monitoring_zone_id": {"type": "string"},
+    "site_name": {"type": "string"},
+    "domain": {"type": "string"},
+    "platform_type": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "operator": {"type": "string"},
+    "operational_status": {"type": "string"},
+    "primary_variable": {"type": "string"}
+  }
+}

@@ -1,0 +1,8 @@
+monitoring_zone_id,zone_name,population_exposed,ecosystem_exposed,coverage_gap_score,exposure_score,vulnerability_score,governance_response_score,review_status
+MZ-URBAN-A,Central Corridor,high,medium,0.18,0.74,0.66,0.72,current
+MZ-PORT-B,Port District,high,low,0.42,0.82,0.70,0.58,review_required
+MZ-RIVER-C,East River Corridor,medium,high,0.24,0.70,0.62,0.68,current
+MZ-LAKE-D,North Lake Watershed,medium,high,0.28,0.66,0.58,0.64,current
+MZ-AG-E,Prairie Agricultural Zone,medium,medium,0.36,0.62,0.54,0.56,review_required
+MZ-WET-F,Wetland Conservation Zone,low,high,0.40,0.60,0.68,0.52,review_required
+MZ-HEAT-G,Urban Heat Zone,high,low,0.30,0.78,0.72,0.62,review_required
