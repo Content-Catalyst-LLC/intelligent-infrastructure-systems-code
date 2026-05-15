@@ -1,0 +1,16 @@
+climate_scenario_manifest:
+  version: "1.0.0"
+  article: "Infrastructure Systems for Climate Adaptation"
+  planning_horizons:
+    - 2030
+    - 2050
+    - 2100
+  hazards:
+    - extreme_heat
+    - extreme_rainfall
+    - flooding
+    - drought
+    - wildfire_smoke
+    - sea_level_rise
+    - compound_hazard
+  rule: "Adaptation claims must state future climate assumptions, uncertainty, service targets, and review cadence."

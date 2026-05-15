@@ -1,0 +1,7 @@
+program_id,project_name,infrastructure_domain,primary_hazard,scenario_credibility,dependency_mapping,service_protection,equity_screen,finance_readiness,maintenance_readiness,observability,governance_clarity,maladaptation_risk,high_stakes_use
+adapt-water-01,Drought-Resilient Water Supply,water,drought,0.82,0.76,0.84,0.72,0.68,0.74,0.70,0.78,0.24,true
+adapt-drainage-01,Stormwater Pump and Green Storage,drainage,extreme_rainfall,0.86,0.80,0.82,0.78,0.74,0.66,0.76,0.80,0.30,true
+adapt-energy-01,Heat-Resilient Substation Program,energy,extreme_heat,0.78,0.74,0.86,0.66,0.70,0.72,0.78,0.74,0.34,true
+adapt-transport-01,Flood-Exposed Rail Corridor Adaptation,transport,flooding,0.80,0.68,0.74,0.58,0.62,0.64,0.70,0.66,0.62,true
+adapt-cooling-01,Civic Cooling and Smoke Shelter Retrofit,buildings,extreme_heat,0.76,0.72,0.88,0.86,0.72,0.70,0.72,0.78,0.18,true
+adapt-ecology-01,Wetland Flood Buffer Expansion,ecological,flooding,0.74,0.70,0.68,0.74,0.66,0.62,0.64,0.70,0.22,false

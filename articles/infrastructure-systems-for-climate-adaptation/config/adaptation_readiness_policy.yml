@@ -1,0 +1,19 @@
+adaptation_readiness_policy:
+  version: "1.0.0"
+  minimum_readiness_score: 0.75
+  mandatory_reviews:
+    equity_screen_below: 0.70
+    finance_readiness_below: 0.70
+    maintenance_readiness_below: 0.70
+    maladaptation_risk_at_or_above: 0.65
+  required_fields:
+    - program_id
+    - primary_hazard
+    - scenario_credibility
+    - dependency_mapping
+    - service_protection
+    - equity_screen
+    - finance_readiness
+    - maintenance_readiness
+    - observability
+    - maladaptation_risk

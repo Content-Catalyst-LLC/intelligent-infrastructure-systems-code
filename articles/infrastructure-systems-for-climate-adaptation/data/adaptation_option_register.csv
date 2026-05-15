@@ -1,0 +1,7 @@
+option_id,asset_id,intervention_type,description,expected_risk_reduction,equity_benefit,maladaptation_risk,maintenance_need,implementation_status
+opt-001,water-plant-01,source_diversification,Add drought-resilient source and demand management program,0.72,0.70,0.20,medium,planned
+opt-002,pump-07,drainage_upgrade,Upgrade pump and add upstream green stormwater storage,0.78,0.76,0.25,high,design
+opt-003,substation-03,thermal_resilience,Improve transformer cooling and add emergency load prioritization,0.68,0.62,0.30,medium,planned
+opt-004,rail-corridor-02,elevation_and_drainage,Rail embankment and culvert redesign,0.74,0.52,0.45,high,review_required
+opt-005,library-cooling-05,public_cooling_resilience,Passive cooling retrofit, backup power, and smoke-safe ventilation,0.66,0.86,0.18,medium,design
+opt-006,wetland-buffer-01,nature_based_infrastructure,Wetland expansion and floodplain reconnection,0.64,0.72,0.22,medium,implementation

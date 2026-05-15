@@ -1,0 +1,6 @@
+governance_id,date,program_id,decision,owner,status,public_note_required
+gov-001,2026-05-01,adapt-water-01,Finance gap flagged before capital approval,water_resilience_team,open,true
+gov-002,2026-05-02,adapt-drainage-01,Maintenance funding required for green stormwater component,stormwater_team,open,true
+gov-003,2026-05-03,adapt-energy-01,Equity review required for cooling load prioritization,energy_resilience_team,open,true
+gov-004,2026-05-04,adapt-transport-01,Maladaptation and downstream flood transfer review required,transport_resilience_team,open,true
+gov-005,2026-05-05,adapt-cooling-01,Approved for design with vulnerable population access metric,public_facilities_team,closed,true

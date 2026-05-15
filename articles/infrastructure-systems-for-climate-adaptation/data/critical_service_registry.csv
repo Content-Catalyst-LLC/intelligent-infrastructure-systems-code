@@ -1,0 +1,7 @@
+service_id,service_name,infrastructure_domain,outage_tolerance_hours,dependent_assets,vulnerable_population_flag,service_continuity_target
+svc-water,potable_water,water,12,water-plant-01,true,0.95
+svc-drainage,urban_drainage,drainage,4,pump-07,true,0.90
+svc-cooling,cooling_and_power,energy,2,substation-03,true,0.96
+svc-mobility,mobility_and_logistics,transport,8,rail-corridor-02,false,0.85
+svc-public-cooling,public_cooling,buildings,1,library-cooling-05,true,0.98
+svc-flood-storage,flood_storage,ecological,24,wetland-buffer-01,true,0.88

@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "name": "climate_adaptation_infrastructure_assets",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "water-plant-01", "domain": "water", "primary_hazard": "drought"},
+      "geometry": {"type": "Point", "coordinates": [-90.1994, 38.6270]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "pump-07", "domain": "drainage", "primary_hazard": "extreme_rainfall"},
+      "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6400]}
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdaptationReadinessRecord",
+  "type": "object",
+  "required": [
+    "program_id",
+    "project_name",
+    "infrastructure_domain",
+    "primary_hazard",
+    "scenario_credibility",
+    "dependency_mapping",
+    "service_protection",
+    "equity_screen",
+    "finance_readiness",
+    "maintenance_readiness",
+    "observability",
+    "governance_clarity",
+    "maladaptation_risk"
+  ],
+  "properties": {
+    "program_id": {"type": "string"},
+    "project_name": {"type": "string"},
+    "infrastructure_domain": {"type": "string"},
+    "primary_hazard": {"type": "string"},
+    "scenario_credibility": {"type": "number", "minimum": 0, "maximum": 1},
+    "dependency_mapping": {"type": "number", "minimum": 0, "maximum": 1},
+    "service_protection": {"type": "number", "minimum": 0, "maximum": 1},
+    "equity_screen": {"type": "number", "minimum": 0, "maximum": 1},
+    "finance_readiness": {"type": "number", "minimum": 0, "maximum": 1},
+    "maintenance_readiness": {"type": "number", "minimum": 0, "maximum": 1},
+    "observability": {"type": "number", "minimum": 0, "maximum": 1},
+    "governance_clarity": {"type": "number", "minimum": 0, "maximum": 1},
+    "maladaptation_risk": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

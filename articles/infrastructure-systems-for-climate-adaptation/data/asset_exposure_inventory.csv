@@ -1,0 +1,7 @@
+asset_id,asset_name,infrastructure_domain,primary_hazard,exposure_score,vulnerability_score,criticality_score,dependent_service,location_type
+water-plant-01,North Water Treatment Plant,water,drought,0.78,0.72,0.94,potable_water,urban_edge
+pump-07,East Stormwater Pump,drainage,extreme_rainfall,0.86,0.68,0.88,urban_drainage,lowlying_urban
+substation-03,Central Substation,energy,extreme_heat,0.74,0.70,0.92,cooling_and_power,urban_core
+rail-corridor-02,South Rail Corridor,transport,flooding,0.82,0.66,0.84,mobility_and_logistics,river_corridor
+library-cooling-05,Civic Cooling Library,buildings,extreme_heat,0.70,0.58,0.78,public_cooling,heat_vulnerable_neighborhood
+wetland-buffer-01,Restored Wetland Buffer,ecological,flooding,0.62,0.52,0.76,flood_storage,watershed

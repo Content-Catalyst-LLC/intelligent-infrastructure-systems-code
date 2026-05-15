@@ -1,0 +1,29 @@
+article:
+  title: "Infrastructure Systems for Climate Adaptation"
+  slug: "infrastructure-systems-for-climate-adaptation"
+  subtitle: "Risk, Resilient Development, Service Continuity, and Implementation"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-systems-for-climate-adaptation/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-systems-for-climate-adaptation"
+
+navigation_note:
+  top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
+  github_block_position: "Place the GitHub repository section after the code samples."
+
+technical_level: "research-grade climate adaptation infrastructure, service continuity, asset exposure, vulnerability, equity, finance, nature-based systems, maladaptation review, and governance observability scaffold"
+
+workflows:
+  mathematical_lens: "Hazard, exposure, vulnerability, adaptive capacity, service continuity, adaptation benefit, readiness scoring, and maladaptation risk"
+  python:
+    - "Adaptation infrastructure readiness scoring"
+    - "Maladaptation, finance, equity, and maintenance triage"
+  r:
+    - "Adaptation portfolio summary reporting"
+    - "Hazard and infrastructure-domain readiness tables"
+  sql:
+    - "Climate scenario registry"
+    - "Asset exposure inventory"
+    - "Critical service registry"
+    - "Adaptation option register"
+    - "Readiness scoring records"
+    - "Governance log"

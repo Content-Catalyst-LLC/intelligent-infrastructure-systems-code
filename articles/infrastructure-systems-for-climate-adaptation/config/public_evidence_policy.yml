@@ -1,0 +1,3 @@
+public_evidence_policy:
+  version: "1.0.0"
+  rule: "Public adaptation claims must include climate scenario, service target, exposed populations, intervention type, maladaptation review, finance status, maintenance owner, indicators, and uncertainty caveats."

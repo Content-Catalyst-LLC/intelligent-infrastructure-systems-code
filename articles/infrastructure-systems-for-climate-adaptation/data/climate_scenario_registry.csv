@@ -1,0 +1,6 @@
+scenario_id,hazard,time_horizon,scenario_description,confidence_note,source_note
+heat-2050,extreme_heat,2050,Hotter baseline summers and more frequent heat extremes,Use local downscaled climate records where available,IPCC and local climate records
+rainfall-2050,extreme_rainfall,2050,More intense short-duration rainfall events,Design storm assumptions require review,NOAA/local hydrology review
+coastal-2100,sea_level_rise,2100,Rising coastal flood and surge exposure,Local relative sea-level estimates required,regional coastal models
+drought-2050,drought,2050,Longer dry periods and water-supply stress,Link to watershed and demand analysis,water utility plans
+wildfire-2050,wildfire_smoke,2050,Expanded wildfire and smoke exposure,Include health, power, and communication dependencies,fire and air-quality data
