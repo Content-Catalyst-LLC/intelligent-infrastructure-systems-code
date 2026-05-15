@@ -1,0 +1,31 @@
+article:
+  title: "Infrastructure for Renewable Energy Systems: Grids, Storage and Flexibility"
+  slug: "infrastructure-for-renewable-energy-systems-grids-storage-and-flexibility"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/infrastructure-for-renewable-energy-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/infrastructure-for-renewable-energy-systems-grids-storage-and-flexibility"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for power-system planning, grid operations, protection engineering, regulatory compliance, environmental review, public safety, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - renewable_asset_inventory
+  - grid_connection_constraint_review
+  - generation_forecast_error_review
+  - usable_renewable_energy_calculation
+  - curtailment_scoring
+  - storage_state_and_dispatch_review
+  - flexibility_adequacy_scoring
+  - interconnection_and_hosting_capacity_review
+  - resilience_scoring
+  - cyber_physical_device_visibility
+  - governance_and_planning_watchlist
+  - edge_renewable_quality_validation
+  - fpga_renewable_threshold_flags

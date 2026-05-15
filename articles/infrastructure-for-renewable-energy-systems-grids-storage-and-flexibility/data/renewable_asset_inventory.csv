@@ -1,0 +1,10 @@
+asset_id,asset_name,technology,asset_class,grid_node_id,service_zone_id,flexibility_zone_id,owner_operator,criticality,commission_year,latitude,longitude,nominal_capacity_mw
+RE-SOL-001,South Solar Plant,solar_pv,generation,GN-SOUTH-A,RZ-SOUTH-A,FZ-SOUTH-A,renewable_operator,medium,2019,38.5200,-90.4100,80
+RE-WND-001,North Ridge Wind Farm,onshore_wind,generation,GN-NORTH-B,RZ-NORTH-B,FZ-NORTH-B,wind_operator,high,2020,38.8400,-90.5100,150
+RE-OFF-001,Lake Offshore Wind Intertie,offshore_wind,generation,GN-INTER-C,RZ-REGIONAL-C,FZ-REGIONAL-C,transmission_operator,high,2025,41.9000,-87.5000,300
+RE-BAT-001,Riverfront Battery System,battery_storage,storage,GN-CBD-D,RZ-CBD-D,FZ-CBD-D,storage_operator,high,2022,38.6100,-90.2300,40
+RE-PHS-001,Regional Pumped Storage,pumped_storage,storage,GN-REG-E,RZ-REGIONAL-C,FZ-REGIONAL-C,storage_operator,high,2014,38.9000,-90.7000,250
+RE-DER-001,Community Solar and DER Cluster,distributed_energy_resource,distributed,GN-CBD-D,RZ-CBD-D,FZ-CBD-D,distribution_utility,medium,2023,38.6450,-90.2000,20
+RE-EV-001,Urban EV Managed Charging Hub,ev_charging,demand_flexibility,GN-CBD-D,RZ-CBD-D,FZ-CBD-D,transport_energy_operator,medium,2024,38.6460,-90.1980,10
+RE-DR-001,Industrial Demand Response Portfolio,demand_response,demand_flexibility,GN-EAST-F,RZ-EAST-F,FZ-EAST-F,aggregator,medium,2021,38.6200,-90.2200,35
+RE-INT-001,Regional Grid Interconnector,grid_interconnector,network_flexibility,GN-INTER-C,RZ-REGIONAL-C,FZ-REGIONAL-C,transmission_operator,high,2017,38.7600,-90.3000,500

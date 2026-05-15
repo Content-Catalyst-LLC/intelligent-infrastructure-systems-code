@@ -1,0 +1,35 @@
+renewable_infrastructure_objective:
+  version: "1.0.0"
+  title: "Infrastructure for Renewable Energy Systems"
+  purpose: "Demonstrate renewable energy infrastructure as a system-integration problem involving generation, grids, storage, flexibility, forecasting, digital coordination, resilience, cybersecurity, planning, and public governance."
+  asset_classes:
+    - solar_pv
+    - onshore_wind
+    - offshore_wind
+    - hydropower
+    - geothermal
+    - bioenergy
+    - battery_storage
+    - pumped_storage
+    - inverter
+    - distributed_energy_resource
+    - grid_interconnector
+    - demand_response
+    - ev_charging
+  decision_uses:
+    - grid_integration_review
+    - interconnection_review
+    - curtailment_analysis
+    - storage_dispatch_review
+    - flexibility_adequacy_review
+    - distribution_hosting_capacity_review
+    - resilience_planning
+    - demand_response_design
+    - public_reporting
+  not_for:
+    - certified_power_system_planning
+    - grid_operations_automation
+    - protection_engineering_automation
+    - market_settlement
+    - environmental_compliance_replacement
+    - cybersecurity_audit_replacement

@@ -1,0 +1,7 @@
+governance_id,date,asset_id,grid_node_id,decision,owner,status,public_note_required
+GOV-RE-001,2026-05-01,RE-WND-001,GN-NORTH-B,Review North Ridge wind curtailment and transmission constraint mitigation,transmission_operator,open,true
+GOV-RE-002,2026-05-02,RE-DER-001,GN-CBD-D,Review urban distribution hosting capacity and DER visibility,distribution_utility,open,true
+GOV-RE-003,2026-05-03,RE-SOL-001,GN-SOUTH-A,Review storage and demand response options for South Solar curtailment,renewable_operator,open,true
+GOV-RE-004,2026-05-04,RE-EV-001,GN-CBD-D,Review EV managed charging as flexible load and grid-edge risk,transport_energy_operator,open,true
+GOV-RE-005,2026-05-05,RE-DR-001,GN-EAST-F,Resolve industrial demand response queue and dispatch coordination,aggregator,open,true
+GOV-RE-006,2026-05-06,RE-INT-001,GN-INTER-C,Assess regional interconnector contribution to resilience and flexibility,transmission_operator,open,true

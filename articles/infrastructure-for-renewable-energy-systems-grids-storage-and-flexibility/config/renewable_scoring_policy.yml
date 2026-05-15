@@ -1,0 +1,10 @@
+renewable_scoring_policy:
+  version: "1.0.0"
+  rule: "Renewable infrastructure must be assessed through usable renewable energy, curtailment, grid constraints, forecast quality, storage readiness, flexibility adequacy, resilience, and governance actionability, not installed capacity alone."
+  thresholds:
+    high_curtailment_rate: 0.10
+    minimum_flexibility_adequacy_score: 0.75
+    high_grid_constraint_score: 0.30
+    minimum_forecast_quality_score: 0.70
+    minimum_resilience_score: 0.70
+    minimum_renewable_infrastructure_score: 0.65

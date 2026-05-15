@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RenewableAssetInventoryRecord",
+  "type": "object",
+  "required": ["asset_id", "asset_name", "technology", "asset_class", "grid_node_id", "service_zone_id", "flexibility_zone_id", "owner_operator", "criticality", "commission_year", "nominal_capacity_mw"],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "technology": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "grid_node_id": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "flexibility_zone_id": {"type": "string"},
+    "owner_operator": {"type": "string"},
+    "criticality": {"type": "string"},
+    "commission_year": {"type": "integer"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "nominal_capacity_mw": {"type": "number"}
+  }
+}

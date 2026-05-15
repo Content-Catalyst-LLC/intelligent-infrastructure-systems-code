@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RenewableGenerationForecastRecord",
+  "type": "object",
+  "required": ["record_id", "asset_id", "timestamp", "forecast_generation_mw", "actual_generation_mw", "resource_condition_score", "forecast_quality_score", "availability_score", "available_storage_charge_mw", "quality_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "forecast_generation_mw": {"type": "number"},
+    "actual_generation_mw": {"type": "number"},
+    "resource_condition_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "forecast_quality_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "availability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "available_storage_charge_mw": {"type": "number"},
+    "quality_flag": {"type": "string"}
+  }
+}

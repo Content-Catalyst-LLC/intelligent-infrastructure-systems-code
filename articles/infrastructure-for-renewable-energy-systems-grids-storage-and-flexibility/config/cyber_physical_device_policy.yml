@@ -1,0 +1,15 @@
+cyber_physical_device_policy:
+  version: "1.0.0"
+  rule: "Renewable infrastructure systems must protect inverters, grid-edge devices, telemetry, APIs, remote access, firmware, control platforms, and fallback procedures."
+  required_elements:
+    - asset_inventory
+    - inverter_inventory
+    - firmware_inventory
+    - authentication
+    - network_segmentation
+    - access_control
+    - telemetry_integrity_checks
+    - logging
+    - incident_response
+    - manual_fallback
+    - platform_continuity

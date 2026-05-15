@@ -1,0 +1,10 @@
+record_id,asset_id,timestamp,forecast_generation_mw,actual_generation_mw,resource_condition_score,forecast_quality_score,availability_score,available_storage_charge_mw,quality_flag
+GEN-001,RE-SOL-001,2026-05-01T12:00:00Z,68,72,0.88,0.82,0.96,12,good
+GEN-002,RE-WND-001,2026-05-01T12:00:00Z,135,118,0.76,0.70,0.94,18,review
+GEN-003,RE-OFF-001,2026-05-01T12:00:00Z,250,268,0.84,0.76,0.95,35,good
+GEN-004,RE-BAT-001,2026-05-01T12:00:00Z,0,0,1.00,0.90,0.92,28,good
+GEN-005,RE-PHS-001,2026-05-01T12:00:00Z,0,0,1.00,0.88,0.96,110,good
+GEN-006,RE-DER-001,2026-05-01T12:00:00Z,16,19,0.82,0.68,0.90,5,review
+GEN-007,RE-EV-001,2026-05-01T12:00:00Z,0,0,1.00,0.80,0.88,0,review
+GEN-008,RE-DR-001,2026-05-01T12:00:00Z,0,0,1.00,0.82,0.90,0,good
+GEN-009,RE-INT-001,2026-05-01T12:00:00Z,0,0,1.00,0.86,0.98,0,good

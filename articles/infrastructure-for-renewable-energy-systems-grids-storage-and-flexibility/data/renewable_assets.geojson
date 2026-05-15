@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "renewable_assets",
+  "features": [
+    {"type": "Feature", "properties": {"asset_id": "RE-SOL-001", "technology": "solar_pv"}, "geometry": {"type": "Point", "coordinates": [-90.4100, 38.5200]}},
+    {"type": "Feature", "properties": {"asset_id": "RE-WND-001", "technology": "onshore_wind"}, "geometry": {"type": "Point", "coordinates": [-90.5100, 38.8400]}},
+    {"type": "Feature", "properties": {"asset_id": "RE-BAT-001", "technology": "battery_storage"}, "geometry": {"type": "Point", "coordinates": [-90.2300, 38.6100]}}
+  ]
+}

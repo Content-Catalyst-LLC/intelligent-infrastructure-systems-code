@@ -1,0 +1,6 @@
+flexibility_zone_id,zone_name,available_flexibility_mw,flexibility_need_mw,storage_readiness_score,demand_response_readiness_score,interconnection_support_score,dispatch_coordination_score,primary_flexibility_issue
+FZ-SOUTH-A,South Renewable Flex Zone,24,36,0.68,0.52,0.58,0.62,storage_and_demand_response_shortfall
+FZ-NORTH-B,North Wind Flex Zone,34,52,0.62,0.48,0.60,0.58,transmission_and_flexibility_shortfall
+FZ-REGIONAL-C,Regional Interconnection Flex Zone,160,150,0.82,0.70,0.88,0.76,current
+FZ-CBD-D,Urban Grid Edge Flex Zone,22,38,0.60,0.54,0.46,0.56,distribution_flexibility_gap
+FZ-EAST-F,East Industrial Flex Zone,30,42,0.56,0.72,0.52,0.60,queue_and_dispatch_coordination

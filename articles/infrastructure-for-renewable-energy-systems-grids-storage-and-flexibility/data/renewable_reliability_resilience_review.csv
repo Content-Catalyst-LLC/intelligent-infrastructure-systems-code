@@ -1,0 +1,6 @@
+service_zone_id,zone_name,service_continuity_score,resilience_score,fallback_capacity_score,islanding_relevance_score,restoration_support_score,weather_exposure_score,resilience_review_status
+RZ-SOUTH-A,South Renewable Zone,0.88,0.66,0.58,0.42,0.52,0.48,review_required
+RZ-NORTH-B,North Wind Zone,0.86,0.62,0.52,0.36,0.50,0.54,review_required
+RZ-REGIONAL-C,Regional Interconnection Zone,0.94,0.78,0.76,0.58,0.72,0.36,current
+RZ-CBD-D,Urban Grid Edge Zone,0.82,0.60,0.48,0.50,0.46,0.42,review_required
+RZ-EAST-F,East Industrial Flex Zone,0.90,0.68,0.60,0.34,0.58,0.40,review_required
