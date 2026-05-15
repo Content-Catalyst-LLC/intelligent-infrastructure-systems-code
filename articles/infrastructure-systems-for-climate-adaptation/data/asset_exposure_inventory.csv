@@ -5,3 +5,4 @@ substation-03,Central Substation,energy,extreme_heat,0.74,0.70,0.92,cooling_and_
 rail-corridor-02,South Rail Corridor,transport,flooding,0.82,0.66,0.84,mobility_and_logistics,river_corridor
 library-cooling-05,Civic Cooling Library,buildings,extreme_heat,0.70,0.58,0.78,public_cooling,heat_vulnerable_neighborhood
 wetland-buffer-01,Restored Wetland Buffer,ecological,flooding,0.62,0.52,0.76,flood_storage,watershed
+communications-node-04,Emergency Communications Node,digital,compound_hazard,0.72,0.64,0.90,emergency_communications,urban_core

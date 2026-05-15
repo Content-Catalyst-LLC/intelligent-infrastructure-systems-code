@@ -8,22 +8,28 @@ article:
 
 navigation_note:
   top_gateway_rule: "Use the five-button navigation to point to article maps / pillar pages whenever possible; reserve individual article links for Related articles."
-  github_block_position: "Place the GitHub repository section after the code samples."
+  github_block_position: "Place the GitHub repository section after code samples."
 
-technical_level: "research-grade climate adaptation infrastructure, service continuity, asset exposure, vulnerability, equity, finance, nature-based systems, maladaptation review, and governance observability scaffold"
+technical_level: "research-grade infrastructure adaptation scaffold with scenario discipline, service-continuity analysis, dependency mapping, equity screening, finance and maintenance review, maladaptation screening, observability, and governance revision"
 
 workflows:
-  mathematical_lens: "Hazard, exposure, vulnerability, adaptive capacity, service continuity, adaptation benefit, readiness scoring, and maladaptation risk"
+  mathematical_lens: "Hazard, exposure, vulnerability, adaptive capacity, dependency propagation, service continuity, adaptation benefit, readiness scoring, and maladaptation risk"
   python:
-    - "Adaptation infrastructure readiness scoring"
-    - "Maladaptation, finance, equity, and maintenance triage"
+    - "Adaptation readiness scoring with validation and review flags"
+    - "Service continuity analysis and outage tolerance checks"
+    - "Evidence package validation without external dependencies"
   r:
-    - "Adaptation portfolio summary reporting"
-    - "Hazard and infrastructure-domain readiness tables"
+    - "Portfolio reporting by hazard, domain, readiness band, and equity flag"
   sql:
     - "Climate scenario registry"
     - "Asset exposure inventory"
     - "Critical service registry"
+    - "Dependency edge list"
     - "Adaptation option register"
-    - "Readiness scoring records"
     - "Governance log"
+  systems_code:
+    - "Go signal triage example"
+    - "Rust record validation example"
+    - "TypeScript dashboard scoring helper"
+    - "C/C++ threshold and service-continuity examples"
+    - "Julia risk-index example"

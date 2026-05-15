@@ -12,3 +12,5 @@ Before infrastructure adaptation is used for public investment, resilience claim
 6. Maladaptation risks are screened.
 7. Lifecycle finance and maintenance responsibilities are assigned.
 8. Monitoring indicators and reporting cadence are defined.
+9. Verification and validation evidence are separated.
+10. Governance owner and revision triggers are named.

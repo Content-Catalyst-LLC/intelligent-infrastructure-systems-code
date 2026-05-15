@@ -5,3 +5,4 @@ svc-cooling,cooling_and_power,energy,2,substation-03,true,0.96
 svc-mobility,mobility_and_logistics,transport,8,rail-corridor-02,false,0.85
 svc-public-cooling,public_cooling,buildings,1,library-cooling-05,true,0.98
 svc-flood-storage,flood_storage,ecological,24,wetland-buffer-01,true,0.88
+svc-comms,emergency_communications,digital,1,communications-node-04,true,0.99

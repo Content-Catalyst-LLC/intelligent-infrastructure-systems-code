@@ -15,7 +15,8 @@
     "maintenance_readiness",
     "observability",
     "governance_clarity",
-    "maladaptation_risk"
+    "maladaptation_risk",
+    "high_stakes_use"
   ],
   "properties": {
     "program_id": {"type": "string"},
@@ -30,6 +31,7 @@
     "maintenance_readiness": {"type": "number", "minimum": 0, "maximum": 1},
     "observability": {"type": "number", "minimum": 0, "maximum": 1},
     "governance_clarity": {"type": "number", "minimum": 0, "maximum": 1},
-    "maladaptation_risk": {"type": "number", "minimum": 0, "maximum": 1}
+    "maladaptation_risk": {"type": "number", "minimum": 0, "maximum": 1},
+    "high_stakes_use": {"type": "boolean"}
   }
 }

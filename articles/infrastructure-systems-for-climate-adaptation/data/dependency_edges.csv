@@ -1,0 +1,7 @@
+from_asset_id,to_asset_id,dependency_type,dependency_strength,notes
+substation-03,water-plant-01,power_supply,0.90,Water treatment depends on reliable electricity
+substation-03,pump-07,power_supply,0.95,Stormwater pump depends on electricity during rainfall
+communications-node-04,pump-07,telemetry,0.65,Pump monitoring depends on communications
+rail-corridor-02,library-cooling-05,access,0.40,Public access may depend on transport continuity
+wetland-buffer-01,pump-07,hazard_buffer,0.55,Wetland storage can reduce pump load
+communications-node-04,library-cooling-05,emergency_communications,0.70,Cooling center coordination depends on communications

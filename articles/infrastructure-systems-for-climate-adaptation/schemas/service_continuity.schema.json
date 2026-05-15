@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ServiceContinuityRecord",
+  "type": "object",
+  "required": ["record_id", "service_id", "scenario_id", "outage_hours", "critical_hours", "affected_population", "priority_population_flag"],
+  "properties": {
+    "record_id": {"type": "string"},
+    "service_id": {"type": "string"},
+    "scenario_id": {"type": "string"},
+    "outage_hours": {"type": "number", "minimum": 0},
+    "critical_hours": {"type": "number", "exclusiveMinimum": 0},
+    "affected_population": {"type": "integer", "minimum": 0},
+    "priority_population_flag": {"type": "boolean"}
+  }
+}

@@ -1,3 +1,5 @@
+# Requires CSV.jl and DataFrames.jl.
+# In Julia: import Pkg; Pkg.add(["CSV", "DataFrames"])
 using CSV
 using DataFrames
 

@@ -1,0 +1,8 @@
+program_id,project_name,infrastructure_domain,primary_hazard,scenario_credibility,dependency_mapping,service_protection,equity_screen,finance_readiness,maintenance_readiness,observability,governance_clarity,maladaptation_risk,high_stakes_use,adaptation_readiness,net_adaptation_readiness,review_priority,review_flags
+adapt-ecology-01,Wetland Flood Buffer Expansion,ecological,flooding,0.74,0.70,0.68,0.74,0.66,0.62,0.64,0.70,0.22,false,0.69,0.646,finance_gap,finance_gap;maintenance_gap;observability_gap;readiness_review
+adapt-water-01,Drought-Resilient Water Supply,water,drought,0.82,0.76,0.84,0.72,0.68,0.74,0.70,0.78,0.24,true,0.76,0.712,finance_gap,finance_gap
+adapt-energy-01,Heat-Resilient Substation Program,energy,extreme_heat,0.78,0.74,0.86,0.66,0.70,0.72,0.78,0.74,0.34,true,0.75,0.682,high_stakes_equity_review,high_stakes_equity_review;readiness_review
+adapt-cooling-01,Civic Cooling and Smoke Shelter Retrofit,buildings,extreme_heat,0.76,0.72,0.88,0.86,0.72,0.70,0.72,0.78,0.18,true,0.773,0.737,implementation_ready,none
+adapt-comms-01,Emergency Communications Resilience,digital,compound_hazard,0.78,0.82,0.90,0.80,0.70,0.76,0.84,0.82,0.26,true,0.804,0.752,implementation_ready,none
+adapt-drainage-01,Stormwater Pump and Green Storage,drainage,extreme_rainfall,0.86,0.80,0.82,0.78,0.74,0.66,0.76,0.80,0.30,true,0.785,0.725,maintenance_gap,maintenance_gap
+adapt-transport-01,Flood-Exposed Rail Corridor Adaptation,transport,flooding,0.80,0.68,0.74,0.58,0.62,0.64,0.70,0.66,0.62,true,0.683,0.559,maladaptation_review_required,maladaptation_review_required;high_stakes_equity_review;finance_gap;maintenance_gap;dependency_mapping_review;readiness_review

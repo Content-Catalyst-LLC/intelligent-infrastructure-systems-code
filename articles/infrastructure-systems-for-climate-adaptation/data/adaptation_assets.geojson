@@ -11,6 +11,11 @@
       "type": "Feature",
       "properties": {"asset_id": "pump-07", "domain": "drainage", "primary_hazard": "extreme_rainfall"},
       "geometry": {"type": "Point", "coordinates": [-90.2500, 38.6400]}
+    },
+    {
+      "type": "Feature",
+      "properties": {"asset_id": "communications-node-04", "domain": "digital", "primary_hazard": "compound_hazard"},
+      "geometry": {"type": "Point", "coordinates": [-90.2100, 38.6350]}
     }
   ]
 }

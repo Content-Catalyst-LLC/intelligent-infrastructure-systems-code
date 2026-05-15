@@ -1,0 +1,12 @@
+{
+  "record_count": 7,
+  "review_counts": {
+    "finance_gap": 2,
+    "high_stakes_equity_review": 1,
+    "implementation_ready": 2,
+    "maintenance_gap": 1,
+    "maladaptation_review_required": 1
+  },
+  "minimum_net_readiness": 0.559,
+  "maximum_net_readiness": 0.752
+}

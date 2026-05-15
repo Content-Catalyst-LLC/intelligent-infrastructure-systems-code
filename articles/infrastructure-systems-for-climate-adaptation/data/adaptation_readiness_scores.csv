@@ -5,3 +5,4 @@ adapt-energy-01,Heat-Resilient Substation Program,energy,extreme_heat,0.78,0.74,
 adapt-transport-01,Flood-Exposed Rail Corridor Adaptation,transport,flooding,0.80,0.68,0.74,0.58,0.62,0.64,0.70,0.66,0.62,true
 adapt-cooling-01,Civic Cooling and Smoke Shelter Retrofit,buildings,extreme_heat,0.76,0.72,0.88,0.86,0.72,0.70,0.72,0.78,0.18,true
 adapt-ecology-01,Wetland Flood Buffer Expansion,ecological,flooding,0.74,0.70,0.68,0.74,0.66,0.62,0.64,0.70,0.22,false
+adapt-comms-01,Emergency Communications Resilience,digital,compound_hazard,0.78,0.82,0.90,0.80,0.70,0.76,0.84,0.82,0.26,true

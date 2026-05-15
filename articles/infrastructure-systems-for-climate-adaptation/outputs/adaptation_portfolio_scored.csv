@@ -1,0 +1,8 @@
+"program_id","project_name","infrastructure_domain","primary_hazard","scenario_credibility","dependency_mapping","service_protection","equity_screen","finance_readiness","maintenance_readiness","observability","governance_clarity","maladaptation_risk","high_stakes_use","adaptation_readiness","net_adaptation_readiness","readiness_band"
+"adapt-water-01","Drought-Resilient Water Supply","water","drought",0.82,0.76,0.84,0.72,0.68,0.74,0.7,0.78,0.24,"true",0.7602,0.7122,"moderate"
+"adapt-drainage-01","Stormwater Pump and Green Storage","drainage","extreme_rainfall",0.86,0.8,0.82,0.78,0.74,0.66,0.76,0.8,0.3,"true",0.7846,0.7246,"moderate"
+"adapt-energy-01","Heat-Resilient Substation Program","energy","extreme_heat",0.78,0.74,0.86,0.66,0.7,0.72,0.78,0.74,0.34,"true",0.7504,0.6824,"needs review"
+"adapt-transport-01","Flood-Exposed Rail Corridor Adaptation","transport","flooding",0.8,0.68,0.74,0.58,0.62,0.64,0.7,0.66,0.62,"true",0.6832,0.5592,"maladaptation review"
+"adapt-cooling-01","Civic Cooling and Smoke Shelter Retrofit","buildings","extreme_heat",0.76,0.72,0.88,0.86,0.72,0.7,0.72,0.78,0.18,"true",0.7734,0.7374,"moderate"
+"adapt-ecology-01","Wetland Flood Buffer Expansion","ecological","flooding",0.74,0.7,0.68,0.74,0.66,0.62,0.64,0.7,0.22,"false",0.6902,0.6462,"needs review"
+"adapt-comms-01","Emergency Communications Resilience","digital","compound_hazard",0.78,0.82,0.9,0.8,0.7,0.76,0.84,0.82,0.26,"true",0.8044,0.7524,"moderate"

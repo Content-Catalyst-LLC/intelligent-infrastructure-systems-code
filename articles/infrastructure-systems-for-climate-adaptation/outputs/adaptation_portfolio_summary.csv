@@ -1,0 +1,8 @@
+"primary_hazard","infrastructure_domain","readiness_band","net_adaptation_readiness","maladaptation_risk"
+"flooding","transport","maladaptation review",0.559,0.62
+"extreme_heat","buildings","moderate",0.737,0.18
+"compound_hazard","digital","moderate",0.752,0.26
+"extreme_rainfall","drainage","moderate",0.725,0.3
+"drought","water","moderate",0.712,0.24
+"flooding","ecological","needs review",0.646,0.22
+"extreme_heat","energy","needs review",0.682,0.34

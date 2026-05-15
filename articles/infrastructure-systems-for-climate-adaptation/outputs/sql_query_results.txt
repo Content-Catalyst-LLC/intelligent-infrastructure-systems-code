@@ -1,0 +1,23 @@
+asset_id                asset_name                     infrastructure_domain  primary_hazard    climate_risk_index
+----------------------  -----------------------------  ---------------------  ----------------  ------------------
+water-plant-01          North Water Treatment Plant    water                  drought           0.528             
+pump-07                 East Stormwater Pump           drainage               extreme_rainfall  0.515             
+substation-03           Central Substation             energy                 extreme_heat      0.477             
+rail-corridor-02        South Rail Corridor            transport              flooding          0.455             
+communications-node-04  Emergency Communications Node  digital                compound_hazard   0.415             
+library-cooling-05      Civic Cooling Library          buildings              extreme_heat      0.317             
+wetland-buffer-01       Restored Wetland Buffer        ecological             flooding          0.245             
+dependent_asset     dependency_count  mean_dependency_strength
+------------------  ----------------  ------------------------
+pump-07             3                 0.717                   
+library-cooling-05  2                 0.55                    
+water-plant-01      1                 0.9                     
+intervention_type            option_count  mean_risk_reduction  mean_equity_benefit  mean_maladaptation_risk
+---------------------------  ------------  -------------------  -------------------  -----------------------
+elevation_and_drainage       1             0.74                 0.52                 0.45                   
+thermal_resilience           1             0.68                 0.62                 0.3                    
+communications_resilience    1             0.7                  0.78                 0.28                   
+drainage_upgrade             1             0.78                 0.76                 0.25                   
+nature_based_infrastructure  1             0.64                 0.72                 0.22                   
+source_diversification       1             0.72                 0.7                  0.2                    
+public_cooling_resilience    1             0.66                 0.86                 0.18                   

@@ -1,0 +1,4 @@
+# Optional dependencies for extended analysis.
+# Core Python scripts in this scaffold use the standard library only.
+pandas>=2.0
+jsonschema>=4.0

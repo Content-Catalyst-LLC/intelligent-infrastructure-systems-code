@@ -6,6 +6,7 @@ Required fields:
 - climate hazard and scenario
 - time horizon
 - critical service protected
+- acceptable outage threshold
 - affected assets and dependencies
 - exposed populations
 - vulnerable-population review
@@ -13,7 +14,10 @@ Required fields:
 - selected intervention and rationale
 - maladaptation review
 - finance and maintenance plan
+- verification evidence
+- validation evidence
 - monitoring indicators
 - uncertainty statement
 - known blind spots
+- revision trigger
 - governance owner
