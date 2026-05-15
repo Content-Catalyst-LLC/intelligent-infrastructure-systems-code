@@ -1,0 +1,7 @@
+service_zone_id,critical_digital_services,critical_services_dependent_on_concentrated_providers,backup_status,failover_tested,recovery_time_objective_hours,recovery_readiness_notes,exposure_score,continuity_review_status
+DIGI-URBAN-CORE,20,10,current,true,4,urban_core_has_partial_multi_provider_redundancy,0.28,monitor
+DIGI-SUBURBAN-RING,17,11,partial,false,12,suburban_ring_needs_failover_testing,0.38,review_required
+DIGI-RURAL-EDGE,12,10,limited,false,24,rural_edge_has_high_provider_and_backhaul_dependency,0.55,review_required
+DIGI-INDUSTRIAL-ZONE,15,11,partial,false,8,industrial_zone_needs_backhaul_and_cloud_exit_review,0.44,review_required
+DIGI-CIVIC-SERVICES,18,14,limited,false,16,civic_services_have_identity_and_provider_dependency,0.50,review_required
+DIGI-RESILIENCE-NET,16,10,partial,true,6,resilience_network_requires backup_power_and_route_diversity,0.40,review_required

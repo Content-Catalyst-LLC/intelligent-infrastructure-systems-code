@@ -1,0 +1,7 @@
+service_zone_id,systems_requiring_exchange,systems_using_shared_standards,api_catalog_available,schema_catalog_available,data_exchange_agreement_status,metadata_quality_score,interoperability_review_status
+DIGI-URBAN-CORE,42,34,true,true,current,0.82,monitor
+DIGI-SUBURBAN-RING,31,21,true,false,partial,0.68,review_required
+DIGI-RURAL-EDGE,18,8,false,false,missing,0.42,review_required
+DIGI-INDUSTRIAL-ZONE,25,17,true,true,partial,0.70,review_required
+DIGI-CIVIC-SERVICES,37,23,true,false,partial,0.64,review_required
+DIGI-RESILIENCE-NET,29,18,true,true,partial,0.72,review_required

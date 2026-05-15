@@ -1,0 +1,7 @@
+service_zone_id,affordability_score,accessibility_score,language_support_score,device_access_score,assisted_service_availability_score,documentation_burden_score,exclusion_risk_score,primary_exclusion_risk
+DIGI-URBAN-CORE,0.82,0.78,0.76,0.80,0.72,0.24,0.22,language_and_accessibility_support
+DIGI-SUBURBAN-RING,0.70,0.68,0.62,0.70,0.58,0.32,0.34,affordability_and_assisted_service_gap
+DIGI-RURAL-EDGE,0.52,0.56,0.48,0.46,0.40,0.38,0.52,coverage_affordability_and_device_access
+DIGI-INDUSTRIAL-ZONE,0.68,0.62,0.58,0.64,0.52,0.34,0.40,shift_worker_and_language_support
+DIGI-CIVIC-SERVICES,0.64,0.60,0.56,0.58,0.46,0.42,0.48,digital_only_service_exclusion
+DIGI-RESILIENCE-NET,0.66,0.64,0.60,0.62,0.50,0.30,0.38,emergency_access_and_backup_channels

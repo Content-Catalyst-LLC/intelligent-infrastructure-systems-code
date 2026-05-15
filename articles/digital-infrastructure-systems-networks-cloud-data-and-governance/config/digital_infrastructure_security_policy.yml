@@ -1,0 +1,15 @@
+digital_infrastructure_security_policy:
+  version: "1.0.0"
+  rule: "Digital infrastructure systems must protect networks, cloud platforms, edge nodes, identity systems, APIs, data exchange, credentials, certificates, logs, backups, and operational interfaces."
+  required_elements:
+    - asset_inventory
+    - connectivity_inventory
+    - cloud_dependency_register
+    - identity_access_management
+    - api_security
+    - logging_and_monitoring
+    - backup_and_recovery
+    - incident_response
+    - vendor_risk_review
+    - degraded_mode_operation
+    - public_communication_plan

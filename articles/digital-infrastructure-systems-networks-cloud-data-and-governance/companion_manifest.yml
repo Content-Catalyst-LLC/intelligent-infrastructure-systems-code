@@ -1,0 +1,29 @@
+article:
+  title: "Digital Infrastructure Systems: Networks, Cloud, Data and Governance"
+  slug: "digital-infrastructure-systems-networks-cloud-data-and-governance"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/digital-infrastructure-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/digital-infrastructure-systems-networks-cloud-data-and-governance"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for production network engineering, public-service operations, regulatory reporting, cybersecurity assurance, cloud architecture, public procurement, or digital public infrastructure deployment."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - connectivity_inventory
+  - cloud_data_infrastructure_register
+  - interoperability_exchange_register
+  - identity_trust_register
+  - dependency_continuity_review
+  - access_inclusion_review
+  - digital_infrastructure_resilience_scoring
+  - vendor_dependency_review
+  - sql_evidence_archive
+  - edge_service_continuity_validation
+  - fpga_packet_and_latency_validation

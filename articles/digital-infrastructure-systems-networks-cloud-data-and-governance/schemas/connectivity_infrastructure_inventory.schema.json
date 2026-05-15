@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConnectivityInfrastructureInventoryRecord",
+  "type": "object",
+  "required": ["service_zone_id", "region_name", "infrastructure_context", "users_needing_access", "users_with_affordable_reliable_access", "bandwidth_score", "latency_score", "uptime_score", "redundancy_score"],
+  "properties": {
+    "service_zone_id": {"type": "string"},
+    "region_name": {"type": "string"},
+    "infrastructure_context": {"type": "string"},
+    "users_needing_access": {"type": "number", "minimum": 0},
+    "users_with_affordable_reliable_access": {"type": "number", "minimum": 0},
+    "bandwidth_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "latency_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "uptime_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "redundancy_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

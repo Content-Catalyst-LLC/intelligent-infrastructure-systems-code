@@ -1,0 +1,7 @@
+service_zone_id,primary_cloud_provider,secondary_provider_available,cloud_region_count,data_center_dependency,edge_node_count,compute_capacity_score,storage_capacity_score,geo_redundancy_score,edge_readiness_score,portability_status
+DIGI-URBAN-CORE,provider_a,true,3,medium,12,0.88,0.90,0.82,0.80,partial
+DIGI-SUBURBAN-RING,provider_a,false,2,medium,7,0.80,0.78,0.68,0.66,review_required
+DIGI-RURAL-EDGE,provider_b,false,1,high,2,0.62,0.64,0.42,0.38,review_required
+DIGI-INDUSTRIAL-ZONE,provider_a,true,2,high,8,0.82,0.76,0.66,0.72,partial
+DIGI-CIVIC-SERVICES,provider_c,false,1,high,3,0.74,0.72,0.50,0.52,review_required
+DIGI-RESILIENCE-NET,hybrid_public_private,true,2,medium,9,0.78,0.76,0.70,0.74,partial

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CloudDataInfrastructureRegisterRecord",
+  "type": "object",
+  "required": ["service_zone_id", "primary_cloud_provider", "cloud_region_count", "data_center_dependency", "edge_node_count", "compute_capacity_score", "storage_capacity_score", "geo_redundancy_score", "edge_readiness_score"],
+  "properties": {
+    "service_zone_id": {"type": "string"},
+    "primary_cloud_provider": {"type": "string"},
+    "secondary_provider_available": {"type": "boolean"},
+    "cloud_region_count": {"type": "number", "minimum": 0},
+    "data_center_dependency": {"type": "string"},
+    "edge_node_count": {"type": "number", "minimum": 0},
+    "compute_capacity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "storage_capacity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "geo_redundancy_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "edge_readiness_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

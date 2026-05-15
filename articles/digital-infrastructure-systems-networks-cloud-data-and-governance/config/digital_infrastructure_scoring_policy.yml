@@ -1,0 +1,13 @@
+digital_infrastructure_scoring_policy:
+  version: "1.0.0"
+  rule: "Digital infrastructure must be assessed through access, network capacity, compute/storage capacity, interoperability, trust/security, vendor dependency, exposure, continuity, and inclusion."
+  thresholds:
+    minimum_digital_access_score: 0.85
+    minimum_network_capacity_score: 0.80
+    minimum_compute_storage_score: 0.75
+    minimum_interoperability_score: 0.70
+    minimum_trust_security_score: 0.75
+    minimum_digital_resilience_score: 0.75
+    maximum_vendor_dependency_score: 0.70
+    maximum_exposure_score: 0.40
+    maximum_exclusion_risk_score: 0.30

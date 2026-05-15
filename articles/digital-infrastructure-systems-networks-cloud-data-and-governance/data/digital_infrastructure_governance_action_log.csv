@@ -1,0 +1,7 @@
+governance_action_id,date,service_zone_id,decision,owner,status,public_note_required
+DIGI-GOV-001,2026-05-01,DIGI-URBAN-CORE,Review backup route diversity and public outage communication plan,digital_infrastructure_office,open,true
+DIGI-GOV-002,2026-05-02,DIGI-SUBURBAN-RING,Review last-mile affordability and failover testing,connectivity_program,open,true
+DIGI-GOV-003,2026-05-03,DIGI-RURAL-EDGE,Prioritize rural coverage backhaul redundancy and assisted-service alternatives,rural_connectivity_office,open,true
+DIGI-GOV-004,2026-05-04,DIGI-INDUSTRIAL-ZONE,Review industrial backhaul continuity and cloud portability,operations_resilience_team,open,true
+DIGI-GOV-005,2026-05-05,DIGI-CIVIC-SERVICES,Review digital-only service exclusion and identity dependency risks,public_service_digital_team,open,true
+DIGI-GOV-006,2026-05-06,DIGI-RESILIENCE-NET,Review resilience-network backup power route diversity and emergency channels,emergency_management_office,open,true

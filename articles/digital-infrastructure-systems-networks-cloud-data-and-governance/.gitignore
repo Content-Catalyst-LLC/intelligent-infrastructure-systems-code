@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite
+outputs/digital_infrastructure_capacity_metrics
+outputs/edge_service_continuity_check
+outputs/digital_infrastructure_resilience_model
+*.vcd

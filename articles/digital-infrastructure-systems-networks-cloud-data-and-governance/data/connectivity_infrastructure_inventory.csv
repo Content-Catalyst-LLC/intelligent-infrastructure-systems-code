@@ -1,0 +1,7 @@
+service_zone_id,region_name,infrastructure_context,users_needing_access,users_with_affordable_reliable_access,bandwidth_score,latency_score,uptime_score,redundancy_score,coverage_status,primary_gap
+DIGI-URBAN-CORE,Urban Core,public_services_and_operations,250000,238000,0.92,0.88,0.94,0.82,strong,backup_route_diversity
+DIGI-SUBURBAN-RING,Suburban Ring,household_and_institutional_access,180000,158000,0.84,0.80,0.86,0.70,review_required,last_mile_affordability
+DIGI-RURAL-EDGE,Rural Edge,rural_connectivity_and_services,65000,42000,0.62,0.58,0.70,0.46,review_required,last_mile_coverage
+DIGI-INDUSTRIAL-ZONE,Industrial Zone,critical_operations_and_logistics,72000,61000,0.78,0.76,0.82,0.68,review_required,backhaul_redundancy
+DIGI-CIVIC-SERVICES,Civic Services,public_digital_services,120000,97000,0.80,0.74,0.84,0.64,review_required,service_access_support
+DIGI-RESILIENCE-NET,Resilience Network,emergency_and_infrastructure_operations,45000,36000,0.76,0.72,0.82,0.58,review_required,failover_and_backup_power

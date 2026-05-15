@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DigitalDependencyContinuityReviewRecord",
+  "type": "object",
+  "required": ["service_zone_id", "critical_digital_services", "critical_services_dependent_on_concentrated_providers", "backup_status", "failover_tested", "recovery_time_objective_hours", "exposure_score"],
+  "properties": {
+    "service_zone_id": {"type": "string"},
+    "critical_digital_services": {"type": "number", "minimum": 0},
+    "critical_services_dependent_on_concentrated_providers": {"type": "number", "minimum": 0},
+    "backup_status": {"type": "string"},
+    "failover_tested": {"type": "boolean"},
+    "recovery_time_objective_hours": {"type": "number", "minimum": 0},
+    "exposure_score": {"type": "number", "minimum": 0, "maximum": 1}
+  }
+}

@@ -1,0 +1,29 @@
+digital_infrastructure_objective:
+  version: "1.0.0"
+  title: "Digital Infrastructure Systems"
+  purpose: "Demonstrate digital infrastructure as a layered public and institutional capability involving connectivity, compute, storage, data exchange, identity, trust, security, continuity, access, inclusion, and governance."
+  domains:
+    - broadband
+    - wireless
+    - fiber_backbone
+    - cloud_and_data_centers
+    - edge_computing
+    - digital_public_infrastructure
+    - identity_and_trust
+    - data_exchange
+    - critical_infrastructure_operations
+  decision_uses:
+    - connectivity_planning
+    - cloud_dependency_review
+    - interoperability_assessment
+    - access_inclusion_review
+    - continuity_planning
+    - vendor_dependency_review
+    - public_service_readiness
+    - resilience_planning
+  not_for:
+    - certified_network_engineering
+    - public_procurement_decisions_without_review
+    - cybersecurity_assurance_replacement
+    - regulatory_reporting_without_validation
+    - production_cloud_architecture_without_review

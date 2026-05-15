@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "digital_infrastructure_zones",
+  "features": [
+    {"type": "Feature", "properties": {"service_zone_id": "DIGI-URBAN-CORE", "region_name": "Urban Core"}, "geometry": {"type": "Point", "coordinates": [-90.1990, 38.6270]}},
+    {"type": "Feature", "properties": {"service_zone_id": "DIGI-RURAL-EDGE", "region_name": "Rural Edge"}, "geometry": {"type": "Point", "coordinates": [-90.6500, 38.9200]}},
+    {"type": "Feature", "properties": {"service_zone_id": "DIGI-RESILIENCE-NET", "region_name": "Resilience Network"}, "geometry": {"type": "Point", "coordinates": [-90.3000, 38.7100]}}
+  ]
+}

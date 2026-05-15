@@ -1,0 +1,7 @@
+service_zone_id,identity_system_type,mfa_coverage_score,consent_architecture_status,security_control_score,privacy_safeguard_score,auditability_score,recovery_readiness_score,governance_maturity_score,rights_review_status
+DIGI-URBAN-CORE,federated_identity,0.86,current,0.84,0.78,0.82,0.78,0.76,current
+DIGI-SUBURBAN-RING,federated_identity,0.72,partial,0.76,0.70,0.66,0.68,0.64,review_required
+DIGI-RURAL-EDGE,local_identity,0.48,missing,0.62,0.58,0.50,0.52,0.48,review_required
+DIGI-INDUSTRIAL-ZONE,enterprise_identity,0.78,partial,0.80,0.66,0.74,0.70,0.66,review_required
+DIGI-CIVIC-SERVICES,public_identity,0.68,partial,0.72,0.62,0.64,0.62,0.60,review_required
+DIGI-RESILIENCE-NET,emergency_identity,0.76,partial,0.78,0.64,0.72,0.66,0.68,review_required
