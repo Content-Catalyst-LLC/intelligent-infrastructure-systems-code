@@ -1,0 +1,7 @@
+service_zone_id,zone_name,infrastructure_domain,critical_assets,monitored_critical_assets,total_service_zones,unmonitored_high_risk_zones,coverage_review_status,primary_blindspot
+SZ-ENERGY-SOUTH,South Energy Zone,energy,18,14,6,1,review_required,distribution_edge_visibility
+SZ-WATER-CENTRAL,Central Water Zone,water,22,16,6,2,review_required,pressure_and_quality_gap
+SZ-TRANS-CBD,Downtown Transportation Zone,transportation,15,11,6,1,review_required,mobile_source_bias
+SZ-BLDG-CIVIC,Civic Buildings Zone,buildings,12,7,6,2,review_required,hvac_and_occupancy_coverage
+SZ-RIVERFRONT,Riverfront Environmental Zone,environmental_monitoring,10,7,6,2,review_required,flood_sensor_density
+SZ-OPS-CORE,Core OT Monitoring Zone,cyber_physical_operations,20,12,6,3,review_required,device_health_and_firmware_visibility

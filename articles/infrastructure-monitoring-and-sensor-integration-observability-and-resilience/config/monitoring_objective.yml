@@ -1,0 +1,30 @@
+monitoring_objective:
+  version: "1.0.0"
+  title: "Infrastructure Monitoring and Sensor Integration"
+  purpose: "Demonstrate monitoring as a cyber-physical observability system involving sensing, telemetry, calibration, data quality, metadata, blind-spot review, alert response, security, governance, and resilience."
+  domains:
+    - energy
+    - water
+    - wastewater
+    - stormwater
+    - transportation
+    - buildings
+    - environmental_monitoring
+    - cyber_physical_operations
+    - public_works
+  decision_uses:
+    - operational_awareness
+    - failure_detection
+    - condition_monitoring
+    - predictive_maintenance
+    - public_safety_review
+    - environmental_reporting
+    - incident_response
+    - resilience_planning
+    - capital_planning
+  not_for:
+    - public_safety_automation_without_review
+    - certified_operations_replacement
+    - regulatory_reporting_without_validation
+    - cybersecurity_assurance_replacement
+    - automated_dispatch_without_authority

@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "monitoring_assets",
+  "features": [
+    {"type": "Feature", "properties": {"asset_id": "ASSET-GRID-001", "sensor_id": "SENS-ENERGY-001", "domain": "energy"}, "geometry": {"type": "Point", "coordinates": [-90.2600, 38.5600]}},
+    {"type": "Feature", "properties": {"asset_id": "ASSET-WATER-001", "sensor_id": "SENS-WATER-001", "domain": "water"}, "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}},
+    {"type": "Feature", "properties": {"asset_id": "ASSET-ENV-001", "sensor_id": "SENS-ENV-001", "domain": "environmental_monitoring"}, "geometry": {"type": "Point", "coordinates": [-90.2300, 38.6100]}}
+  ]
+}

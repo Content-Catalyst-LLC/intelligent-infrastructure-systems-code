@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SensorInventoryRecord",
+  "type": "object",
+  "required": ["sensor_id", "sensor_name", "sensor_type", "measurement_name", "asset_id", "source_system_id", "unit", "sampling_interval_seconds", "communication_path", "owner", "criticality"],
+  "properties": {
+    "sensor_id": {"type": "string"},
+    "sensor_name": {"type": "string"},
+    "sensor_type": {"type": "string"},
+    "measurement_name": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "source_system_id": {"type": "string"},
+    "unit": {"type": "string"},
+    "sampling_interval_seconds": {"type": "number", "minimum": 0},
+    "communication_path": {"type": "string"},
+    "owner": {"type": "string"},
+    "criticality": {"type": "string"}
+  }
+}

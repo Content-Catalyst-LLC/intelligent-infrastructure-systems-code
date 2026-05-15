@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SensorTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "sensor_id", "timestamp", "measurement_value", "expected_readings", "missing_readings", "late_readings", "invalid_readings", "latency_seconds", "device_health_score", "accuracy_score", "precision_score", "completeness_score", "validity_score", "freshness_score", "quality_flag"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "sensor_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "measurement_value": {"type": "number"},
+    "expected_readings": {"type": "number", "minimum": 0},
+    "missing_readings": {"type": "number", "minimum": 0},
+    "late_readings": {"type": "number", "minimum": 0},
+    "invalid_readings": {"type": "number", "minimum": 0},
+    "latency_seconds": {"type": "number", "minimum": 0},
+    "device_health_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "accuracy_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "precision_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "completeness_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "validity_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "freshness_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "quality_flag": {"type": "string"}
+  }
+}

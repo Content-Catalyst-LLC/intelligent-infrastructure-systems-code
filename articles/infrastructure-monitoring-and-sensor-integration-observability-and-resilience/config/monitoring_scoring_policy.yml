@@ -1,0 +1,11 @@
+monitoring_scoring_policy:
+  version: "1.0.0"
+  rule: "Infrastructure monitoring must be assessed through signal quality, calibration, telemetry reliability, metadata completeness, coverage, blind spots, observability, security, validation, and actionability, not sensor count alone."
+  thresholds:
+    minimum_signal_quality_score: 0.80
+    minimum_calibration_confidence_score: 0.70
+    minimum_telemetry_reliability_score: 0.85
+    minimum_metadata_completeness_score: 0.85
+    minimum_sensor_coverage_score: 0.75
+    minimum_monitoring_observability_score: 0.75
+    minimum_actionability_score: 0.50

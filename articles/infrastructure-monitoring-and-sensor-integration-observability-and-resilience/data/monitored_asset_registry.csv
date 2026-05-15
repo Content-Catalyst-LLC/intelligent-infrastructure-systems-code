@@ -1,0 +1,7 @@
+asset_id,asset_name,asset_class,infrastructure_domain,service_zone_id,source_system_id,owner_operator,criticality,latitude,longitude,active_status
+ASSET-GRID-001,South Smart Feeder,distribution_feeder,energy,SZ-ENERGY-SOUTH,SRC-ENERGY-001,electric_utility,high,38.5600,-90.2600,active
+ASSET-WATER-001,Central Pressure Zone,water_distribution_zone,water,SZ-WATER-CENTRAL,SRC-WATER-001,water_utility,high,38.6400,-90.1900,active
+ASSET-TRANS-001,Downtown Signal Corridor,traffic_signal_corridor,transportation,SZ-TRANS-CBD,SRC-TRANS-001,transportation_authority,medium,38.6260,-90.1990,active
+ASSET-BLDG-001,Civic Operations Building,public_facility,buildings,SZ-BLDG-CIVIC,SRC-BLDG-001,facilities_department,medium,38.6310,-90.2000,active
+ASSET-ENV-001,Riverfront Environmental Station,environmental_monitoring_station,environmental_monitoring,SZ-RIVERFRONT,SRC-ENV-001,resilience_office,medium,38.6100,-90.2300,active
+ASSET-SEC-001,OT Telemetry Visibility Cluster,monitoring_security_cluster,cyber_physical_operations,SZ-OPS-CORE,SRC-SEC-001,security_operations,high,38.6410,-90.1950,active

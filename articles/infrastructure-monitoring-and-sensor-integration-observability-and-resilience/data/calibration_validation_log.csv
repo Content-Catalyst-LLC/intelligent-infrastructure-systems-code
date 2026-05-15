@@ -1,0 +1,7 @@
+calibration_id,sensor_id,last_calibration_date,calibration_method,drift_status,field_validation_score,maintenance_status,replacement_recommended,calibration_owner
+CAL-001,SENS-ENERGY-001,2026-01-15,bench_and_field_reference,minor_drift,0.78,current,false,electric_utility
+CAL-002,SENS-WATER-001,2025-12-18,field_pressure_reference,minor_drift,0.76,review,false,water_utility
+CAL-003,SENS-TRANS-001,2025-11-10,traffic_count_comparison,review_required,0.72,review,false,transportation_authority
+CAL-004,SENS-BLDG-001,2025-08-20,hvac_balancing_reference,review_required,0.68,review,true,facilities_department
+CAL-005,SENS-ENV-001,2025-10-01,gauge_reference_check,review_required,0.72,review,false,resilience_office
+CAL-006,SENS-SEC-001,2025-09-12,network_packet_reference,review_required,0.66,review,true,security_operations

@@ -1,0 +1,7 @@
+alert_id,date,sensor_id,asset_id,service_zone_id,alert_type,threshold_or_rule,response_owner,response_status,public_note_required
+ALERT-001,2026-05-01,SENS-ENERGY-001,ASSET-GRID-001,SZ-ENERGY-SOUTH,voltage_review,voltage_pu_below_0_95,electric_utility,open,true
+ALERT-002,2026-05-02,SENS-WATER-001,ASSET-WATER-001,SZ-WATER-CENTRAL,pressure_review,pressure_drop_below_zone_threshold,water_utility,open,true
+ALERT-003,2026-05-03,SENS-TRANS-001,ASSET-TRANS-001,SZ-TRANS-CBD,transport_delay_review,incident_delay_above_15_minutes,transportation_authority,in_progress,true
+ALERT-004,2026-05-04,SENS-BLDG-001,ASSET-BLDG-001,SZ-BLDG-CIVIC,calibration_review,calibration_confidence_below_0_70,facilities_department,open,true
+ALERT-005,2026-05-05,SENS-ENV-001,ASSET-ENV-001,SZ-RIVERFRONT,flood_sensor_review,rainfall_threshold_and_coverage_gap,resilience_office,in_progress,true
+ALERT-006,2026-05-06,SENS-SEC-001,ASSET-SEC-001,SZ-OPS-CORE,telemetry_health_review,packet_loss_and_device_visibility_gap,security_operations,open,true

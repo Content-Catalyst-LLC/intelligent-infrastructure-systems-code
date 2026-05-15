@@ -1,0 +1,7 @@
+sensor_id,sensor_name,sensor_type,measurement_name,asset_id,source_system_id,unit,sampling_interval_seconds,communication_path,owner,criticality,has_sensor_id,has_asset_id,has_location,has_unit,has_timestamp_source,has_owner,has_quality_flag,has_valid_use
+SENS-ENERGY-001,South Feeder Voltage Monitor,electrical_sensor,voltage_pu,ASSET-GRID-001,SRC-ENERGY-001,per_unit,60,fiber_gateway,electric_utility,high,1,1,1,1,1,1,1,1
+SENS-WATER-001,Central Pressure Zone Sensor,pressure_sensor,pressure_psi,ASSET-WATER-001,SRC-WATER-001,psi,60,cellular_gateway,water_utility,high,1,1,1,1,1,1,1,1
+SENS-TRANS-001,Downtown Corridor Radar,radar_sensor,vehicle_speed_mph,ASSET-TRANS-001,SRC-TRANS-001,mph,30,municipal_fiber,transportation_authority,medium,1,1,1,1,1,1,1,0
+SENS-BLDG-001,Civic HVAC Airflow Sensor,airflow_sensor,airflow_cfm,ASSET-BLDG-001,SRC-BLDG-001,cfm,300,building_network,facilities_department,medium,1,1,1,1,0,1,1,0
+SENS-ENV-001,Riverfront Rainfall Station,environmental_sensor,rainfall_mm,ASSET-ENV-001,SRC-ENV-001,mm,300,cellular_gateway,resilience_office,medium,1,1,1,1,1,1,1,1
+SENS-SEC-001,OT Telemetry Health Monitor,device_health_sensor,packet_loss_percent,ASSET-SEC-001,SRC-SEC-001,percent,60,secure_ot_gateway,security_operations,high,1,1,1,1,1,1,1,0

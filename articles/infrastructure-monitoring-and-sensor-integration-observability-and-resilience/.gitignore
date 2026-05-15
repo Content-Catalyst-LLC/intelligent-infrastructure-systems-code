@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+node_modules/
+target/
+outputs/*.db
+outputs/*.sqlite
+outputs/monitoring_observability_metrics
+outputs/edge_sensor_quality_check
+outputs/monitoring_resilience_model
+*.vcd

@@ -1,0 +1,14 @@
+monitoring_security_policy:
+  version: "1.0.0"
+  rule: "Infrastructure monitoring systems must protect sensors, gateways, telemetry, credentials, firmware, remote access, logs, APIs, platform interfaces, and response workflows."
+  required_elements:
+    - device_inventory
+    - firmware_inventory
+    - credential_management
+    - secure_remote_access
+    - telemetry_integrity_checks
+    - network_segmentation
+    - audit_logging
+    - incident_response
+    - backup_and_recovery
+    - degraded_mode_operations

@@ -1,0 +1,7 @@
+telemetry_id,sensor_id,timestamp,measurement_value,expected_readings,missing_readings,late_readings,invalid_readings,latency_seconds,device_health_score,accuracy_score,precision_score,completeness_score,validity_score,freshness_score,quality_flag
+TEL-MON-001,SENS-ENERGY-001,2026-05-01T12:00:00Z,0.94,1440,35,42,18,45,0.82,0.86,0.84,0.82,0.84,0.82,review
+TEL-MON-002,SENS-WATER-001,2026-05-01T12:00:00Z,34.0,1440,52,66,25,62,0.78,0.82,0.80,0.78,0.80,0.76,review
+TEL-MON-003,SENS-TRANS-001,2026-05-01T12:00:00Z,18.0,2880,110,75,64,35,0.76,0.80,0.78,0.76,0.74,0.82,review
+TEL-MON-004,SENS-BLDG-001,2026-05-01T12:00:00Z,420.0,288,44,28,20,120,0.68,0.74,0.72,0.60,0.70,0.58,review
+TEL-MON-005,SENS-ENV-001,2026-05-01T12:00:00Z,42.0,288,30,36,18,55,0.74,0.78,0.76,0.74,0.72,0.74,review
+TEL-MON-006,SENS-SEC-001,2026-05-01T12:00:00Z,6.5,1440,130,110,85,25,0.62,0.70,0.68,0.66,0.64,0.84,review
