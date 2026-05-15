@@ -1,0 +1,9 @@
+network_element_id,travel_time_mean_minutes,travel_time_std_minutes,target_recovery_minutes,expected_recovery_minutes,accessibility_score,safety_score,coordination_score,emissions_burden_score
+NET-RD-001,28,9,30,42,0.70,0.62,0.68,0.44
+NET-BUS-001,34,13,20,35,0.76,0.70,0.60,0.30
+NET-RAIL-001,24,5,30,28,0.82,0.78,0.72,0.22
+NET-FRT-001,31,10,45,60,0.66,0.60,0.58,0.48
+NET-CURB-001,18,8,25,40,0.62,0.58,0.54,0.42
+NET-BIKE-001,16,4,30,20,0.68,0.72,0.66,0.08
+NET-PED-001,10,3,20,25,0.74,0.56,0.62,0.05
+NET-EMG-001,12,5,10,18,0.80,0.70,0.64,0.12

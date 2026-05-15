@@ -1,0 +1,9 @@
+telemetry_id,network_element_id,timestamp,metric,value,unit,quality_flag,latency_seconds
+TEL-TRN-001,NET-RD-001,2026-05-01T08:00:00Z,mean_speed_kph,24.0,kph,review,34
+TEL-TRN-002,NET-BUS-001,2026-05-01T08:00:00Z,headway_minutes,14.0,minutes,review,42
+TEL-TRN-003,NET-RAIL-001,2026-05-01T08:00:00Z,on_time_performance,0.83,ratio,good,25
+TEL-TRN-004,NET-FRT-001,2026-05-01T08:00:00Z,freight_delay_minutes,22.0,minutes,review,58
+TEL-TRN-005,NET-CURB-001,2026-05-01T08:00:00Z,curb_occupancy_rate,0.94,ratio,review,47
+TEL-TRN-006,NET-BIKE-001,2026-05-01T08:00:00Z,bicycle_count,82,count,good,90
+TEL-TRN-007,NET-PED-001,2026-05-01T08:00:00Z,pedestrian_crossing_delay_seconds,72,seconds,review,45
+TEL-TRN-008,NET-EMG-001,2026-05-01T08:00:00Z,emergency_route_blockage_risk,0.38,score,review,38

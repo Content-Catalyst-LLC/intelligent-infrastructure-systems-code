@@ -1,0 +1,6 @@
+service_zone_id,zone_name,population_exposed,accessibility_gap_score,safety_risk_score,digital_access_gap_score,disability_access_gap_score,public_review_status
+TZ-CBD-A,Central Business District,high,0.32,0.42,0.20,0.28,review_required
+TZ-EAST-B,East Rail Service Zone,medium,0.24,0.26,0.18,0.22,current
+TZ-FRT-C,Freight and Industrial Corridor,medium,0.38,0.40,0.24,0.30,review_required
+TZ-NORTH-D,North Cycling Corridor,medium,0.30,0.34,0.22,0.26,current
+TZ-HOSP-E,Hospital Access Zone,high,0.28,0.36,0.18,0.32,review_required

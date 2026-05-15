@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MobilityTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "network_element_id", "timestamp", "metric", "value", "unit", "quality_flag", "latency_seconds"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "network_element_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "metric": {"type": "string"},
+    "value": {"type": "number"},
+    "unit": {"type": "string"},
+    "quality_flag": {"type": "string"},
+    "latency_seconds": {"type": "number", "minimum": 0}
+  }
+}

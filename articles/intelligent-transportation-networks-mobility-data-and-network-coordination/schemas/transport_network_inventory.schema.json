@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TransportNetworkInventoryRecord",
+  "type": "object",
+  "required": ["network_element_id", "network_element_name", "mode", "service_zone_id", "operator", "element_type", "criticality"],
+  "properties": {
+    "network_element_id": {"type": "string"},
+    "network_element_name": {"type": "string"},
+    "mode": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "operator": {"type": "string"},
+    "element_type": {"type": "string"},
+    "criticality": {"type": "string"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"}
+  }
+}

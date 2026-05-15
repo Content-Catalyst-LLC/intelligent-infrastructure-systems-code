@@ -1,0 +1,26 @@
+mobility_objective:
+  version: "1.0.0"
+  title: "Intelligent Transportation Networks"
+  purpose: "Demonstrate intelligent transportation as public mobility coordination infrastructure across roads, transit, freight, curb, walking, cycling, telemetry, data platforms, operations, safety, accessibility, resilience, and governance."
+  modes:
+    - road_traffic
+    - public_transit
+    - freight
+    - curb_management
+    - walking
+    - cycling
+    - emergency_access
+  decision_uses:
+    - reliability_review
+    - accessibility_analysis
+    - incident_response
+    - signal_priority
+    - transit_operations
+    - freight_and_curb_coordination
+    - public_reporting
+    - resilience_planning
+  not_for:
+    - certified_transport_operations
+    - public_safety_automation
+    - accessibility_compliance_replacement
+    - cybersecurity_audit_replacement

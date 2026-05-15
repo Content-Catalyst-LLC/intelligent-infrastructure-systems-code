@@ -1,0 +1,11 @@
+cyber_fallback_policy:
+  version: "1.0.0"
+  rule: "Digital transportation systems must include cybersecurity controls, failover procedures, manual operating modes, and public communication pathways."
+  required_elements:
+    - authentication
+    - network_segmentation
+    - logging
+    - incident_response
+    - manual_fallback
+    - platform_continuity
+    - public_communication

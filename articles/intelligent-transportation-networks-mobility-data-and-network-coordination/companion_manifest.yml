@@ -1,0 +1,30 @@
+article:
+  title: "Intelligent Transportation Networks: Mobility, Data, and Network Coordination"
+  slug: "intelligent-transportation-networks-mobility-data-and-network-coordination"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/intelligent-transportation-networks/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/intelligent-transportation-networks-mobility-data-and-network-coordination"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for transport operations, public safety, accessibility compliance, privacy compliance, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - transport_network_inventory
+  - mobility_telemetry_review
+  - service_performance_review
+  - reliability_scoring
+  - accessibility_gap_review
+  - safety_risk_review
+  - multimodal_coordination_graph
+  - freight_and_curb_management_review
+  - incident_recovery_lag_detection
+  - cybersecurity_and_fallback_review
+  - edge_mobility_quality_validation
+  - fpga_transport_telemetry_flags

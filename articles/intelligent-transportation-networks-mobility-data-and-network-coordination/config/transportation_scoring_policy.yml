@@ -1,0 +1,9 @@
+transportation_scoring_policy:
+  version: "1.0.0"
+  rule: "Mobility intelligence must be assessed through reliability, accessibility, safety, coordination, emissions burden, recovery lag, and governance capacity, not throughput alone."
+  thresholds:
+    minimum_reliability_score: 0.70
+    high_accessibility_gap_score: 0.35
+    high_safety_risk_score: 0.35
+    minimum_coordination_score: 0.65
+    maximum_recovery_lag_minutes: 0

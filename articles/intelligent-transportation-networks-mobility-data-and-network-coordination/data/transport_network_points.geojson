@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "transport_network_points",
+  "features": [
+    {"type": "Feature", "properties": {"network_element_id": "NET-RD-001", "mode": "road_traffic"}, "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}},
+    {"type": "Feature", "properties": {"network_element_id": "NET-BUS-001", "mode": "public_transit"}, "geometry": {"type": "Point", "coordinates": [-90.1920, 38.6420]}},
+    {"type": "Feature", "properties": {"network_element_id": "NET-CURB-001", "mode": "curb_management"}, "geometry": {"type": "Point", "coordinates": [-90.1910, 38.6410]}}
+  ]
+}

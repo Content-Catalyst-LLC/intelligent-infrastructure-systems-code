@@ -1,0 +1,6 @@
+governance_id,date,network_element_id,decision,owner,status,public_note_required
+GOV-TRN-001,2026-05-01,NET-BUS-001,Review bus priority and headway reliability on Route A,transit_authority,open,true
+GOV-TRN-002,2026-05-02,NET-PED-001,Review pedestrian crossing delay and safety risk in central zone,city_transport_department,open,true
+GOV-TRN-003,2026-05-03,NET-CURB-001,Update downtown loading-zone and curb occupancy management,parking_and_curb_agency,open,true
+GOV-TRN-004,2026-05-04,NET-FRT-001,Coordinate freight corridor delay with delivery windows,freight_coordination_office,open,true
+GOV-TRN-005,2026-05-05,NET-EMG-001,Test hospital emergency access route fallback procedure,emergency_management,open,true

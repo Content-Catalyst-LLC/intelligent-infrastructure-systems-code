@@ -1,0 +1,9 @@
+network_element_id,network_element_name,mode,service_zone_id,operator,element_type,criticality,latitude,longitude
+NET-RD-001,Main Arterial Corridor,road_traffic,TZ-CBD-A,city_transport_department,corridor,high,38.6400,-90.1900
+NET-BUS-001,Bus Rapid Transit Route A,public_transit,TZ-CBD-A,transit_authority,route,high,38.6420,-90.1920
+NET-RAIL-001,Metro Rail Line East,public_transit,TZ-EAST-B,transit_authority,rail_line,high,38.6300,-90.1600
+NET-FRT-001,Urban Freight Access Corridor,freight,TZ-FRT-C,freight_coordination_office,corridor,medium,38.6200,-90.2100
+NET-CURB-001,Downtown Loading Zone Cluster,curb_management,TZ-CBD-A,parking_and_curb_agency,curb_zone,medium,38.6410,-90.1910
+NET-BIKE-001,Protected Cycling Corridor,cycling,TZ-NORTH-D,city_transport_department,cycleway,medium,38.6700,-90.2300
+NET-PED-001,Central Pedestrian Crossing Zone,walking,TZ-CBD-A,city_transport_department,crossing_zone,high,38.6405,-90.1905
+NET-EMG-001,Hospital Emergency Access Route,emergency_access,TZ-HOSP-E,emergency_management,priority_route,high,38.6500,-90.2050

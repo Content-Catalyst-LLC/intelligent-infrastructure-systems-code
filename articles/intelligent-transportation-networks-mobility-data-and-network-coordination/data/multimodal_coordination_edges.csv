@@ -1,0 +1,7 @@
+edge_id,source_element_id,target_element_id,dependency_type,dependency_weight,coordination_issue,mitigation_note
+EDGE-001,NET-BUS-001,NET-RD-001,road_congestion_dependency,0.82,bus_delay_due_to_traffic,bus_priority_and_signal_priority_review
+EDGE-002,NET-PED-001,NET-RD-001,crossing_safety_dependency,0.70,pedestrian_delay_and_conflict,signal_timing_and_crossing_design_review
+EDGE-003,NET-CURB-001,NET-FRT-001,curb_freight_dependency,0.78,loading_conflict,delivery_window_and_loading_zone_review
+EDGE-004,NET-EMG-001,NET-RD-001,emergency_access_dependency,0.86,blocked_access,incident_response_and_priority_route_review
+EDGE-005,NET-BIKE-001,NET-RD-001,street_space_dependency,0.60,unsafe_mixing,protected_corridor_continuity_review
+EDGE-006,NET-BUS-001,NET-RAIL-001,transfer_dependency,0.66,missed_transfer,headway_and_transfer_coordination_review
