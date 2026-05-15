@@ -1,0 +1,12 @@
+{
+  "name": "intelligent-water-infrastructure-dashboard-scaffold",
+  "version": "1.0.0",
+  "description": "TypeScript scaffold for intelligent water infrastructure dashboards.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

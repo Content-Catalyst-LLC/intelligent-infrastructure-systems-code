@@ -1,0 +1,15 @@
+cyber_physical_water_policy:
+  version: "1.0.0"
+  rule: "Intelligent water infrastructure systems must protect SCADA, telemetry, sensors, remote access, field devices, credentials, firmware, data platforms, public communication systems, and fallback procedures."
+  required_elements:
+    - scada_asset_inventory
+    - sensor_inventory
+    - firmware_inventory
+    - authentication
+    - network_segmentation
+    - access_control
+    - telemetry_integrity_checks
+    - logging
+    - incident_response
+    - manual_fallback
+    - public_communication_continuity

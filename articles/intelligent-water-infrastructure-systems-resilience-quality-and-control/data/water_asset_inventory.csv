@@ -1,0 +1,11 @@
+asset_id,asset_name,asset_class,domain,service_zone_id,hydraulic_zone_id,owner_operator,criticality,commission_year,latitude,longitude,design_capacity_m3d
+WAT-SRC-001,North Reservoir Intake,source_water,source_water,WZ-NORTH-A,HZ-NORTH-A,water_utility,high,1985,38.7200,-90.3100,120000
+WAT-TRT-001,Central Water Treatment Plant,treatment_plant,drinking_water_treatment,WZ-CBD-B,HZ-CBD-B,water_utility,high,1998,38.6400,-90.1900,95000
+WAT-PMP-001,East Booster Pump Station,pump_station,pumping_and_storage,WZ-EAST-C,HZ-EAST-C,water_utility,high,2005,38.6200,-90.2200,45000
+WAT-TNK-001,Central Elevated Storage Tank,storage_tank,pumping_and_storage,WZ-CBD-B,HZ-CBD-B,water_utility,high,2001,38.6450,-90.2000,15000
+WAT-DST-001,South Pressure District,distribution_zone,distribution_network,WZ-SOUTH-D,HZ-SOUTH-D,water_utility,high,1978,38.5600,-90.2600,50000
+WAT-MTR-001,Smart Meter District Cluster,smart_meter,customer_metering,WZ-CBD-B,HZ-CBD-B,water_utility,medium,2022,38.6460,-90.1980,0
+WAT-WW-001,West Wastewater Pump Station,wastewater_pump,wastewater_collection,WZ-WEST-E,HZ-WEST-E,wastewater_utility,high,1995,38.6100,-90.3000,60000
+WAT-WTP-001,South Wastewater Treatment Facility,wastewater_treatment,wastewater_treatment,WZ-SOUTH-D,HZ-SOUTH-D,wastewater_utility,high,1990,38.5400,-90.2700,80000
+WAT-STM-001,Riverfront Stormwater Basin,stormwater_basin,stormwater_management,WZ-RIVER-F,HZ-RIVER-F,public_works,high,2012,38.6100,-90.2300,40000
+WAT-RUS-001,Industrial Reuse Water Loop,reuse_loop,reuse_and_recycled_water,WZ-EAST-C,HZ-EAST-C,water_utility,medium,2021,38.6250,-90.2150,12000

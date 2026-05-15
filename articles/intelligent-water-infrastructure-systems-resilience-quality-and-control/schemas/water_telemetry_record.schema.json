@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WaterTelemetryRecord",
+  "type": "object",
+  "required": ["telemetry_id", "asset_id", "timestamp", "pressure_psi", "flow_m3h", "turbidity_ntu", "chlorine_mg_l", "ph", "telemetry_reliability_score", "data_quality_score", "coverage_score", "metadata_completeness_score", "latency_seconds", "quality_flag"],
+  "properties": {
+    "telemetry_id": {"type": "string"},
+    "asset_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "pressure_psi": {"type": "number"},
+    "flow_m3h": {"type": "number"},
+    "tank_level_m": {"type": "number"},
+    "turbidity_ntu": {"type": "number"},
+    "chlorine_mg_l": {"type": "number"},
+    "ph": {"type": "number"},
+    "conductivity_us_cm": {"type": "number"},
+    "rainfall_mm": {"type": "number"},
+    "pump_status": {"type": "string"},
+    "telemetry_reliability_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "data_quality_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "coverage_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "metadata_completeness_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "latency_seconds": {"type": "number", "minimum": 0},
+    "quality_flag": {"type": "string"}
+  }
+}

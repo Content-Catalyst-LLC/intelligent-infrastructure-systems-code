@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "water_assets",
+  "features": [
+    {"type": "Feature", "properties": {"asset_id": "WAT-TRT-001", "asset_class": "treatment_plant"}, "geometry": {"type": "Point", "coordinates": [-90.1900, 38.6400]}},
+    {"type": "Feature", "properties": {"asset_id": "WAT-DST-001", "asset_class": "distribution_zone"}, "geometry": {"type": "Point", "coordinates": [-90.2600, 38.5600]}},
+    {"type": "Feature", "properties": {"asset_id": "WAT-STM-001", "asset_class": "stormwater_basin"}, "geometry": {"type": "Point", "coordinates": [-90.2300, 38.6100]}}
+  ]
+}

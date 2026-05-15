@@ -1,0 +1,7 @@
+governance_id,date,asset_id,service_zone_id,decision,owner,status,public_note_required
+GOV-WAT-001,2026-05-01,WAT-DST-001,WZ-SOUTH-D,Review pressure adequacy leakage and chlorine residual in South Pressure District,water_utility,open,true
+GOV-WAT-002,2026-05-02,WAT-TRT-001,WZ-CBD-B,Review treatment stability and residual disinfectant management,water_utility,open,true
+GOV-WAT-003,2026-05-03,WAT-WW-001,WZ-WEST-E,Review inflow infiltration sewer-level risk and overflow response,wastewater_utility,open,true
+GOV-WAT-004,2026-05-04,WAT-STM-001,WZ-RIVER-F,Review stormwater basin capacity rainfall response and flood exposure,public_works,open,true
+GOV-WAT-005,2026-05-05,WAT-MTR-001,WZ-CBD-B,Review smart meter telemetry gaps customer access and data governance,water_utility,open,true
+GOV-WAT-006,2026-05-06,WAT-RUS-001,WZ-EAST-C,Review reuse loop quality assurance and industrial service continuity,water_utility,open,true

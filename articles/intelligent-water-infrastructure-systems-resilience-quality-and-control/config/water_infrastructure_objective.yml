@@ -1,0 +1,34 @@
+water_infrastructure_objective:
+  version: "1.0.0"
+  title: "Intelligent Water Infrastructure Systems"
+  purpose: "Demonstrate intelligent water infrastructure as a public, safety-critical cyber-physical system involving water supply, wastewater, stormwater, quality assurance, hydraulic control, telemetry, public health, resilience, cybersecurity, governance, and public accountability."
+  domains:
+    - source_water
+    - drinking_water_treatment
+    - distribution_network
+    - pumping_and_storage
+    - customer_metering
+    - wastewater_collection
+    - wastewater_treatment
+    - stormwater_management
+    - reuse_and_recycled_water
+    - public_health_assurance
+  decision_uses:
+    - water_quality_review
+    - pressure_management
+    - leakage_and_non_revenue_water_review
+    - treatment_process_review
+    - wastewater_overflow_review
+    - stormwater_flood_risk_review
+    - drought_resilience_planning
+    - field_dispatch
+    - public_health_action
+    - regulatory_reporting
+    - capital_planning
+  not_for:
+    - certified_utility_operations
+    - public_health_action_without_authority
+    - regulatory_compliance_replacement
+    - laboratory_testing_replacement
+    - hydraulic_engineering_certification
+    - cybersecurity_audit_replacement

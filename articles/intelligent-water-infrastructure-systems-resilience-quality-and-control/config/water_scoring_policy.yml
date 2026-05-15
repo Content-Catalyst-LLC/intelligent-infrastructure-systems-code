@@ -1,0 +1,11 @@
+water_scoring_policy:
+  version: "1.0.0"
+  rule: "Intelligent water infrastructure must be assessed through quality compliance, pressure adequacy, leakage, service continuity, observability, wastewater and stormwater risk, resilience, cybersecurity, and governance actionability, not sensor coverage alone."
+  thresholds:
+    minimum_quality_compliance_score: 0.98
+    minimum_pressure_adequacy_score: 0.35
+    high_leakage_rate: 0.20
+    minimum_service_continuity_score: 0.90
+    minimum_water_observability_score: 0.70
+    minimum_water_resilience_score: 0.70
+    high_overflow_risk_score: 0.35

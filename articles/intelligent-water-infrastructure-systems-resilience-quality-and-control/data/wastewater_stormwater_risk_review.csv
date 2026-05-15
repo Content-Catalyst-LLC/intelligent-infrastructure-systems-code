@@ -1,0 +1,7 @@
+service_zone_id,inflow_infiltration_score,sewer_level_risk_score,overflow_risk_score,drainage_capacity_score,flood_exposure_score,exposure_risk_score,stormwater_review_status
+WZ-NORTH-A,0.18,0.12,0.10,0.78,0.22,0.20,current
+WZ-CBD-B,0.28,0.22,0.18,0.70,0.30,0.28,current
+WZ-EAST-C,0.34,0.30,0.26,0.64,0.36,0.34,review_required
+WZ-SOUTH-D,0.42,0.40,0.36,0.58,0.44,0.42,review_required
+WZ-WEST-E,0.48,0.46,0.42,0.52,0.50,0.48,review_required
+WZ-RIVER-F,0.56,0.50,0.48,0.46,0.62,0.58,review_required

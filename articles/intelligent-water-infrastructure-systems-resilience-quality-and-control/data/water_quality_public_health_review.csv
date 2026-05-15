@@ -1,0 +1,7 @@
+service_zone_id,zone_name,tested_observations,compliant_observations,turbidity_exceedance_count,chlorine_low_count,contamination_risk_score,treatment_stability_score,public_health_review_status
+WZ-NORTH-A,North Source Zone,120,119,1,0,0.12,0.86,current
+WZ-CBD-B,Central Business District Zone,160,156,1,3,0.24,0.80,review_required
+WZ-EAST-C,East Service Zone,130,126,2,4,0.30,0.76,review_required
+WZ-SOUTH-D,South Pressure and Treatment Zone,140,132,3,6,0.38,0.70,review_required
+WZ-WEST-E,West Wastewater Zone,80,76,0,0,0.34,0.72,review_required
+WZ-RIVER-F,Riverfront Stormwater Zone,70,64,0,0,0.42,0.66,review_required

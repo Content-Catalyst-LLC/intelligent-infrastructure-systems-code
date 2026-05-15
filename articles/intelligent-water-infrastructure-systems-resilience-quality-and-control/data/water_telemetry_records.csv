@@ -1,0 +1,11 @@
+telemetry_id,asset_id,timestamp,pressure_psi,flow_m3h,tank_level_m,turbidity_ntu,chlorine_mg_l,ph,conductivity_us_cm,rainfall_mm,pump_status,telemetry_reliability_score,data_quality_score,coverage_score,metadata_completeness_score,latency_seconds,quality_flag
+TEL-WAT-001,WAT-SRC-001,2026-05-01T08:00:00Z,52,4100,0,0.8,1.2,7.4,410,0,normal,0.88,0.86,0.82,0.80,45,good
+TEL-WAT-002,WAT-TRT-001,2026-05-01T08:00:00Z,60,3600,0,0.4,1.1,7.3,420,0,normal,0.90,0.88,0.86,0.82,38,good
+TEL-WAT-003,WAT-PMP-001,2026-05-01T08:00:00Z,48,2200,0,0.7,0.9,7.2,430,0,normal,0.82,0.80,0.76,0.72,62,review
+TEL-WAT-004,WAT-TNK-001,2026-05-01T08:00:00Z,55,1800,12.4,0.6,0.8,7.3,425,0,normal,0.84,0.82,0.78,0.76,58,review
+TEL-WAT-005,WAT-DST-001,2026-05-01T08:00:00Z,34,2600,0,0.9,0.5,7.1,450,0,normal,0.76,0.74,0.70,0.66,88,review
+TEL-WAT-006,WAT-MTR-001,2026-05-01T08:00:00Z,50,900,0,0.6,0.7,7.3,430,0,normal,0.72,0.70,0.68,0.62,120,review
+TEL-WAT-007,WAT-WW-001,2026-05-01T08:00:00Z,0,3100,0,0,0,7.0,900,18,normal,0.78,0.76,0.72,0.68,75,review
+TEL-WAT-008,WAT-WTP-001,2026-05-01T08:00:00Z,0,3900,0,0,0,7.2,850,16,normal,0.80,0.78,0.74,0.70,70,review
+TEL-WAT-009,WAT-STM-001,2026-05-01T08:00:00Z,0,5200,2.6,0,0,7.0,700,42,normal,0.74,0.72,0.68,0.64,95,review
+TEL-WAT-010,WAT-RUS-001,2026-05-01T08:00:00Z,45,700,0,1.0,0.4,7.4,620,0,normal,0.82,0.80,0.76,0.72,55,review

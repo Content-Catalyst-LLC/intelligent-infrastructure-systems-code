@@ -1,0 +1,31 @@
+article:
+  title: "Intelligent Water Infrastructure Systems: Resilience, Quality and Control"
+  slug: "intelligent-water-infrastructure-systems-resilience-quality-and-control"
+  series: "Intelligent Infrastructure Systems"
+  site_url: "https://sustainablecatalyst.com/intelligent-water-infrastructure-systems/"
+  repository_url: "https://github.com/Content-Catalyst-LLC/intelligent-infrastructure-systems-code/tree/main/articles/intelligent-water-infrastructure-systems-resilience-quality-and-control"
+
+warning:
+  live_operations: false
+  note: "Research and engineering scaffold only. Not certified for utility operations, water-quality compliance, public-health action, hydraulic engineering, regulatory reporting, public safety, environmental compliance, or cybersecurity assurance."
+
+engineering_stack:
+  analytics: [Python, R, SQL, Julia]
+  systems: [C, Embedded C, Rust, Go, Fortran]
+  edge_and_hardware: [MicroPython, PYNQ, Verilog HDL, VHDL placeholder]
+  interface: [TypeScript]
+
+core_workflows:
+  - water_asset_inventory
+  - telemetry_quality_review
+  - water_quality_public_health_review
+  - pressure_adequacy_scoring
+  - leakage_and_non_revenue_water_review
+  - service_continuity_scoring
+  - wastewater_and_stormwater_risk_review
+  - observability_scoring
+  - resilience_scoring
+  - cyber_physical_water_monitoring
+  - governance_and_response_watchlist
+  - edge_water_quality_validation
+  - fpga_water_threshold_flags

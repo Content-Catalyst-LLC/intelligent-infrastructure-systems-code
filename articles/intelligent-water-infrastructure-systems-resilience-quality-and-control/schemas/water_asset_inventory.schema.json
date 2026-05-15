@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WaterAssetInventoryRecord",
+  "type": "object",
+  "required": ["asset_id", "asset_name", "asset_class", "domain", "service_zone_id", "hydraulic_zone_id", "owner_operator", "criticality", "commission_year", "design_capacity_m3d"],
+  "properties": {
+    "asset_id": {"type": "string"},
+    "asset_name": {"type": "string"},
+    "asset_class": {"type": "string"},
+    "domain": {"type": "string"},
+    "service_zone_id": {"type": "string"},
+    "hydraulic_zone_id": {"type": "string"},
+    "owner_operator": {"type": "string"},
+    "criticality": {"type": "string"},
+    "commission_year": {"type": "integer"},
+    "latitude": {"type": "number"},
+    "longitude": {"type": "number"},
+    "design_capacity_m3d": {"type": "number"}
+  }
+}

@@ -1,0 +1,7 @@
+service_zone_id,minimum_pressure_psi,maximum_pressure_psi,system_input_volume_m3,authorized_consumption_m3,breaks_12mo,leak_detection_score,pressure_management_score,backup_capacity_score,response_capacity_score
+WZ-NORTH-A,35,80,110000,98000,2,0.72,0.76,0.70,0.74
+WZ-CBD-B,35,80,145000,118000,5,0.66,0.68,0.72,0.70
+WZ-EAST-C,35,80,90000,69000,6,0.58,0.60,0.62,0.64
+WZ-SOUTH-D,35,80,125000,93000,8,0.52,0.54,0.58,0.60
+WZ-WEST-E,0,1,100000,85000,4,0.60,0.56,0.54,0.58
+WZ-RIVER-F,0,1,80000,62000,3,0.48,0.50,0.52,0.54
