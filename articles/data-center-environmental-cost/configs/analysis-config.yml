@@ -1,0 +1,14 @@
+article_slug: "data-center-environmental-cost"
+repository: "intelligent-infrastructure-systems-code"
+metrics:
+  pue: true
+  wue: true
+  operational_emissions: true
+  hourly_renewable_matching_proxy: true
+  water_stress_flag: true
+  ai_workload_share: true
+  workload_growth_scenarios: true
+responsible_use:
+  synthetic_data_only: true
+  not_for_permitting: true
+  requires_local_validation: true

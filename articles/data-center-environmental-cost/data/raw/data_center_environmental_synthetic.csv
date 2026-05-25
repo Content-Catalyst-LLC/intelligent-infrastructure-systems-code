@@ -1,0 +1,9 @@
+facility_id,region,facility_type,it_energy_mwh,total_facility_energy_mwh,water_withdrawal_m3,water_consumption_m3,grid_carbon_intensity_kgco2e_mwh,ai_workload_share,cooling_type,peak_load_mw,renewable_hourly_match_share,backup_generator_fuel,annual_server_refresh_share,water_stress_level
+DC001,Northern Plains,hyperscale_cloud,420000,500000,250000,170000,260,0.22,air_economizer,82,0.72,diesel,0.18,low
+DC002,Desert Southwest,ai_training,620000,775000,720000,510000,390,0.71,evaporative_cooling,130,0.48,diesel,0.31,high
+DC003,Mid-Atlantic,colocation,280000,355000,210000,130000,430,0.18,chilled_water,58,0.38,diesel,0.15,medium
+DC004,Pacific Northwest,hyperscale_cloud,510000,590000,180000,95000,95,0.36,liquid_assisted_air,96,0.81,battery_diesel_hybrid,0.24,low
+DC005,Great Lakes,enterprise_cloud,160000,215000,90000,52000,310,0.12,air_cooling,34,0.55,diesel,0.11,low
+DC006,Central Texas,ai_inference,740000,925000,640000,420000,360,0.62,liquid_cooling,150,0.52,gas_diesel_hybrid,0.28,high
+DC007,Nordic Region,hyperscale_cloud,390000,445000,60000,25000,45,0.29,free_air_cooling,70,0.88,battery,0.20,low
+DC008,Southeast Asia,ai_cloud_mixed,680000,870000,820000,570000,520,0.58,chilled_water_evaporative,142,0.34,diesel,0.27,high

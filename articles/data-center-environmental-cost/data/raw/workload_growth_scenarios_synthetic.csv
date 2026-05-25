@@ -1,0 +1,16 @@
+scenario,year,baseline_compute_index,ai_compute_index,efficiency_gain_pct,total_energy_index,notes
+moderate,2026,100,100,0,100,baseline year
+moderate,2027,109,132,8,117,moderate AI growth with efficiency improvement
+moderate,2028,118,170,16,137,AI inference expands across applications
+moderate,2029,128,215,23,161,workload growth exceeds efficiency gains
+moderate,2030,139,265,30,189,compute demand continues rising
+high_ai,2026,100,100,0,100,baseline year
+high_ai,2027,112,155,7,135,faster AI deployment
+high_ai,2028,126,235,15,190,training and inference demand grow rapidly
+high_ai,2029,142,340,22,265,AI workloads dominate new capacity
+high_ai,2030,160,480,30,370,large rebound effect despite efficiency gains
+efficiency_led,2026,100,100,0,100,baseline year
+efficiency_led,2027,106,125,14,102,aggressive efficiency and workload management
+efficiency_led,2028,112,150,25,110,better chips and utilization reduce intensity
+efficiency_led,2029,118,180,35,121,compute grows but energy intensity falls
+efficiency_led,2030,125,220,45,138,efficiency partially offsets AI growth
